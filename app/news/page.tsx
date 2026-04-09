@@ -34,30 +34,6 @@ export default function NewsPage() {
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Town Hall March 2026 Card */}
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow border-l-4 border-l-primary">
-              <CardContent className="p-8">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                    <Users className="w-6 h-6 text-primary" />
-                  </div>
-                  <span className="text-xs font-semibold px-3 py-1 bg-primary/10 text-primary rounded-full">
-                    Town Hall
-                  </span>
-                </div>
-                <h3 className="text-2xl font-bold mb-4">Parent Town Hall - March 2026</h3>
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                  Comprehensive update on CISS achievements, Prairie Rose Public Schools partnership, 2026-2027 budget breakdown, fee structure, and planned facility improvements.
-                </p>
-                <Button asChild className="w-full">
-                  <Link href="/updates/town-hall-march-2026" className="flex items-center justify-center gap-2">
-                    View Full Update
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-
             {/* School Fee Adjustment Letter Card */}
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow border-l-4 border-l-primary">
               <CardContent className="p-8">
@@ -105,6 +81,30 @@ export default function NewsPage() {
                 <Button asChild className="w-full">
                   <Link href="/updates/budget-transparency" className="flex items-center justify-center gap-2">
                     Read Full Update
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Town Hall March 2026 Card */}
+            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow border-l-4 border-l-primary">
+              <CardContent className="p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Users className="w-6 h-6 text-primary" />
+                  </div>
+                  <span className="text-xs font-semibold px-3 py-1 bg-primary/10 text-primary rounded-full">
+                    Town Hall
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Parent Town Hall - March 2026</h3>
+                <p className="text-muted-foreground leading-relaxed mb-6">
+                  Comprehensive update on CISS achievements, Prairie Rose Public Schools partnership, 2026-2027 budget breakdown, fee structure, and planned facility improvements.
+                </p>
+                <Button asChild className="w-full">
+                  <Link href="/updates/town-hall-march-2026" className="flex items-center justify-center gap-2">
+                    View Full Update
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                 </Button>
