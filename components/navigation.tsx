@@ -23,8 +23,8 @@ export function Navigation() {
       </a>
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border" aria-label="Main navigation">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex items-center justify-between h-20">
-            <Link href="/" className="text-primary hover:text-accent transition-colors" aria-label="CISS Home">
+          <div className="flex items-center justify-center h-20 relative">
+            <Link href="/" className="absolute left-0 text-primary hover:text-accent transition-colors" aria-label="CISS Home">
               <Logo />
             </Link>
 
@@ -109,7 +109,7 @@ export function Navigation() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 hover:bg-accent/10 rounded-lg transition-colors"
+            className="md:hidden absolute right-0 p-2 hover:bg-accent/10 rounded-lg transition-colors"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
