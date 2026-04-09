@@ -54,7 +54,7 @@ export default function HomePage() {
               <div className="text-sm text-muted-foreground">Serving Calgary families</div>
             </div>
             <div className="text-center group hover:scale-105 transition-transform">
-              <div className="text-5xl md:text-6xl font-bold text-accent mb-2">800+</div>
+              <div className="text-5xl md:text-6xl font-bold text-accent mb-2">500+</div>
               <div className="text-lg font-semibold mb-1">Students</div>
               <div className="text-sm text-muted-foreground">Across both campuses</div>
             </div>
