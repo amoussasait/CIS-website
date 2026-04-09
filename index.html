@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CISS - Calgary Islamic School Society | Home</title>
+    <meta name="description" content="Calgary Islamic School Society - Serving Calgary's Muslim community through excellent Islamic education.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Announcement Bar -->
+    <div class="announcement-bar" role="banner">
+        <div class="container">
+            <p>📢 Important: Check our <a href="parents.html">Parent Communication Hub</a> for the latest updates</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo-link">
+                    <svg class="logo" width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-labelledby="logo-title">
+                        <title id="logo-title">CISS Logo</title>
+                        <!-- Crescent -->
+                        <path d="M50 20 A 15 15 0 1 1 50 50 A 12 12 0 1 0 50 23 Z" fill="currentColor"/>
+                        <!-- Open Book -->
+                        <path d="M25 55 L25 75 L48 70 L48 50 Z M52 50 L52 70 L75 75 L75 55 Z" fill="currentColor"/>
+                        <line x1="50" y1="50" x2="50" y2="70" stroke="currentColor" stroke-width="1"/>
+                        <!-- Calgary Skyline -->
+                        <path d="M20 85 L25 80 L30 85 L35 78 L40 85 L45 82 L50 85 L55 82 L60 85 L65 78 L70 85 L75 80 L80 85" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    </svg>
+                    <span class="logo-text">CISS</span>
+                </a>
+
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav class="main-nav" aria-label="Main navigation">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About CISS</a></li>
+                        <li class="has-dropdown">
+                            <button class="dropdown-toggle" aria-expanded="false">
+                                Our Schools
+                                <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="schools-aj.html">Akram Jomaa Islamic School</a></li>
+                                <li><a href="schools-obk.html">Omar Ibn Al-Khattab School</a></li>
+                                <li><a href="future-campus.html">Future Campus</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="parents.html">Parents & Communication Hub</a></li>
+                        <li><a href="board.html">Board of Directors</a></li>
+                        <li><a href="news.html">News & Updates</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Serving Calgary's Muslim community through excellent Islamic education.</h1>
+                    <p class="hero-subtitle">CISS oversees two campuses and is planning future growth.</p>
+                    <div class="hero-cta">
+                        <a href="parents.html" class="btn btn-primary">Parent Communication Hub</a>
+                        <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section class="highlights">
+            <div class="container">
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🏫</div>
+                        <h3>Two Established Campuses</h3>
+                        <p>Akram Jomaa Islamic School and Omar Ibn Al-Khattab School serving Calgary families with excellence.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">📚</div>
+                        <h3>Academic & Islamic Excellence</h3>
+                        <p>Comprehensive curriculum combining Alberta Education standards with authentic Islamic values and teachings.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🤝</div>
+                        <h3>Parent Partnership</h3>
+                        <p>Strong communication and collaboration between school, parents, and community for student success.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🌱</div>
+                        <h3>Third School Planning</h3>
+                        <p>Strategic planning underway to expand and serve more families across Calgary.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">💻</div>
+                        <h3>Online Education (Exploring)</h3>
+                        <p>CISS is exploring online education options. These are plans only and not yet launched.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Communication-First Section -->
+        <section class="communication-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Stay Connected & Informed</h2>
+                    <p>Your central hub for announcements, questions, and updates</p>
+                </div>
+
+                <div class="communication-grid">
+                    <!-- Newsletter Signup -->
+                    <div class="comm-card newsletter-card">
+                        <h3>📧 Subscribe to Updates</h3>
+                        <p>Get important announcements and news directly to your inbox.</p>
+                        <form class="newsletter-form" id="home-newsletter-form">
+                            <input type="email" placeholder="your.email@example.com" required aria-label="Email address">
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+
+                    <!-- Quick Contact -->
+                    <div class="comm-card">
+                        <h3>❓ Ask CISS</h3>
+                        <p>Have a question? We're here to help.</p>
+                        <a href="contact.html" class="btn btn-accent">Contact Us</a>
+                    </div>
+
+                    <!-- Parent Portal Placeholder -->
+                    <div class="comm-card">
+                        <h3>🔐 Parent Portal</h3>
+                        <p>Access grades, attendance, and student information.</p>
+                        <button class="btn btn-secondary" disabled>Coming Soon</button>
+                    </div>
+
+                    <!-- School Messenger Placeholder -->
+                    <div class="comm-card">
+                        <h3>📱 School Messenger</h3>
+                        <p>Direct communication with teachers and staff.</p>
+                        <button class="btn btn-secondary" disabled>Coming Soon</button>
+                    </div>
+                </div>
+
+                <!-- Announcements Preview -->
+                <div class="announcements-preview">
+                    <div class="section-header">
+                        <h3>Latest Announcements</h3>
+                        <a href="parents.html" class="view-all-link">View All →</a>
+                    </div>
+                    <div class="announcements-grid" id="home-announcements">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- FAQ Quick Links -->
+                <div class="faq-quick-links">
+                    <h3>Quick Answers</h3>
+                    <div class="quick-links-grid">
+                        <a href="parents.html#faq" class="quick-link-card">What are school hours?</a>
+                        <a href="parents.html#faq" class="quick-link-card">How do I enroll?</a>
+                        <a href="parents.html#faq" class="quick-link-card">Transportation options?</a>
+                        <a href="parents.html#faq" class="quick-link-card">Dress code policy?</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission, Vision, Beliefs, Values -->
+        <section class="mission-vision">
+            <div class="container">
+                <div class="mvbv-grid">
+                    <div class="mvbv-card">
+                        <h3>Our Mission</h3>
+                        <p>Calgary Islamic School strives to develop an enriched learning community that promotes academic achievement, leadership, and Islamic values.</p>
+                    </div>
+                    <div class="mvbv-card">
+                        <h3>Our Vision</h3>
+                        <p>To build and maintain a learning community that produces leaders through faith, knowledge, and ingenuity.</p>
+                    </div>
+                    <div class="mvbv-card full-width">
+                        <h3>Our Beliefs</h3>
+                        <p>We believe that education is a shared responsibility between the school, parents, and the community, and that Islamic principles guide moral character, personal development, and lifelong learning.</p>
+                    </div>
+                    <div class="mvbv-card full-width">
+                        <h3>Our Values</h3>
+                        <div class="values-list">
+                            <span class="value-badge">Sincerity</span>
+                            <span class="value-badge">Trustworthiness</span>
+                            <span class="value-badge">Compassion</span>
+                            <span class="value-badge">Courage</span>
+                            <span class="value-badge">Patience</span>
+                            <span class="value-badge">Gratitude</span>
+                            <span class="value-badge">Humility</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Join Our Learning Community</h2>
+                    <p>Discover how CISS can support your child's educational journey.</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                        <a href="about.html" class="btn btn-secondary">Learn More About CISS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Calgary Islamic School Society</h4>
+                    <p>Serving Calgary's Muslim community through excellent Islamic education since establishment.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="white"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="white" stroke-width="2"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About CISS</a></li>
+                        <li><a href="schools-aj.html">Akram Jomaa Islamic School</a></li>
+                        <li><a href="schools-obk.html">Omar Ibn Al-Khattab School</a></li>
+                        <li><a href="future-campus.html">Future Campus</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>For Parents</h4>
+                    <ul>
+                        <li><a href="parents.html">Communication Hub</a></li>
+                        <li><a href="parents.html#faq">FAQ</a></li>
+                        <li><a href="parents.html#calendar">Calendar</a></li>
+                        <li><a href="parents.html#policies">Policies & Forms</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>General Inquiries:<br><a href="mailto:info@ciss-calgary.ca">info@ciss-calgary.ca</a></p>
+                    <p>123 Education Way<br>Calgary, AB T2X 0X0</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Calgary Islamic School Society. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#accessibility">Accessibility Statement</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

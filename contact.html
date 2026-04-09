@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CISS</title>
+    <meta name="description" content="Get in touch with CISS - we're here to help answer your questions and support your family.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <div class="announcement-bar" role="banner">
+        <div class="container">
+            <p>📢 Important: Check our <a href="parents.html">Parent Communication Hub</a> for the latest updates</p>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo-link">
+                    <svg class="logo" width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-labelledby="logo-title">
+                        <title id="logo-title">CISS Logo</title>
+                        <path d="M50 20 A 15 15 0 1 1 50 50 A 12 12 0 1 0 50 23 Z" fill="currentColor"/>
+                        <path d="M25 55 L25 75 L48 70 L48 50 Z M52 50 L52 70 L75 75 L75 55 Z" fill="currentColor"/>
+                        <line x1="50" y1="50" x2="50" y2="70" stroke="currentColor" stroke-width="1"/>
+                        <path d="M20 85 L25 80 L30 85 L35 78 L40 85 L45 82 L50 85 L55 82 L60 85 L65 78 L70 85 L75 80 L80 85" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    </svg>
+                    <span class="logo-text">CISS</span>
+                </a>
+
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav class="main-nav" aria-label="Main navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About CISS</a></li>
+                        <li class="has-dropdown">
+                            <button class="dropdown-toggle" aria-expanded="false">
+                                Our Schools
+                                <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="schools-aj.html">Akram Jomaa Islamic School</a></li>
+                                <li><a href="schools-obk.html">Omar Ibn Al-Khattab School</a></li>
+                                <li><a href="future-campus.html">Future Campus</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="parents.html">Parents & Communication Hub</a></li>
+                        <li><a href="board.html">Board of Directors</a></li>
+                        <li><a href="news.html">News & Updates</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="page-hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="hero-subtitle">We're here to help answer your questions and support your family</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="contact-layout">
+                    <!-- Contact Form -->
+                    <div class="contact-form-section">
+                        <h2>Send Us a Message</h2>
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="topic">Topic *</label>
+                                <select id="topic" name="topic" required>
+                                    <option value="">Select a topic</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="admissions">Admissions & Enrollment</option>
+                                    <option value="academics">Academics</option>
+                                    <option value="islamic">Islamic Studies</option>
+                                    <option value="transportation">Transportation</option>
+                                    <option value="board">Board of Directors</option>
+                                    <option value="volunteer">Volunteer Opportunities</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info Sidebar -->
+                    <div class="contact-sidebar">
+                        <div class="contact-card">
+                            <h3>General Inquiries</h3>
+                            <p><strong>Email:</strong><br><a href="mailto:info@ciss-calgary.ca">info@ciss-calgary.ca</a></p>
+                            <p><strong>Phone:</strong><br>(403) 555-CISS</p>
+                        </div>
+
+                        <div class="contact-card">
+                            <h3>Board of Directors</h3>
+                            <p><strong>Email:</strong><br><a href="mailto:board@ciss-calgary.ca">board@ciss-calgary.ca</a></p>
+                            <a href="board.html" class="btn btn-secondary">Meet the Board</a>
+                        </div>
+
+                        <div class="contact-card">
+                            <h3>Media Inquiries</h3>
+                            <p><strong>Email:</strong><br><a href="mailto:media@ciss-calgary.ca">media@ciss-calgary.ca</a></p>
+                        </div>
+
+                        <div class="contact-card">
+                            <h3>Volunteer</h3>
+                            <p>Interested in volunteering?</p>
+                            <p><strong>Email:</strong><br><a href="mailto:volunteer@ciss-calgary.ca">volunteer@ciss-calgary.ca</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Office Hours -->
+                <div class="office-hours-section">
+                    <h2>Office Hours</h2>
+                    <div class="hours-grid">
+                        <div class="hours-card">
+                            <h3>Main Office</h3>
+                            <p><strong>Monday - Friday:</strong> 8:00 AM - 4:00 PM</p>
+                            <p><strong>Saturday - Sunday:</strong> Closed</p>
+                            <p>Closed on statutory holidays</p>
+                        </div>
+                        <div class="hours-card">
+                            <h3>School Hours</h3>
+                            <p><strong>Classes:</strong> 8:30 AM - 3:30 PM</p>
+                            <p><strong>Before Care:</strong> 7:30 AM - 8:30 AM</p>
+                            <p><strong>After Care:</strong> 3:30 PM - 5:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Placeholder -->
+                <div class="map-section">
+                    <h2>Our Location</h2>
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <p>📍 <strong>CISS Office</strong></p>
+                            <p>123 Education Way<br>Calgary, AB T2X 0X0</p>
+                            <p><em>Map integration coming soon</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Calgary Islamic School Society</h4>
+                    <p>Serving Calgary's Muslim community through excellent Islamic education since establishment.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="white"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="white" stroke-width="2"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About CISS</a></li>
+                        <li><a href="schools-aj.html">Akram Jomaa Islamic School</a></li>
+                        <li><a href="schools-obk.html">Omar Ibn Al-Khattab School</a></li>
+                        <li><a href="future-campus.html">Future Campus</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>For Parents</h4>
+                    <ul>
+                        <li><a href="parents.html">Communication Hub</a></li>
+                        <li><a href="parents.html#faq">FAQ</a></li>
+                        <li><a href="parents.html#calendar">Calendar</a></li>
+                        <li><a href="parents.html#policies">Policies & Forms</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>General Inquiries:<br><a href="mailto:info@ciss-calgary.ca">info@ciss-calgary.ca</a></p>
+                    <p>123 Education Way<br>Calgary, AB T2X 0X0</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Calgary Islamic School Society. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#accessibility">Accessibility Statement</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

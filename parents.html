@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parents & Communication Hub - CISS</title>
+    <meta name="description" content="Central hub for CISS parent communication, announcements, calendar, FAQ, and resources.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <div class="announcement-bar" role="banner">
+        <div class="container">
+            <p>📢 Important: Check our <a href="parents.html">Parent Communication Hub</a> for the latest updates</p>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo-link">
+                    <svg class="logo" width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-labelledby="logo-title">
+                        <title id="logo-title">CISS Logo</title>
+                        <path d="M50 20 A 15 15 0 1 1 50 50 A 12 12 0 1 0 50 23 Z" fill="currentColor"/>
+                        <path d="M25 55 L25 75 L48 70 L48 50 Z M52 50 L52 70 L75 75 L75 55 Z" fill="currentColor"/>
+                        <line x1="50" y1="50" x2="50" y2="70" stroke="currentColor" stroke-width="1"/>
+                        <path d="M20 85 L25 80 L30 85 L35 78 L40 85 L45 82 L50 85 L55 82 L60 85 L65 78 L70 85 L75 80 L80 85" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    </svg>
+                    <span class="logo-text">CISS</span>
+                </a>
+
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav class="main-nav" aria-label="Main navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About CISS</a></li>
+                        <li class="has-dropdown">
+                            <button class="dropdown-toggle" aria-expanded="false">
+                                Our Schools
+                                <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="schools-aj.html">Akram Jomaa Islamic School</a></li>
+                                <li><a href="schools-obk.html">Omar Ibn Al-Khattab School</a></li>
+                                <li><a href="future-campus.html">Future Campus</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="parents.html" class="active">Parents & Communication Hub</a></li>
+                        <li><a href="board.html">Board of Directors</a></li>
+                        <li><a href="news.html">News & Updates</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="page-hero">
+            <div class="container">
+                <h1>Parents & Communication Hub</h1>
+                <p class="hero-subtitle">Your central resource for announcements, updates, and support</p>
+            </div>
+        </section>
+
+        <!-- Sticky Help Card -->
+        <div class="sticky-help-card" id="sticky-help">
+            <h3>Need help now?</h3>
+            <div class="help-links">
+                <a href="contact.html" class="help-link">Contact Us</a>
+                <a href="#subscribe" class="help-link">Subscribe</a>
+            </div>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <!-- Response Time & Expectations -->
+                <div class="info-banner">
+                    <h3>Response Time & Expectations</h3>
+                    <p>We strive to respond to all inquiries within <strong>1-2 business days</strong>. For urgent matters during school hours, please call the school office directly. Emergency communications are sent immediately via email and text message.</p>
+                </div>
+
+                <!-- Subscribe to Updates -->
+                <div class="content-card highlight-card" id="subscribe">
+                    <h2>📧 Subscribe to Updates</h2>
+                    <p>Stay informed with the latest announcements, news, and important information from CISS and our schools.</p>
+                    <form class="subscribe-form" id="parents-subscribe-form">
+                        <div class="form-row">
+                            <input type="email" placeholder="Email address" required aria-label="Email address">
+                            <input type="tel" placeholder="Phone number (optional)" aria-label="Phone number">
+                        </div>
+                        <label class="consent-label">
+                            <input type="checkbox" required>
+                            <span>I consent to receive communications from CISS via email and SMS. You can unsubscribe at any time.</span>
+                        </label>
+                        <button type="submit" class="btn btn-primary">Subscribe Now</button>
+                    </form>
+                </div>
+
+                <!-- Announcements Feed -->
+                <div class="announcements-section">
+                    <h2>Latest Announcements</h2>
+                    <div class="announcements-feed" id="parents-announcements">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Who to Contact -->
+                <div class="contact-routing-section">
+                    <h2>Who to Contact</h2>
+                    <p>Get help from the right person quickly</p>
+                    <div class="routing-grid">
+                        <div class="routing-card">
+                            <h3>📝 Admissions & Enrollment</h3>
+                            <p>New student registration, enrollment process, waitlist inquiries</p>
+                            <a href="mailto:admissions@ciss-calgary.ca">admissions@ciss-calgary.ca</a>
+                        </div>
+                        <div class="routing-card">
+                            <h3>📚 Academics</h3>
+                            <p>Curriculum questions, student progress, homework, tutoring</p>
+                            <a href="mailto:academics@ciss-calgary.ca">academics@ciss-calgary.ca</a>
+                        </div>
+                        <div class="routing-card">
+                            <h3>🕌 Islamic Studies</h3>
+                            <p>Quran memorization, Islamic studies curriculum, character development</p>
+                            <a href="mailto:islamic@ciss-calgary.ca">islamic@ciss-calgary.ca</a>
+                        </div>
+                        <div class="routing-card">
+                            <h3>🚌 Transportation</h3>
+                            <p>Bus routes, pickup/dropoff times, transportation changes</p>
+                            <a href="mailto:transport@ciss-calgary.ca">transport@ciss-calgary.ca</a>
+                        </div>
+                        <div class="routing-card">
+                            <h3>💻 Tech Support</h3>
+                            <p>Parent portal access, website issues, online resources</p>
+                            <a href="mailto:tech@ciss-calgary.ca">tech@ciss-calgary.ca</a>
+                        </div>
+                        <div class="routing-card">
+                            <h3>💰 Finance</h3>
+                            <p>Tuition payments, fees, financial assistance</p>
+                            <a href="mailto:finance@ciss-calgary.ca">finance@ciss-calgary.ca</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <div class="faq-section" id="faq">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-accordion" id="faq-accordion">
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                What are the school hours?
+                                <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                <p>School hours are typically 8:30 AM to 3:30 PM, Monday through Friday. Specific times may vary by campus and grade level. Please check with your school office for exact times.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                How do I enroll my child?
+                                <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Contact our admissions office at admissions@ciss-calgary.ca or call to schedule a campus tour. You'll receive an enrollment package with all required forms and information about the process.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                What transportation options are available?
+                                <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We offer school bus service covering various areas of Calgary. Routes and schedules are finalized before each school year. Contact transport@ciss-calgary.ca for current route information.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                What is the dress code policy?
+                                <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Students are required to wear modest Islamic attire. Specific uniform requirements vary by campus and are outlined in the student handbook provided at enrollment.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                How can I access my child's grades?
+                                <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Parent portal access is coming soon. Currently, report cards are distributed three times per year. You can also schedule meetings with teachers to discuss your child's progress.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                What is your sick policy?
+                                <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Please keep your child home if they have a fever, are vomiting, or have contagious symptoms. Notify the school office by 9:00 AM on the day of absence.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                Are hot lunches provided?
+                                <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Hot lunch programs vary by campus. Some schools offer weekly hot lunch options (pizza day, etc.). All food served is halal. Students may also bring lunch from home.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                How can I get involved as a parent?
+                                <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Join the parent council, volunteer for events, chaperone field trips, or contribute your skills and expertise. Contact your school office to learn about current opportunities.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                What extracurricular activities are offered?
+                                <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Activities include sports teams, STEM club, art, debate, Quran competitions, and more. Offerings vary by campus and grade level. Check with your school for the current schedule.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false">
+                                How do I request a parent-teacher meeting?
+                                <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Contact your child's teacher directly via email or call the school office to schedule a meeting. Regular parent-teacher conferences are held twice per year.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Calendar Section -->
+                <div class="calendar-section" id="calendar">
+                    <h2>School Calendar</h2>
+                    <div class="calendar-placeholder">
+                        <p>📅 School calendar integration coming soon</p>
+                        <p>View important dates, holidays, events, and professional development days.</p>
+                        <button class="btn btn-secondary" disabled>Download Calendar</button>
+                    </div>
+                </div>
+
+                <!-- Policies & Forms -->
+                <div class="policies-section" id="policies">
+                    <h2>Policies & Forms</h2>
+                    <div class="policies-grid">
+                        <a href="#" class="policy-card">
+                            <h3>Student Handbook</h3>
+                            <p>Code of conduct, expectations, and policies</p>
+                        </a>
+                        <a href="#" class="policy-card">
+                            <h3>Attendance Policy</h3>
+                            <p>Absence reporting and attendance requirements</p>
+                        </a>
+                        <a href="#" class="policy-card">
+                            <h3>Volunteer Forms</h3>
+                            <p>Background check and volunteer registration</p>
+                        </a>
+                        <a href="#" class="policy-card">
+                            <h3>Medical Forms</h3>
+                            <p>Medication administration and health information</p>
+                        </a>
+                        <a href="#" class="policy-card">
+                            <h3>Field Trip Permission</h3>
+                            <p>Standard permission slip template</p>
+                        </a>
+                        <a href="#" class="policy-card">
+                            <h3>Emergency Contact Update</h3>
+                            <p>Update your emergency contact information</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Calgary Islamic School Society</h4>
+                    <p>Serving Calgary's Muslim community through excellent Islamic education since establishment.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="white"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="white" stroke-width="2"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About CISS</a></li>
+                        <li><a href="schools-aj.html">Akram Jomaa Islamic School</a></li>
+                        <li><a href="schools-obk.html">Omar Ibn Al-Khattab School</a></li>
+                        <li><a href="future-campus.html">Future Campus</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>For Parents</h4>
+                    <ul>
+                        <li><a href="parents.html">Communication Hub</a></li>
+                        <li><a href="parents.html#faq">FAQ</a></li>
+                        <li><a href="parents.html#calendar">Calendar</a></li>
+                        <li><a href="parents.html#policies">Policies & Forms</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>General Inquiries:<br><a href="mailto:info@ciss-calgary.ca">info@ciss-calgary.ca</a></p>
+                    <p>123 Education Way<br>Calgary, AB T2X 0X0</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Calgary Islamic School Society. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#accessibility">Accessibility Statement</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
