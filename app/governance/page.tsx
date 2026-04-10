@@ -70,7 +70,7 @@ export default function GovernancePage() {
                   <Users className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-1">Vice Chairman</h3>
-                <p className="text-accent font-semibold">Dr. Mohammed Abdel-Hafez</p>
+                <p className="text-accent font-semibold">Mohamad Abdel-Hafiz</p>
               </CardContent>
             </Card>
 
@@ -80,7 +80,7 @@ export default function GovernancePage() {
                   <FileText className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-1">Secretary</h3>
-                <p className="text-accent font-semibold">Br. Ali Moussa</p>
+                <p className="text-accent font-semibold">Ali</p>
               </CardContent>
             </Card>
 
@@ -90,7 +90,7 @@ export default function GovernancePage() {
                   <DollarSign className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-1">Treasurer</h3>
-                <p className="text-accent font-semibold">Sr. Marwa Ajram</p>
+                <p className="text-accent font-semibold">Marwa</p>
               </CardContent>
             </Card>
           </div>
