@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import {
-  Calendar,
   Bell,
   FileText,
   Mail,
@@ -142,18 +141,7 @@ export default function ParentsPage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">Resources & Quick Access</h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8 text-center">
-                <Calendar className="w-12 h-12 text-accent mx-auto mb-4" />
-                <h3 className="text-2xl font-bold mb-3">School Calendar</h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
-                  View upcoming events, holidays, and important dates for both campuses
-                </p>
-                <Button variant="outline">View Calendar</Button>
-              </CardContent>
-            </Card>
-
+          <div className="max-w-md mx-auto">
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
                 <FileText className="w-12 h-12 text-accent mx-auto mb-4" />
