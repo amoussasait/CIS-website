@@ -1,7 +1,7 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
-import { Shield, Users, Heart, GraduationCap, Users2, School } from "lucide-react"
+import { Shield, Users, Heart, GraduationCap, Users2, School, Building2, BookOpen, UserCheck, DollarSign, MessageSquare, FileText, Target } from "lucide-react"
 
 export const metadata = {
   title: "Governance & Roles | CISS",
@@ -41,6 +41,206 @@ export default function GovernancePage() {
             commitment. Each organization and individual plays a vital role in supporting student achievement and
             Islamic character development.
           </p>
+        </div>
+      </section>
+
+      {/* Board Leadership */}
+      <section className="py-20 px-6 bg-muted/30">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <Users className="w-16 h-16 text-accent mx-auto mb-6" />
+            <h2 className="text-4xl font-bold mb-4">Board Leadership</h2>
+            <p className="text-lg text-muted-foreground">Executive positions guiding CISS strategic direction</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-6 text-center">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                  <Shield className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="font-bold text-lg mb-1">Chairman</h3>
+                <p className="text-accent font-semibold">Abdulrahman Abbas</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-6 text-center">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="font-bold text-lg mb-1">Vice Chairman</h3>
+                <p className="text-accent font-semibold">Dr. Mohammed Abdel-Hafez</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-6 text-center">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                  <FileText className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="font-bold text-lg mb-1">Secretary</h3>
+                <p className="text-accent font-semibold">Br. Ali Moussa</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-6 text-center">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                  <DollarSign className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="font-bold text-lg mb-1">Treasurer</h3>
+                <p className="text-accent font-semibold">Sr. Marwa Ajram</p>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Committees */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Board Committees</h2>
+            <p className="text-lg text-muted-foreground">Specialized teams driving key initiatives</p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-6">
+            {/* Buildings Committee */}
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Building2 className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-1">Buildings Committee</h3>
+                    <p className="text-sm text-accent font-semibold">Lead: Br. Abdulrahman Abbas</p>
+                  </div>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Maintenance Manager: Kamal Haymour (HVAC experience)</li>
+                  <li>• Coordinate urgent repairs with both principals</li>
+                  <li>• Start AJC washroom renovation project after Ramadan</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Education PRSD Liaison */}
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <BookOpen className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-1">Education PRSD Liaison</h3>
+                    <p className="text-sm text-accent font-semibold">Lead: Sr. Hoda Kilani</p>
+                  </div>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Arabic, Islamic, and Tahfeeth Programs</li>
+                  <li>• Align both schools and support both principals</li>
+                  <li>• Meet with instructors, identify needs, and recommend action steps</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* HR Committee */}
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <UserCheck className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-1">HR Committee</h3>
+                    <p className="text-sm text-accent font-semibold">Lead: Br. Mohammed Abdel-Hafez</p>
+                  </div>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Immediate task: Recruit an Executive Director</li>
+                  <li>• Review contracts of current employees and contractors</li>
+                  <li>• Bring final recommendations to the Board for approval</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Finance & Fundraising */}
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <DollarSign className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-1">Finance & Fundraising</h3>
+                    <p className="text-sm text-accent font-semibold">Co-Leads: Sr. Marwa Ajram & Sr. Madina Kalaf</p>
+                  </div>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Add a fundraising specialist to the committee</li>
+                  <li>• First fundraising event to be coordinated with Principals</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Communications & Website */}
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <MessageSquare className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-1">Communications & Website</h3>
+                    <p className="text-sm text-accent font-semibold">Lead: Br. Ali Moussa (with support from Br. Akber)</p>
+                  </div>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Website development and maintenance</li>
+                  <li>• Parent communications</li>
+                  <li>• General outreach and updates</li>
+                  <li className="italic text-xs">Note: PRSD communication handled by Abdulrahman, Omar, or Akber</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Governance */}
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Shield className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-1">Governance</h3>
+                    <p className="text-sm text-accent font-semibold">Lead: Br. Mohamed Zohiri</p>
+                  </div>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Review and update bylaws</li>
+                  <li>• Define roles, responsibilities, and authorities</li>
+                  <li>• Establish clear processes and procedures</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Strategy */}
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Target className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-1">Strategy</h3>
+                    <p className="text-sm text-accent font-semibold">Lead: Br. Basir Saleh</p>
+                  </div>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Next strategy meeting: Sunday, March</li>
+                  <li>• Long-term planning and vision alignment</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </section>
 
