@@ -3,7 +3,7 @@ import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { FileText, Heart, ArrowRight, Ticket, Users } from "lucide-react"
+import { FileText, Heart, ArrowRight, Ticket, Users, Award } from "lucide-react"
 
 export const metadata = {
   title: "News & Updates | CISS",
@@ -34,6 +34,42 @@ export default function NewsPage() {
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* OBK Science Fair Success Card */}
+            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow border-l-4 border-l-accent">
+              <CardContent className="p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
+                    <Award className="w-6 h-6 text-accent" />
+                  </div>
+                  <span className="text-xs font-semibold px-3 py-1 bg-accent/10 text-accent rounded-full">
+                    Achievement
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold mb-4">OBK Science Fair Success!</h3>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  On a super positive note, today in the citywide science fair at University of Calgary, Alhamdulillah, ALL OBK nine participating projects came back with prizes:
+                </p>
+                <ul className="text-muted-foreground mb-4 space-y-1">
+                  <li>🥇 2 Gold Medals</li>
+                  <li>🥈 1 Silver Medal</li>
+                  <li>🥉 3 Bronze Medals</li>
+                  <li>⭐ 3 Honorary Mentions</li>
+                  <li>🏆 2 Special Awards</li>
+                </ul>
+                <Button asChild className="w-full">
+                  <a
+                    href="https://platform.cysf.org/project/browse/?search=&fair=2026&grade=&school_name=Calgary+Islamic+School%2C+Omar+Bin+Al-Khattab+Campus&award_type=&award_sponsor="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2"
+                  >
+                    View All Projects
+                    <ArrowRight className="w-4 h-4" />
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
             {/* School Fee Adjustment Letter Card */}
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow border-l-4 border-l-primary">
               <CardContent className="p-8">
