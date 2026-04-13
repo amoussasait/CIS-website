@@ -70,7 +70,7 @@ export default function NewsPage() {
               </CardContent>
             </Card>
 
-            {/* School Fee Adjustment Letter Card */}
+            {/* Budget Clarity & Governance Transparency Card */}
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow border-l-4 border-l-primary">
               <CardContent className="p-8">
                 <div className="flex items-center gap-3 mb-4">
@@ -78,16 +78,19 @@ export default function NewsPage() {
                     <FileText className="w-6 h-6 text-primary" />
                   </div>
                   <span className="text-xs font-semibold px-3 py-1 bg-primary/10 text-primary rounded-full">
-                    Important Notice
+                    Board Update
                   </span>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">School Fee Adjustment Letter</h3>
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                  Official letter from the CISS Board of Directors explaining the school fee adjustment for the 2026-2027 academic year, including the Board's authority and justification.
+                <h3 className="text-2xl font-bold mb-4">Budget Clarity & Governance Transparency</h3>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  Official letter from the CISS Board of Directors addressing parent concerns regarding the 2026-2027 fee adjustment, budget transparency, and governance processes.
+                </p>
+                <p className="text-sm text-muted-foreground mb-6">
+                  Includes detailed budget breakdown ($4.7M total cost), fee structure, Board authority under CISS Bylaws, and commitment to transparency through the new CISS website.
                 </p>
                 <Button asChild className="w-full">
                   <a
-                    href="/documents/School-Fee-Adjustment-Letter-2026-2027.pdf"
+                    href="/documents/CISS-Budget-Clarity-Governance-Transparency-April-2026.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2"
