@@ -54,12 +54,12 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/schools/akram-jomaa" className="opacity-90 hover:opacity-100 transition-opacity">
-                  Akram Jomaa School (K-6)
+                  Akram Jomaa School (KG-12)
                 </Link>
               </li>
               <li>
                 <Link href="/schools/omar-ibn-al-khattab" className="opacity-90 hover:opacity-100 transition-opacity">
-                  Omar Ibn Al-Khattab (7-12)
+                  Omar Ibn Al-Khattab (KG-9)
                 </Link>
               </li>
             </ul>
@@ -128,6 +128,9 @@ export function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-sm opacity-80">
+          <p className="mb-3 text-xs opacity-70">
+            This website is currently under construction. Content is subject to change.
+          </p>
           <p>&copy; {new Date().getFullYear()} Calgary Islamic School Society (CISS). All rights reserved.</p>
         </div>
       </div>

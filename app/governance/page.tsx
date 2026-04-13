@@ -60,7 +60,6 @@ export default function GovernancePage() {
                   <Shield className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-1">Chairman</h3>
-                <p className="text-accent font-semibold">Abdulrahman Abbas</p>
               </CardContent>
             </Card>
 
@@ -70,7 +69,6 @@ export default function GovernancePage() {
                   <Users className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-1">Vice Chairman</h3>
-                <p className="text-accent font-semibold">Mohamad Abdel-Hafiz</p>
               </CardContent>
             </Card>
 
@@ -80,7 +78,6 @@ export default function GovernancePage() {
                   <FileText className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-1">Secretary</h3>
-                <p className="text-accent font-semibold">Ali Moussa</p>
               </CardContent>
             </Card>
 
@@ -90,7 +87,6 @@ export default function GovernancePage() {
                   <DollarSign className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-1">Treasurer</h3>
-                <p className="text-accent font-semibold">Marwa Ajram</p>
               </CardContent>
             </Card>
           </div>
@@ -111,11 +107,9 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Buildings Committee</h3>
-                    <p className="text-sm text-accent font-semibold">Lead: Br. Abdulrahman Abbas</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Maintenance Manager: Kamal Haymour (HVAC experience)</li>
                   <li>• Coordinate urgent repairs with both principals</li>
                   <li>• Start AJC washroom renovation project after Ramadan</li>
                 </ul>
@@ -131,7 +125,6 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Education PRSD Liaison</h3>
-                    <p className="text-sm text-accent font-semibold">Lead: Sr. Hoda Kilani</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
@@ -151,7 +144,6 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">HR Committee</h3>
-                    <p className="text-sm text-accent font-semibold">Lead: Br. Mohammed Abdel-Hafez</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
@@ -171,7 +163,6 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Finance & Fundraising</h3>
-                    <p className="text-sm text-accent font-semibold">Co-Leads: Sr. Marwa Ajram & Sr. Madina Kalaf</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
@@ -190,14 +181,12 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Communications & Website</h3>
-                    <p className="text-sm text-accent font-semibold">Lead: Br. Ali Moussa (with support from Br. Akber)</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Website development and maintenance</li>
                   <li>• Parent communications</li>
                   <li>• General outreach and updates</li>
-                  <li className="italic text-xs">Note: PRSD communication handled by Abdulrahman, Omar, or Akber</li>
                 </ul>
               </CardContent>
             </Card>
@@ -211,7 +200,6 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Governance</h3>
-                    <p className="text-sm text-accent font-semibold">Lead: Br. Mohamed Zohiri</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
@@ -231,7 +219,6 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Strategy</h3>
-                    <p className="text-sm text-accent font-semibold">Lead: Br. Basir Saleh</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
