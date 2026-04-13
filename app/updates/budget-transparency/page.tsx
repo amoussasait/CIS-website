@@ -50,53 +50,51 @@ export default function BudgetTransparencyPage() {
             {/* Introduction */}
             <div className="mb-8 space-y-4">
               <p>
-                We sincerely thank you for your engagement, care, and continued commitment to Calgary
-                Islamic School. The level of involvement reflects a shared responsibility for the success of our
+                We sincerely thank you for your engagement, your candid feedback, and your continued commitment to
+                Calgary Islamic School. The level of involvement reflects a shared responsibility for the success of our
                 school and the well-being of our children.
               </p>
 
               <p>
-                We acknowledge the concerns raised following the recent town hall, particularly regarding tuition
-                changes and transparency. These are important matters, and we are committed to addressing them
-                clearly and constructively.
+                Following the recent town hall, we understand that many parents have concerns regarding the fee
+                adjustment for the 2026–2027 academic year, as well as questions related to transparency, process, and
+                communication. These are valid concerns, and we are committed to addressing them clearly and
+                constructively.
               </p>
             </div>
 
-            {/* Information to be Provided */}
-            <Card className="mb-8 border-accent/20">
-              <CardContent className="p-6">
-                <h2 className="text-2xl font-bold mb-4">Information We Will Provide</h2>
-                <p className="mb-4">With respect to the information requested, we will be providing the following:</p>
-                <ul className="space-y-2">
-                  <li>CISS bylaws (publicly available and to be posted on our website)</li>
-                  <li>Presentation materials from recent parent meetings</li>
-                  <li>A summary of financial information, with audited financial statements shared in line with fiscal timelines</li>
-                  <li>A structured communication channel with the Board</li>
-                </ul>
-                <p className="mt-4 text-sm text-muted-foreground">
-                  We are working to organize this information and will share it within a reasonable timeframe.
+            {/* Process and Approval */}
+            <div className="mb-8">
+              <h2 className="text-3xl font-bold mb-4">Process and Approval</h2>
+              <div className="space-y-4">
+                <p>
+                  The fee adjustment was developed through a detailed review of the school's operating requirements and
+                  submitted through the appropriate process, including review and approval by Prairie Rose School Division.
                 </p>
-              </CardContent>
-            </Card>
+                <p>
+                  We recognize that while the approval process was followed, parent communication and engagement should
+                  have been earlier and clearer. This is an area we are actively improving.
+                </p>
+              </div>
+            </div>
 
-            <p className="mb-8">
-              Regarding the fee adjustment, we would like to reiterate the key factor behind this change:
-            </p>
+            {/* Understanding the Budget Header */}
+            <div className="mb-6">
+              <h2 className="text-3xl font-bold">Understanding the Budget</h2>
+              <p className="mt-2">
+                The 2026–2027 budget reflects the actual cost of delivering both academic and Islamic programming.
+              </p>
+            </div>
 
             {/* Budget Structure */}
             <div className="mb-8">
-              <h2 className="text-3xl font-bold mb-6 flex items-center gap-3">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <DollarSign className="w-6 h-6 text-primary" />
-                </div>
-                1. How the Budget is Structured
-              </h2>
+              <h3 className="text-2xl font-bold mb-6">Alternative Program Cost Breakdown</h3>
 
               <div className="overflow-x-auto mb-6">
                 <table className="w-full border-collapse">
                   <thead>
                     <tr className="bg-primary/10">
-                      <th className="text-left p-4 font-bold">Alternative Program Cost</th>
+                      <th className="text-left p-4 font-bold">Alternative Program Requirements</th>
                       <th className="text-right p-4 font-bold">Cost</th>
                     </tr>
                   </thead>
@@ -122,7 +120,7 @@ export default function BudgetTransparencyPage() {
                       <td className="text-right p-4 font-semibold">$204,236</td>
                     </tr>
                     <tr className="border-b bg-muted/30">
-                      <td className="p-4">Building Lease</td>
+                      <td className="p-4">Building Lease & Upgrades</td>
                       <td className="text-right p-4 font-semibold">$900,000</td>
                     </tr>
                     <tr className="bg-accent/10 font-bold">
@@ -133,117 +131,263 @@ export default function BudgetTransparencyPage() {
                 </table>
               </div>
 
-              <div className="space-y-4">
-                <p>
-                  The cost of the Non-Certificated Teachers remains the largest component of the budget, with
-                  approximately $2.0 million. When combined with janitorial, support staff, and the proposed AP
-                  education Assistance, staffing represents the largest portion of total costs.
-                </p>
-
-                <p>
-                  The 2026–2027 budget was developed through a detailed review of actual operating
-                  requirements, including staffing levels, program delivery, and facility obligations. Each
-                  component—teaching staff, support staff, and building operations—was assessed based on
-                  current needs, contractual commitments, and anticipated cost increases. A key factor in this year's
-                  budget is that CISS is now fully responsible for all wages and benefits associated with the Islamic
-                  / Qur'anic Alternative Program, which represents a structural change in cost responsibility. The
-                  budget was finalized by consolidating these elements into a single operating plan designed to
-                  ensure the school's financial sustainability while maintaining the quality of both academic and
-                  Islamic programming.
-                </p>
-              </div>
+              <p className="mb-6">
+                Staffing remains the largest component of the budget. Teaching staff alone represent approximately $2.0
+                million. When combined with support staff and student services (including but not limited to Alternative
+                Program education assistance, janitorial, day porters, caretakers, maintenance staff and security), staffing
+                represents the largest portion of total costs required to deliver the program.
+              </p>
             </div>
 
-            {/* Teacher Cost Breakdown */}
+            {/* The Financial Reality */}
             <div className="mb-8">
-              <h2 className="text-3xl font-bold mb-6 flex items-center gap-3">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <Users className="w-6 h-6 text-primary" />
-                </div>
-                2. What Does a Non-Certificated Teacher Cost Include?
-              </h2>
-
+              <h2 className="text-3xl font-bold mb-6">The Financial Reality</h2>
               <Card className="mb-6 bg-primary/5 border-primary/20">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-4">
-                    Example: Non-Certificated Teacher with base salary of $75,000
-                  </h3>
-
-                  <div className="space-y-3 mb-4">
-                    <div className="flex justify-between items-center">
-                      <span>Base Salary:</span>
-                      <span className="font-semibold">$75,000</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span>Vacation Pay:</span>
-                      <span className="font-semibold">~$3,700</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span>CPP / EI / WCB:</span>
-                      <span className="font-semibold">~$5,800</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span>Disability and Extended Health Benefits:</span>
-                      <span className="font-semibold">~$9,500</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span>Pension (LAPP):</span>
-                      <span className="font-semibold">~$6,800</span>
-                    </div>
-                    <div className="border-t-2 border-primary/30 pt-3 flex justify-between items-center">
-                      <span className="font-bold text-lg">Total CISS Cost:</span>
-                      <span className="font-bold text-lg text-accent">~$100,800</span>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <div className="space-y-4">
-                <p>
-                  The cost of a Non-Certificated Teacher includes more than base salary. It reflects the full
-                  employer cost, including vacation pay, CPP, EI, health benefits, and other standard contributions
-                  required in the education sector. These are not discretionary costs, but necessary components of
-                  employing qualified staff.
-                </p>
-
-                <p>
-                  Our Non-Certificated Teachers play a critical role in delivering the Islamic, Arabic, and Qur'anic
-                  programs. Ensuring they are fairly compensated is essential to maintaining program quality,
-                  stability, and continuity for our students.
-                </p>
-              </div>
-            </div>
-
-            {/* Governance */}
-            <div className="mb-8">
-              <h2 className="text-3xl font-bold mb-6 flex items-center gap-3">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <FileText className="w-6 h-6 text-primary" />
-                </div>
-                3. Governance & Responsibility
-              </h2>
-
-              <Card className="mb-6 border-accent/20">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-4">The Board of Directors is responsible for:</h3>
-                  <ul className="space-y-2">
-                    <li>Ensuring financial sustainability</li>
-                    <li>Overseeing operations</li>
-                    <li>Setting school fees based on actual costs</li>
+                  <ul className="space-y-3 text-lg">
+                    <li>• Total Educational and Operating Cost: ~$4.7M</li>
+                    <li>• Alberta Education O&M Funding: ~$1.0M</li>
+                    <li>• Remaining to be Funded: ~$3.7M</li>
                   </ul>
                 </CardContent>
               </Card>
+            </div>
 
+            {/* Fee Structure */}
+            <div className="mb-8">
+              <h2 className="text-3xl font-bold mb-6">2026 – 2027 Fee Structure</h2>
+
+              <h3 className="text-xl font-bold mb-4">Fees Calculation</h3>
+              <div className="overflow-x-auto mb-6">
+                <table className="w-full border-collapse mb-6">
+                  <tbody>
+                    <tr className="border-b">
+                      <td className="p-3">CISS 2026 – 2027 Budget</td>
+                      <td className="text-right p-3 font-semibold">$4,703,292</td>
+                      <td className="text-center p-3 font-semibold">A</td>
+                    </tr>
+                    <tr className="border-b bg-muted/30">
+                      <td className="p-3">Alberta Education O&M allocation to CISS (based on 1545 students)</td>
+                      <td className="text-right p-3 font-semibold">$1,006,736</td>
+                      <td className="text-center p-3 font-semibold">B</td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="p-3">Remaining Budget to be Funded (A - B = C)</td>
+                      <td className="text-right p-3 font-semibold">$3,696,556</td>
+                      <td className="text-center p-3 font-semibold">C</td>
+                    </tr>
+                    <tr className="border-b bg-muted/30">
+                      <td className="p-3">Estimated Number of Students</td>
+                      <td className="text-right p-3 font-semibold">1545</td>
+                      <td className="text-center p-3 font-semibold">D</td>
+                    </tr>
+                    <tr className="bg-accent/10 font-bold">
+                      <td className="p-3">Weighted Average Fee per Student (C / D)</td>
+                      <td className="text-right p-3 text-lg">$2,393</td>
+                      <td className="text-center p-3"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold mb-4">2026 – 2027 Fees</h3>
+              <div className="overflow-x-auto mb-6">
+                <table className="w-full border-collapse">
+                  <thead>
+                    <tr className="bg-primary/10">
+                      <th className="text-left p-4 font-bold">Grades / Program</th>
+                      <th className="text-right p-4 font-bold">Total Annual Fee First Child</th>
+                      <th className="text-right p-4 font-bold">Additional Child(ren)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b">
+                      <td className="p-4">KG – Grade 9</td>
+                      <td className="text-right p-4 font-semibold">$2,450</td>
+                      <td className="text-right p-4 font-semibold">$2,250</td>
+                    </tr>
+                    <tr className="border-b bg-muted/30">
+                      <td className="p-4">Grades 10 – 12</td>
+                      <td className="text-right p-4 font-semibold">$2,690</td>
+                      <td className="text-right p-4 font-semibold">$2,490</td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="p-4">Tahfeez Program</td>
+                      <td className="text-right p-4 font-semibold">$2,690</td>
+                      <td className="text-right p-4 font-semibold">$2,490</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Teacher Cost Explanation */}
+            <div className="mb-8 space-y-4">
+              <p>
+                The cost of a Non-Certificated Teacher includes more than base salary. It reflects the full employer cost
+                required to employ qualified staff, including vacation pay, CPP, EI, health benefits, and pension
+                contributions. These are standard across the education sector.
+              </p>
+
+              <p>
+                For example, a teacher with a base salary of $75,000 represents a total employer cost of approximately
+                $100,000 once these required contributions are included.
+              </p>
+
+              <p>
+                This reflects the true cost of delivering instruction and is consistent with standard employment practices
+                across schools.
+              </p>
+
+              <p className="font-semibold">
+                Our Non-Certificated Teachers play a critical role in delivering Islamic, Arabic, and Quranic
+                instruction. Ensuring they are fairly compensated is essential to maintaining program quality,
+                stability, and continuity for our students.
+              </p>
+            </div>
+
+            {/* Facilities Explanation */}
+            <div className="mb-8 space-y-4">
+              <p>
+                Furthermore, the school operates within leased facilities, and these costs form part of the day-to-day
+                operating requirements necessary to deliver the program (including but not limited to lease payment,
+                cleaning supplies, waste disposal, general maintenance and repairs, insurance and utilities). For context, the
+                lease rate is significantly below typical market rates, and the total reflects the size of the space required to
+                operate a full school program. <strong>Please note the majority of the lease value is dedicated to improving the
+                school campuses.</strong>
+              </p>
+            </div>
+
+            {/* Alberta Education Framework */}
+            <div className="mb-8">
+              <h2 className="text-3xl font-bold mb-4">Alignment with Alberta Education Framework</h2>
               <div className="space-y-4">
                 <p>
-                  We recognize that communication should have been clearer and earlier. We are implementing
-                  more structured and consistent communication moving forward, along with opportunities for
-                  parent input in long-term planning.
+                  Alternative program fees are intended to cover costs directly related to delivering the programs that are{" "}
+                  <strong>NOT funded through Alberta Education</strong>.
                 </p>
 
                 <p>
-                  We remain committed to working constructively with our parent community and ensuring
-                  Calgary Islamic School continues to provide strong academic and Islamic education.
+                  Alberta Education provides Operations and Maintenance (O&M) funding to Prairie Rose School Division
+                  to support the basic operation and upkeep of school facilities. This funding is allocated at the division level
+                  and is based primarily on student enrollment.
+                </p>
+
+                <p>
+                  As part of this structure, approximately $1 million in O&M funding is applied to support the operation of
+                  Calgary Islamic School. This funding helps offset facility and operational costs; however, it does not fully
+                  cover the total cost of operating the school, which is approximately $4.7 million annually.
+                </p>
+              </div>
+            </div>
+
+            {/* Board Authority */}
+            <div className="mb-8">
+              <h2 className="text-3xl font-bold mb-4">The Board's Authority to Set School Fees</h2>
+              <div className="space-y-4">
+                <p>
+                  CISS was registered as a not-for-profit organization on September 4, 2024, and subsequently obtained
+                  charitable status effective January 15, 2026.
+                </p>
+
+                <p>
+                  The Board of Directors operates under a formal governance framework established by the Societies Act
+                  (Alberta, RSA 2000, c S-14) and the Society's Bylaws, which were adopted on October 27, 2025.
+                </p>
+
+                <p className="font-semibold">
+                  Section 15 of the CISS Bylaws expressly grants the Board this authority:
+                </p>
+
+                <Card className="mb-4 bg-accent/5 border-accent/20">
+                  <CardContent className="p-6">
+                    <p className="italic mb-4">
+                      "The Board shall determine School Fees payable each school year. Parents shall be notified in writing of
+                      such fees for the forthcoming [year] no later than April 1 of each year."
+                    </p>
+                    <p className="italic">
+                      "School Fees" is a defined term in the Bylaws and includes tuition fees, activity or trip fees, technology
+                      fees, capital improvement fees, alternative program fees, and any other ancillary fees. The power to set
+                      these fees rests exclusively with the Board of Directors and does not require a membership vote or
+                      referendum. This is consistent with how not-for-profit societies in Alberta are governed, where operational
+                      financial decisions are entrusted to the elected and appointed board.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <p>
+                  The Board exercised this authority following a thorough review of the Society's financial position,
+                  operating requirements, and the needs of the school community. The fee adjustment was passed by Board
+                  resolution and is effective for the upcoming school year.
+                </p>
+              </div>
+            </div>
+
+            {/* Governance and Responsibility */}
+            <div className="mb-8">
+              <h2 className="text-3xl font-bold mb-4">Governance and Responsibility</h2>
+              <div className="space-y-4">
+                <p>
+                  The Board of Directors is responsible for ensuring the financial sustainability of the school, overseeing
+                  operations, and setting school fees in accordance with the Society's Bylaws and governance framework.
+                </p>
+
+                <p>
+                  The Board includes parent representation, with a majority of current members being parents of students
+                  within the school, including individuals who represent the parent body. This structure is intended to ensure
+                  that parent perspectives are part of Board-level discussions and decision-making.
+                </p>
+
+                <p>
+                  We recognize that while representation exists at the Board level, broader parent communication and
+                  engagement should have been stronger. We are committed to improving this moving forward through more
+                  structured and consistent communication.
+                </p>
+              </div>
+            </div>
+
+            {/* Our Commitment to Transparency */}
+            <div className="mb-8">
+              <h2 className="text-3xl font-bold mb-4">Our Commitment to Transparency</h2>
+              <div className="space-y-4">
+                <p>
+                  CISS has been taking steps to establish more structured communication processes with parents. In response
+                  to recent feedback, we are accelerating these efforts through the following actions:
+                </p>
+
+                <ul className="space-y-2 ml-6 list-disc">
+                  <li>Establishing a structured communication channel through an official website to support ongoing engagement with the Board</li>
+                  <li>Sharing the Society's Bylaws and governance documents on the official website</li>
+                  <li>Providing a clear financial summary, with financial statements shared in accordance with fiscal timelines</li>
+                  <li>Sharing relevant materials that are important to parents</li>
+                </ul>
+
+                <p>
+                  We are currently organizing this information and will share it through our new CISS website
+                  (cissociety.ca), which is under development and expected to be available in the coming weeks.
+                </p>
+              </div>
+            </div>
+
+            {/* Moving Forward Together */}
+            <div className="mb-8">
+              <h2 className="text-3xl font-bold mb-4">Moving Forward Together</h2>
+              <div className="space-y-4">
+                <p>
+                  The Board of Directors serves this community voluntarily. Every Director — elected or appointed —
+                  receives no remuneration. Our singular focus is the success and wellbeing of your children and the longterm sustainability of this school as a premier Islamic educational institution in Calgary.
+                </p>
+
+                <p>
+                  We are building something meaningful here — a school rooted in Islamic values, academic excellence, and
+                  a deep love of the Quran. That mission requires a sound financial foundation, and this fee adjustment is part
+                  of ensuring that foundation remains strong.
+                </p>
+
+                <p>
+                  We thank you for your patience, your candour, and your continued commitment to this school community.
+                  If you have further questions or wish to discuss this matter directly, please do not hesitate to reach out to
+                  the school office or any member of the Board.
                 </p>
               </div>
             </div>
@@ -251,13 +395,16 @@ export default function BudgetTransparencyPage() {
             {/* Closing */}
             <div className="mt-12 p-6 bg-accent/5 rounded-lg border border-accent/20">
               <p className="mb-4">
-                We ask Allah (SWT) to guide us and grant us wisdom.
+                We ask Allah (SWT) to guide us and grant us wisdom in serving this community.
               </p>
               <p className="font-arabic mb-2">
                 Wassalamu Alaikum wa Rahmatullahi wa Barakatuh,
               </p>
+              <p className="font-semibold mb-1">
+                The Board of Directors
+              </p>
               <p className="font-semibold">
-                CISS Board of Directors
+                Calgary Islamic School Society
               </p>
             </div>
 
