@@ -7,7 +7,7 @@ import { GraduationCap, BookOpen, Globe, Award, MapPin, Phone, Mail } from "luci
 
 export const metadata = {
   title: "Omar Ibn Al-Khattab School | CISS",
-  description: "Secondary education (7-12) in Calgary, Alberta",
+  description: "KG - Grade 9 education in Calgary, Alberta",
 }
 
 export default function OmarIbnAlKhattabPage() {
@@ -26,7 +26,7 @@ export default function OmarIbnAlKhattabPage() {
         />
         <div className="relative z-10 text-center px-6">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">Omar Ibn Al-Khattab School</h1>
-          <p className="text-xl text-white/90">Secondary Education | Grades 7-12</p>
+          <p className="text-xl text-white/90">Kindergarten - Grade 9</p>
         </div>
       </section>
 
@@ -163,7 +163,7 @@ export default function OmarIbnAlKhattabPage() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="font-bold mb-2">Grades Served</h3>
-                <p className="text-muted-foreground">Grades 7 through 12</p>
+                <p className="text-muted-foreground">Kindergarten through Grade 9 (KG-9)</p>
               </CardContent>
             </Card>
 

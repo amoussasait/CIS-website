@@ -3,12 +3,51 @@ export const siteConfig = {
   shortName: "CISS",
   description: "Serving Calgary's Muslim community through excellent Islamic education",
   url: "https://ciss.ca",
+  motto: "Faith~Knowledge~Ingenuity",
+  vision:
+    "Calgary Islamic School strives to develop an enriched learning community that promotes academic achievement, leadership and Islamic values.",
   mission:
-    "Calgary Islamic School strives to develop an enriched learning community that promotes academic achievement, leadership, and Islamic values.",
-  vision: "To build and maintain a learning community that produces leaders through faith, knowledge, and ingenuity.",
+    "Our mission is to strive to build and maintain a learning community that develops leaders through faith, knowledge and ingenuity.",
   beliefs:
-    "We believe that education is a shared responsibility between the school, parents, and the community, and that Islamic principles guide moral character, personal development, and lifelong learning.",
-  values: ["Sincerity", "Trustworthiness", "Compassion", "Courage", "Patience", "Gratitude", "Humility"],
+    "We believe in the oneness of God (Allah), the prophethood of Muhammad (peace be upon him), and the Quran as the final revelation. Islamic principles guide our educational approach, emphasizing moral character, personal development, and lifelong learning. Education is a shared responsibility between the school, parents, and the community, working together to nurture students who embody Islamic values while achieving academic excellence.",
+  values: [
+    "Opportunity",
+    "Diversity",
+    "Excellence and Competence",
+    "Belonging",
+    "Integrity",
+    "Citizenship/Servant Leadership",
+  ],
+  guidingPrinciples: [
+    {
+      name: "Learner Centered/Language Centered",
+      description: "Putting students at the heart of education, recognizing diverse learning needs and language development",
+    },
+    {
+      name: "Innovation to Promote Excellence",
+      description: "Embracing innovative approaches and best practices to achieve the highest standards",
+    },
+    {
+      name: "Flexible and Responsive",
+      description: "Adapting to changing needs and responding effectively to community and student requirements",
+    },
+    {
+      name: "Fair and Equitable",
+      description: "Ensuring all students have access to quality education and opportunities for success",
+    },
+    {
+      name: "Sustainable and Efficient Use of Resources",
+      description: "Managing resources responsibly for long-term sustainability and maximum impact",
+    },
+    {
+      name: "Engaged and Collaborative Communities",
+      description: "Building strong partnerships with parents, community members, and stakeholders",
+    },
+    {
+      name: "Accountable and Transparent",
+      description: "Maintaining high standards of accountability and open communication with all stakeholders",
+    },
+  ],
   contact: {
     email: "info@cissociety.ca",
     phone: "(403) 123-4567",
@@ -18,16 +57,16 @@ export const siteConfig = {
     {
       name: "Akram Jomaa Islamic School",
       slug: "akram-jomaa",
-      level: "Elementary",
+      level: "KG - Grade 12",
       description:
-        "Serving elementary students with a nurturing environment that builds strong academic and Islamic foundations",
+        "Kindergarten through Grade 12 education with a nurturing environment that builds strong academic and Islamic foundations",
     },
     {
       name: "Omar Ibn Al-Khattab School",
       slug: "omar-ibn-al-khattab",
-      level: "Secondary",
+      level: "KG - Grade 9",
       description:
-        "Secondary education focused on preparing students for higher education and life success with strong Islamic character",
+        "Kindergarten through Grade 9 education focused on building strong academic foundations and Islamic character",
     },
   ],
 }

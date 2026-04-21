@@ -187,7 +187,7 @@ export default function RegistrationPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-4">Akram Jomaa Campus</h3>
-                <p className="text-muted-foreground mb-4">Kindergarten through Grade 6</p>
+                <p className="text-muted-foreground mb-4">Kindergarten through Grade 12 (KG-12)</p>
                 <Button asChild className="w-full">
                   <a href="https://aj.myprps.com/admission-registration" target="_blank" rel="noopener noreferrer">
                     Admissions Information
@@ -200,7 +200,7 @@ export default function RegistrationPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-4">Omar Bin Al-Khattab Campus</h3>
-                <p className="text-muted-foreground mb-4">Grades 7 through 12</p>
+                <p className="text-muted-foreground mb-4">Kindergarten through Grade 9 (KG-9)</p>
                 <Button asChild className="w-full">
                   <a href="https://obk.myprps.com/admission-registration" target="_blank" rel="noopener noreferrer">
                     Admissions Information

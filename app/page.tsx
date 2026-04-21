@@ -315,8 +315,7 @@ export default function HomePage() {
               <CardContent className="p-8">
                 <h3 className="text-3xl font-bold mb-3">Akram Jomaa Islamic School</h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Serving elementary students with a nurturing environment that builds strong academic and Islamic
-                  foundations
+                  Kindergarten through Grade 12 education with a nurturing environment that builds strong academic and Islamic foundations
                 </p>
                 <Button asChild variant="default">
                   <Link href="/schools/akram-jomaa">Learn More</Link>
@@ -335,8 +334,7 @@ export default function HomePage() {
               <CardContent className="p-8">
                 <h3 className="text-3xl font-bold mb-3">Omar Ibn Al-Khattab School</h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Secondary education focused on preparing students for higher education and life success with strong
-                  Islamic character
+                  Kindergarten through Grade 9 education focused on building strong academic foundations and Islamic character
                 </p>
                 <Button asChild variant="default">
                   <Link href="/schools/omar-ibn-al-khattab">Learn More</Link>

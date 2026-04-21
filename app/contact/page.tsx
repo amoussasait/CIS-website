@@ -64,7 +64,7 @@ export default function ContactPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4">Akram Jomaa Islamic School</h3>
-                <p className="text-muted-foreground mb-4">Elementary Campus (K-6)</p>
+                <p className="text-muted-foreground mb-4">KG - Grade 12</p>
                 <div className="space-y-3 text-sm">
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
@@ -91,7 +91,7 @@ export default function ContactPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4">Omar Ibn Al-Khattab School</h3>
-                <p className="text-muted-foreground mb-4">Secondary Campus (7-12)</p>
+                <p className="text-muted-foreground mb-4">KG - Grade 9</p>
                 <div className="space-y-3 text-sm">
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />

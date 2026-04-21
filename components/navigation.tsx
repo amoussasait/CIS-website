@@ -82,14 +82,14 @@ export function Navigation() {
                     className="block px-4 py-3 hover:bg-accent/10 rounded-md transition-colors"
                   >
                     <div className="font-medium">Akram Jomaa Islamic School</div>
-                    <div className="text-xs text-muted-foreground">Elementary</div>
+                    <div className="text-xs text-muted-foreground">KG - Grade 12</div>
                   </Link>
                   <Link
                     href="/schools/omar-ibn-al-khattab"
                     className="block px-4 py-3 hover:bg-accent/10 rounded-md transition-colors"
                   >
                     <div className="font-medium">Omar Ibn Al-Khattab School</div>
-                    <div className="text-xs text-muted-foreground">Secondary</div>
+                    <div className="text-xs text-muted-foreground">KG - Grade 9</div>
                   </Link>
                 </div>
               </div>
@@ -165,13 +165,13 @@ export function Navigation() {
                       href="/schools/akram-jomaa"
                       className="block px-4 py-2 hover:bg-accent/10 rounded-lg transition-colors text-sm"
                     >
-                      Akram Jomaa Islamic School
+                      Akram Jomaa Islamic School (KG-12)
                     </Link>
                     <Link
                       href="/schools/omar-ibn-al-khattab"
                       className="block px-4 py-2 hover:bg-accent/10 rounded-lg transition-colors text-sm"
                     >
-                      Omar Ibn Al-Khattab School
+                      Omar Ibn Al-Khattab School (KG-9)
                     </Link>
                   </div>
                 )}

@@ -1,7 +1,8 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
-import { Shield, Users, Heart, GraduationCap, Users2, School, Building2, BookOpen, UserCheck, DollarSign, MessageSquare, FileText, Target } from "lucide-react"
+import { Shield, Users, Heart, GraduationCap, Users2, School, Building2, BookOpen, UserCheck, DollarSign, MessageSquare, FileText, Target, Download } from "lucide-react"
+import Link from "next/link"
 
 export const metadata = {
   title: "Governance & Roles | CISS",
@@ -107,11 +108,11 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Buildings Committee</h3>
+                    <p className="text-sm text-accent font-medium">Lead: Abdulrahman Abbas</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Coordinate urgent repairs with both principals</li>
-                  <li>• Start AJC washroom renovation project after Ramadan</li>
+                  <li>• Supervision on the school maintenance and project renovations</li>
                 </ul>
               </CardContent>
             </Card>
@@ -125,6 +126,7 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Education PRSD Liaison</h3>
+                    <p className="text-sm text-accent font-medium">Lead: Hoda Kilani</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
@@ -144,11 +146,11 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">HR Committee</h3>
+                    <p className="text-sm text-accent font-medium">Lead: Dr. Mohammed Abdel-Hafez</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Immediate task: Recruit an Executive Director</li>
-                  <li>• Review contracts of current employees and contractors</li>
+                  <li>• Review contracts of current employees and contractors and prospective recruitments</li>
                   <li>• Bring final recommendations to the Board for approval</li>
                 </ul>
               </CardContent>
@@ -163,6 +165,7 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Finance & Fundraising</h3>
+                    <p className="text-sm text-accent font-medium">Co-Lead: Marwa Ajram</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
@@ -181,6 +184,7 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Communications & Website</h3>
+                    <p className="text-sm text-accent font-medium">Lead: Ali Moussa</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
@@ -200,6 +204,7 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Governance</h3>
+                    <p className="text-sm text-accent font-medium">Lead: Mohamad Zohiri</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
@@ -219,15 +224,46 @@ export default function GovernancePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Strategy</h3>
+                    <p className="text-sm text-accent font-medium">Lead: Basir Saleh</p>
                   </div>
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Next strategy meeting: Sunday, March</li>
+                  <li>• Next strategy meeting: Sunday, March 29</li>
                   <li>• Long-term planning and vision alignment</li>
                 </ul>
               </CardContent>
             </Card>
           </div>
+        </div>
+      </section>
+
+      {/* Bylaws Document */}
+      <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <Card className="border-2 border-accent/20 bg-accent/5">
+            <CardContent className="p-8 md:p-12">
+              <div className="flex flex-col md:flex-row items-center gap-6">
+                <div className="w-16 h-16 bg-accent/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <FileText className="w-8 h-8 text-accent" />
+                </div>
+                <div className="flex-1 text-center md:text-left">
+                  <h3 className="text-2xl font-bold mb-2">CISS Bylaws</h3>
+                  <p className="text-muted-foreground">
+                    Review our official bylaws governing the Calgary Islamic School Society operations and policies.
+                  </p>
+                </div>
+                <Link
+                  href="/documents/CISS-Bylaws-Nov-2025.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-6 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-accent/90 transition-colors"
+                >
+                  <Download className="w-5 h-5" />
+                  View Bylaws
+                </Link>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
@@ -527,8 +563,84 @@ export default function GovernancePage() {
         </div>
       </section>
 
-      {/* School Principals */}
+      {/* Program Advisory Group */}
       <section className="py-20 px-6 bg-muted/30">
+        <div className="max-w-5xl mx-auto">
+          <Card className="border-none shadow-lg">
+            <CardContent className="p-10">
+              <div className="flex items-start gap-6 mb-6">
+                <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Target className="w-8 h-8 text-primary" />
+                </div>
+                <div>
+                  <h2 className="text-3xl font-bold mb-3">Program Advisory Group (PAG)</h2>
+                  <p className="text-lg text-accent font-semibold mb-4">
+                    Alternative Program Guidance & Community Input
+                  </p>
+                </div>
+              </div>
+
+              <div className="space-y-4 text-muted-foreground leading-relaxed">
+                <p className="text-lg">
+                  The Program Advisory Group provides advice and feedback to the CISS Board and administration on matters
+                  related to the Alternative Program, ensuring parent and community voices are heard in program decisions.
+                </p>
+
+                <div className="mt-6">
+                  <h3 className="text-xl font-bold text-foreground mb-4">Composition & Key Responsibilities:</h3>
+                  <ul className="space-y-3 ml-6">
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0"></div>
+                      <span>
+                        <strong>Diverse Membership:</strong> Composed of parents, community members, CISS board members,
+                        and school administration
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0"></div>
+                      <span>
+                        <strong>Program Effectiveness:</strong> Regular meetings to discuss and assess the effectiveness of
+                        the Alternative Program
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0"></div>
+                      <span>
+                        <strong>Community Needs Assessment:</strong> Identifying and addressing community educational needs
+                        and expectations
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0"></div>
+                      <span>
+                        <strong>Strategic Input:</strong> Providing input on program direction, policies, and innovative
+                        initiatives
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0"></div>
+                      <span>
+                        <strong>Continuous Improvement:</strong> Recommending enhancements and improvements to ensure the
+                        Alternative Program meets its objectives
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0"></div>
+                      <span>
+                        <strong>Stakeholder Voice:</strong> Ensuring parent and community perspectives are integrated into
+                        program planning and decision-making
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* School Principals */}
+      <section className="py-20 px-6">
         <div className="max-w-5xl mx-auto">
           <Card className="border-none shadow-lg">
             <CardContent className="p-10">

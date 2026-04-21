@@ -1,6 +1,7 @@
 export interface Director {
   name: string
   position: string
+  representative: string
   bio: string
   image?: string
 }

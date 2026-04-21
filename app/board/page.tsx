@@ -134,7 +134,7 @@ export default function BoardPage() {
       </section>
 
       {/* Board Members */}
-      <section className="py-20 px-6 hidden">
+      <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-4">Meet Our Board</h2>
           <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
@@ -149,7 +149,8 @@ export default function BoardPage() {
                     <Users className="w-12 h-12 text-primary" />
                   </div>
                   <h3 className="text-2xl font-bold mb-1 text-center">{director.name}</h3>
-                  <p className="text-accent font-semibold mb-4 text-center">{director.position}</p>
+                  <p className="text-accent font-semibold mb-2 text-center">{director.position}</p>
+                  <p className="text-sm text-muted-foreground/80 mb-4 text-center italic">{director.representative}</p>
                   <p className="text-muted-foreground leading-relaxed text-sm">{director.bio}</p>
                 </CardContent>
               </Card>

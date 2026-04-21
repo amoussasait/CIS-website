@@ -149,7 +149,7 @@ export default function ParentsPage() {
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   Access the official bylaws governing the Calgary Islamic School Society
                 </p>
-                <Button variant="outline">View Bylaws</Button>
+                <div className="text-primary font-semibold">Coming Soon</div>
               </CardContent>
             </Card>
           </div>
