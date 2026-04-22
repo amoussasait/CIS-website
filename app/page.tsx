@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { AnnouncementBar } from "@/components/announcement-bar"
-import { GraduationCap, Users, Heart, TrendingUp, Bell, BookOpen, Globe2, Award, Calendar, Quote } from "lucide-react"
+import { GraduationCap, Users, Heart, TrendingUp, Bell, BookOpen, Globe2, Award, Calendar } from "lucide-react"
 
 export default function HomePage() {
   return (
@@ -217,76 +217,6 @@ export default function HomePage() {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   Strategic expansion including unified campus and online education
                 </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-20 px-6 bg-muted/30">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">What Parents Say</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Hear from families who trust CISS for their children's education
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
-                <Quote className="w-10 h-10 text-accent/30 mb-4" />
-                <p className="text-muted-foreground leading-relaxed mb-6 italic">
-                  "CISS has been instrumental in shaping our children's Islamic identity while providing excellent
-                  academic education. The teachers genuinely care about each student's success."
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="text-primary font-bold">FH</span>
-                  </div>
-                  <div>
-                    <div className="font-semibold">Fatima H.</div>
-                    <div className="text-sm text-muted-foreground">Parent, Akram Jomaa</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
-                <Quote className="w-10 h-10 text-accent/30 mb-4" />
-                <p className="text-muted-foreground leading-relaxed mb-6 italic">
-                  "The transparency and communication from CISS leadership has been outstanding. We feel heard as
-                  parents and know our children are in good hands."
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="text-primary font-bold">AM</span>
-                  </div>
-                  <div>
-                    <div className="font-semibold">Ahmed M.</div>
-                    <div className="text-sm text-muted-foreground">Parent, Omar Ibn Al-Khattab</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8">
-                <Quote className="w-10 h-10 text-accent/30 mb-4" />
-                <p className="text-muted-foreground leading-relaxed mb-6 italic">
-                  "My children have grown so much in their Quran memorization and understanding of Islamic values. CISS
-                  provides a truly holistic education that prepares them for life."
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="text-primary font-bold">SK</span>
-                  </div>
-                  <div>
-                    <div className="font-semibold">Sarah K.</div>
-                    <div className="text-sm text-muted-foreground">Parent, Akram Jomaa</div>
-                  </div>
-                </div>
               </CardContent>
             </Card>
           </div>

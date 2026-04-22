@@ -253,7 +253,7 @@ export default function GovernancePage() {
                   </p>
                 </div>
                 <Link
-                  href="/documents/CISS-Bylaws-Nov-2025.pdf"
+                  href="/documents/CISS Bylaws.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-6 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-accent/90 transition-colors"

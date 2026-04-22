@@ -11,6 +11,7 @@ import {
   MessageCircle,
   Clock,
   AlertCircle,
+  Download,
 } from "lucide-react"
 import { faqs } from "@/lib/data/faqs"
 import { contactRoutes } from "@/lib/data/contact-routes"
@@ -90,7 +91,7 @@ export default function ParentsPage() {
 
       {/* Announcements Feed */}
       <section className="py-20 px-6 bg-muted/30">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-3 mb-8">
             <Bell className="w-8 h-8 text-accent" />
             <h2 className="text-4xl font-bold">Recent Announcements</h2>
@@ -149,7 +150,17 @@ export default function ParentsPage() {
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   Access the official bylaws governing the Calgary Islamic School Society
                 </p>
-                <div className="text-primary font-semibold">Coming Soon</div>
+                <Button asChild className="w-full" size="lg">
+                  <a
+                    href="/documents/CISS Bylaws.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2"
+                  >
+                    <Download className="w-4 h-4" />
+                    Download Bylaws (PDF)
+                  </a>
+                </Button>
               </CardContent>
             </Card>
           </div>

@@ -3,7 +3,10 @@
     "allow": [
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npx vercel --prod)",
+      "Bash(copy \"C:\\Users\\amoussa\\Downloads\\2.1 CISS Bylaw Amended Nov 2025 -Website-compressed.pdf\" \"C:\\Users\\amoussa\\OneDrive - Southern Alberta Institute of Technology\\Desktop\\MapleDigiTech\\ciss-website\\public\\documents\\CISS-Bylaws-Nov-2025.pdf\")",
+      "Bash(powershell -Command:*)"
     ],
     "deny": [],
     "ask": []

@@ -454,7 +454,12 @@ export default function AboutPage() {
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   Official bylaws governing the conduct and operations of Calgary Islamic School Society, including membership, board structure, and governance procedures.
                 </p>
-                <div className="text-center text-primary font-semibold text-lg">Coming Soon</div>
+                <Button asChild className="w-full" size="lg">
+                  <a href="/documents/CISS Bylaws.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+                    <Download className="w-4 h-4" />
+                    Download Bylaws (PDF)
+                  </a>
+                </Button>
               </CardContent>
             </Card>
 
