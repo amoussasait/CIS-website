@@ -238,8 +238,7 @@ export default function HomePage() {
               <div
                 className="h-64 bg-cover bg-center"
                 style={{
-                  backgroundImage:
-                    "url(/placeholder.svg?height=400&width=600&query=elementary+islamic+school+building+Calgary)",
+                  backgroundImage: "url(/Akram jomaa school.JPG)",
                 }}
               />
               <CardContent className="p-8">
@@ -257,8 +256,7 @@ export default function HomePage() {
               <div
                 className="h-64 bg-cover bg-center"
                 style={{
-                  backgroundImage:
-                    "url(/placeholder.svg?height=400&width=600&query=secondary+islamic+school+building+Calgary)",
+                  backgroundImage: "url(/OBK school.JPG)",
                 }}
               />
               <CardContent className="p-8">
