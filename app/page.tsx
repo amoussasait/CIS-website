@@ -88,7 +88,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-1 gap-6 mb-8 max-w-2xl mx-auto">
+          <div className="grid md:grid-cols-1 gap-6 mb-8 max-w-4xl mx-auto">
             <Card className="border-2 border-accent/20">
               <CardContent className="p-8">
                 <Bell className="w-10 h-10 text-accent mb-4" />
