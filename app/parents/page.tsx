@@ -98,10 +98,13 @@ export default function ParentsPage() {
           </div>
 
           <div className="space-y-4 mb-8">
-            {announcements.map((announcement) => {
+            {announcements.slice(0, 5).map((announcement) => {
               const getAnnouncementLink = (id: string) => {
                 if (id === "budget-transparency-2026") return "/updates/budget-transparency"
                 if (id === "registration-2026") return "/registration"
+                if (id === "fee-payment-schedule-2026") return "/news"
+                if (id === "akram-jomaa-science-fair-2026") return "/news"
+                if (id === "obk-science-fair-2026") return "/news"
                 if (id === "fundraiser-dinner") return "/news"
                 return "/news"
               }

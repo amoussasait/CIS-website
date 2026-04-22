@@ -5,6 +5,7 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { AnnouncementBar } from "@/components/announcement-bar"
 import { GraduationCap, Users, Heart, TrendingUp, Bell, BookOpen, Globe2, Award, Calendar } from "lucide-react"
+import { announcements } from "@/lib/data/announcements"
 
 export default function HomePage() {
   return (
@@ -94,32 +95,30 @@ export default function HomePage() {
                 <Bell className="w-10 h-10 text-accent mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Announcements & Updates</h3>
                 <div className="space-y-4 mb-6">
-                  <Link href="/updates/budget-transparency" className="block">
-                    <div className="p-4 bg-accent/10 rounded-lg border-2 border-accent/30 hover:border-accent/50 transition-colors">
-                      <div className="flex items-start gap-3">
-                        <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0"></div>
-                        <div className="flex-1">
-                          <p className="text-sm font-bold mb-1 text-accent">IMPORTANT: Budget Clarity & Governance Transparency</p>
-                          <p className="text-xs text-muted-foreground mb-2">Message from the CISS Board of Directors</p>
-                          <p className="text-xs text-foreground/80">
-                            Information about the 2026-2027 budget, fee adjustments, and our commitment to transparency
-                          </p>
+                  {announcements.slice(0, 3).map((announcement, index) => (
+                    <Link key={announcement.id} href="/news" className="block">
+                      <div className={`p-4 rounded-lg transition-colors cursor-pointer ${
+                        index === 0
+                          ? "bg-accent/10 border-2 border-accent/30 hover:border-accent/50"
+                          : "bg-muted/50 hover:bg-muted"
+                      }`}>
+                        <div className="flex items-start gap-3">
+                          <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0"></div>
+                          <div className="flex-1">
+                            <p className={`text-sm font-bold mb-1 ${index === 0 ? "text-accent" : ""}`}>
+                              {announcement.title}
+                            </p>
+                            <p className="text-xs text-muted-foreground mb-2">
+                              {announcement.category === "achievement" ? "Achievement" : announcement.category === "board-update" ? "Board Update" : "Announcement"}
+                            </p>
+                            <p className="text-xs text-foreground/80">
+                              {announcement.excerpt}
+                            </p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </Link>
-                  <Link href="/registration" className="block">
-                    <div className="p-4 bg-muted/50 rounded-lg hover:bg-muted transition-colors cursor-pointer">
-                      <p className="text-sm font-medium mb-1">School Registration Open</p>
-                      <p className="text-xs text-muted-foreground">Posted 2 days ago</p>
-                    </div>
-                  </Link>
-                  <Link href="/news" className="block">
-                    <div className="p-4 bg-muted/50 rounded-lg hover:bg-muted transition-colors cursor-pointer">
-                      <p className="text-sm font-medium mb-1">Historic Fundraiser Dinner</p>
-                      <p className="text-xs text-muted-foreground">Posted 5 days ago</p>
-                    </div>
-                  </Link>
+                    </Link>
+                  ))}
                 </div>
                 <Button asChild variant="outline" className="w-full bg-transparent">
                   <Link href="/news">View All Announcements</Link>
@@ -238,7 +237,7 @@ export default function HomePage() {
               <div
                 className="h-64 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url(/Akram jomaa school.JPG)",
+                  backgroundImage: "url(/akram-jomaa-school.jpg)",
                 }}
               />
               <CardContent className="p-8">
@@ -256,7 +255,7 @@ export default function HomePage() {
               <div
                 className="h-64 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url(/OBK school.JPG)",
+                  backgroundImage: "url(/obk-school.jpg)",
                 }}
               />
               <CardContent className="p-8">
