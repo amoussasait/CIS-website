@@ -50,12 +50,12 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
             <div className="text-center group hover:scale-105 transition-transform">
-              <div className="text-5xl md:text-6xl font-bold text-primary mb-2">20+</div>
+              <div className="text-5xl md:text-6xl font-bold text-primary mb-2">30+</div>
               <div className="text-lg font-semibold mb-1">Years of Service</div>
               <div className="text-sm text-muted-foreground">Serving Calgary families</div>
             </div>
             <div className="text-center group hover:scale-105 transition-transform">
-              <div className="text-5xl md:text-6xl font-bold text-accent mb-2">500+</div>
+              <div className="text-5xl md:text-6xl font-bold text-accent mb-2">1500+</div>
               <div className="text-lg font-semibold mb-1">Students</div>
               <div className="text-sm text-muted-foreground">Across both campuses</div>
             </div>

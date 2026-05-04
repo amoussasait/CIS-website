@@ -23,7 +23,7 @@ export const directors: Director[] = [
     name: "Marwa Ajram",
     position: "Treasurer",
     representative: "Representative of School Council",
-    bio: "Parent of students at Omar Ibn Al-Khattab School. Finance professional with experience in private banking. Manages a landscaping bookkeeping business and supports family-run barbershops. Active OBK parent council member for several years.",
+    bio: "Marwa Ajram is a business manager and community leader with over a decade of experience in financial oversight and operations. As Treasurer of CISS, she focuses on accountability, transparency, and long-term sustainability.\n\nShe brings governance experience as a former Vice Chair and Treasurer, with strengths in building structured financial systems and operations.\n\nProfessionally, she manages multiple locations, specializing in scaling operations efficiently and driving sustainable growth.",
   },
   {
     name: "Medina Khalaf",
