@@ -30,6 +30,14 @@ export async function GET(
       return NextResponse.json({ error: "Not found" }, { status: 404 });
     }
 
+    // Get all assignees
+    const assignees = await db`
+      SELECT user_id, user_name, user_email
+      FROM task_assignments
+      WHERE task_id = ${parseInt(id)}
+      ORDER BY user_name
+    `;
+
     // Get comments
     const comments = await db`
       SELECT
@@ -41,7 +49,7 @@ export async function GET(
       ORDER BY c.created_at ASC
     `;
 
-    return NextResponse.json({ ...task[0], comments });
+    return NextResponse.json({ ...task[0], assignees, comments });
   } catch (error) {
     console.error("Error fetching task:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });

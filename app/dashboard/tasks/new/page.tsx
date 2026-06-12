@@ -21,10 +21,10 @@ export default function NewTaskPage() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [users, setUsers] = useState<User[]>([]);
+  const [selectedUsers, setSelectedUsers] = useState<number[]>([]);
   const [formData, setFormData] = useState({
     title: "",
     description: "",
-    assigned_to: "",
     status: "pending",
     priority: "medium",
     due_date: "",
@@ -44,18 +44,22 @@ export default function NewTaskPage() {
     }
   };
 
+  const toggleUser = (userId: number) => {
+    setSelectedUsers(prev =>
+      prev.includes(userId)
+        ? prev.filter(id => id !== userId)
+        : [...prev, userId]
+    );
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     try {
-      const selectedUser = users.find((u) => u.id.toString() === formData.assigned_to);
-
       const payload = {
         ...formData,
-        assigned_to: formData.assigned_to ? parseInt(formData.assigned_to) : null,
-        assigned_to_email: selectedUser?.email,
-        assigned_to_name: selectedUser?.name,
+        assigned_to: selectedUsers, // Now sending array of user IDs
       };
 
       const response = await fetch("/api/tasks", {
@@ -130,35 +134,46 @@ export default function NewTaskPage() {
               />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="space-y-2">
-                <Label htmlFor="assigned_to">Assign To</Label>
-                <Select
-                  value={formData.assigned_to}
-                  onValueChange={(value) => setFormData({ ...formData, assigned_to: value })}
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder="Select a member" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {users.map((user) => (
-                      <SelectItem key={user.id} value={user.id.toString()}>
-                        {user.name}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+            <div className="space-y-2">
+              <Label>Assign To (Select Multiple)</Label>
+              <div className="border rounded-md p-4 max-h-60 overflow-y-auto space-y-2">
+                {users.length === 0 ? (
+                  <p className="text-sm text-muted-foreground">Loading users...</p>
+                ) : (
+                  users.map((user) => (
+                    <div key={user.id} className="flex items-center space-x-2">
+                      <input
+                        type="checkbox"
+                        id={`user-${user.id}`}
+                        checked={selectedUsers.includes(user.id)}
+                        onChange={() => toggleUser(user.id)}
+                        className="h-4 w-4 rounded border-gray-300"
+                      />
+                      <label
+                        htmlFor={`user-${user.id}`}
+                        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+                      >
+                        {user.name} ({user.email})
+                      </label>
+                    </div>
+                  ))
+                )}
               </div>
+              {selectedUsers.length > 0 && (
+                <p className="text-sm text-muted-foreground">
+                  {selectedUsers.length} member{selectedUsers.length > 1 ? 's' : ''} selected
+                </p>
+              )}
+            </div>
 
-              <div className="space-y-2">
-                <Label htmlFor="due_date">Due Date</Label>
-                <Input
-                  id="due_date"
-                  type="date"
-                  value={formData.due_date}
-                  onChange={(e) => setFormData({ ...formData, due_date: e.target.value })}
-                />
-              </div>
+            <div className="space-y-2">
+              <Label htmlFor="due_date">Due Date</Label>
+              <Input
+                id="due_date"
+                type="date"
+                value={formData.due_date}
+                onChange={(e) => setFormData({ ...formData, due_date: e.target.value })}
+              />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

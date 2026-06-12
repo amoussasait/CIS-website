@@ -47,6 +47,8 @@ export default function ViewTaskPage() {
   const [task, setTask] = useState<Task | null>(null);
   const [users, setUsers] = useState<User[]>([]);
   const [newComment, setNewComment] = useState("");
+  const [emailHistory, setEmailHistory] = useState<any[]>([]);
+  const [showEmailHistory, setShowEmailHistory] = useState(false);
   const [formData, setFormData] = useState({
     title: "",
     description: "",
@@ -59,6 +61,7 @@ export default function ViewTaskPage() {
   useEffect(() => {
     fetchTask();
     fetchUsers();
+    fetchEmailHistory();
   }, []);
 
   const fetchTask = async () => {
@@ -86,6 +89,16 @@ export default function ViewTaskPage() {
       setUsers(data);
     } catch (error) {
       console.error("Error fetching users:", error);
+    }
+  };
+
+  const fetchEmailHistory = async () => {
+    try {
+      const response = await fetch(`/api/tasks/${params.id}/emails`);
+      const data = await response.json();
+      setEmailHistory(data);
+    } catch (error) {
+      console.error("Error fetching email history:", error);
     }
   };
 
@@ -368,6 +381,66 @@ export default function ViewTaskPage() {
             </Button>
           </div>
         </CardContent>
+      </Card>
+
+      {/* Email History Section */}
+      <Card>
+        <CardHeader>
+          <div className="flex items-center justify-between">
+            <CardTitle className="flex items-center">
+              📧 Email History
+            </CardTitle>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setShowEmailHistory(!showEmailHistory)}
+            >
+              {showEmailHistory ? 'Hide' : 'Show'} ({emailHistory.length})
+            </Button>
+          </div>
+        </CardHeader>
+        {showEmailHistory && (
+          <CardContent>
+            {emailHistory.length > 0 ? (
+              <div className="space-y-3">
+                {emailHistory.map((email) => (
+                  <div key={email.id} className="border-l-4 border-blue-500 pl-4 py-2 bg-gray-50 dark:bg-gray-800 rounded">
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="font-semibold text-sm">
+                        {email.email_type === 'task_assigned' ? '✉️ Assignment' :
+                         email.email_type === 'task_reminder' ? '🔔 Reminder' :
+                         email.email_type === 'task_overdue' ? '⚠️ Overdue' :
+                         email.email_type === 'task_completed' ? '✅ Completed' : '📧 Email'}
+                      </span>
+                      <span className={`text-xs px-2 py-1 rounded ${
+                        email.status === 'sent' ? 'bg-green-100 text-green-800' :
+                        email.status === 'failed' ? 'bg-red-100 text-red-800' :
+                        'bg-yellow-100 text-yellow-800'
+                      }`}>
+                        {email.status}
+                      </span>
+                    </div>
+                    <div className="text-sm text-muted-foreground space-y-1">
+                      <p><strong>To:</strong> {email.to_name} ({email.to_email})</p>
+                      <p><strong>Subject:</strong> {email.subject}</p>
+                      <p className="text-xs">
+                        {email.sent_at
+                          ? `Sent: ${new Date(email.sent_at).toLocaleString()}`
+                          : `Queued: ${new Date(email.created_at).toLocaleString()}`
+                        }
+                      </p>
+                      {email.error_message && (
+                        <p className="text-xs text-red-600">Error: {email.error_message}</p>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm text-muted-foreground">No emails sent for this task yet</p>
+            )}
+          </CardContent>
+        )}
       </Card>
     </div>
   );
