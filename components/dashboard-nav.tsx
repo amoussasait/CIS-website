@@ -19,7 +19,8 @@ import {
   Calendar,
   LayoutDashboard,
   User,
-  LogOut
+  LogOut,
+  Settings
 } from "lucide-react";
 
 const navItems = [
@@ -101,7 +102,13 @@ export default function DashboardNav({ user }: { user: any }) {
                   Agenda
                 </Link>
               </DropdownMenuItem>
-              <DropdownMenuSeparator className="md:hidden" />
+              <DropdownMenuSeparator />
+              <DropdownMenuItem asChild>
+                <Link href="/dashboard/settings">
+                  <Settings className="h-4 w-4 mr-2" />
+                  Settings
+                </Link>
+              </DropdownMenuItem>
               <DropdownMenuItem
                 onClick={() => signOut({ callbackUrl: "/login" })}
                 className="text-red-600 dark:text-red-400"
