@@ -19,12 +19,17 @@ export async function POST(
     const data = await request.json();
     const { comment } = data;
 
-    const result = db.prepare(`
-      INSERT INTO task_comments (task_id, user_id, comment)
-      VALUES (?, ?, ?)
-    `).run(id, (session.user as any).id, comment);
+    if (!comment || comment.trim().length === 0) {
+      return NextResponse.json({ error: "Comment cannot be empty" }, { status: 400 });
+    }
 
-    logActivity(
+    const result = await db`
+      INSERT INTO task_comments (task_id, user_id, comment)
+      VALUES (${parseInt(id)}, ${(session.user as any).id}, ${comment})
+      RETURNING id
+    `;
+
+    await logActivity(
       (session.user as any).id,
       "Added comment to task",
       "tasks",
@@ -32,9 +37,10 @@ export async function POST(
       comment.substring(0, 50)
     );
 
-    return NextResponse.json({ id: result.lastInsertRowid, success: true });
+    return NextResponse.json({ id: result[0].id, success: true });
   } catch (error) {
     console.error("Error creating comment:", error);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    const errorMessage = error instanceof Error ? error.message : "Internal server error";
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
   }
 }

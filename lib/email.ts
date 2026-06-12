@@ -1,4 +1,4 @@
-import nodemailer from 'nodemailer';
+import { Resend } from 'resend';
 
 export interface EmailOptions {
   to: string;
@@ -8,9 +8,9 @@ export interface EmailOptions {
 }
 
 export async function sendEmail(options: EmailOptions) {
-  // Check if SMTP is configured
-  if (!process.env.SMTP_HOST || !process.env.SMTP_USER || !process.env.SMTP_PASSWORD) {
-    console.log('Email configuration not set up. Email would have been sent:');
+  // Check if Resend is configured
+  if (!process.env.RESEND_API_KEY) {
+    console.log('⚠️  Resend API key not configured. Email would have been sent:');
     console.log('To:', options.to);
     console.log('Subject:', options.subject);
     console.log('Message:', options.text);
@@ -18,27 +18,25 @@ export async function sendEmail(options: EmailOptions) {
   }
 
   try {
-    const transporter = nodemailer.createTransporter({
-      host: process.env.SMTP_HOST,
-      port: parseInt(process.env.SMTP_PORT || '587'),
-      secure: process.env.SMTP_PORT === '465',
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASSWORD,
-      },
-    });
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
-    await transporter.sendMail({
-      from: process.env.SMTP_FROM || 'info@cissociety.ca',
+    const result = await resend.emails.send({
+      from: process.env.EMAIL_FROM || 'CISS Committee <onboarding@resend.dev>',
       to: options.to,
       subject: options.subject,
-      text: options.text,
       html: options.html || options.text.replace(/\n/g, '<br>'),
+      text: options.text,
     });
 
-    return { success: true };
+    if (result.error) {
+      console.error('❌ Resend error:', result.error);
+      return { success: false, error: result.error };
+    }
+
+    console.log('✅ Email sent successfully:', result.data?.id);
+    return { success: true, id: result.data?.id };
   } catch (error) {
-    console.error('Error sending email:', error);
+    console.error('❌ Error sending email:', error);
     return { success: false, error };
   }
 }
@@ -47,11 +45,17 @@ export async function sendEmail(options: EmailOptions) {
 export async function processEmailQueue() {
   const db = require('./db').default;
 
-  const pendingEmails = db.prepare(`
+  const pendingEmails = await db`
     SELECT * FROM email_queue
     WHERE status = 'pending' AND retry_count < 3
+    ORDER BY created_at ASC
     LIMIT 10
-  `).all() as any[];
+  `;
+
+  console.log(`📧 Processing ${pendingEmails.length} pending emails...`);
+
+  let successCount = 0;
+  let failCount = 0;
 
   for (const email of pendingEmails) {
     const result = await sendEmail({
@@ -61,19 +65,26 @@ export async function processEmailQueue() {
     });
 
     if (result.success) {
-      db.prepare(`
+      await db`
         UPDATE email_queue
         SET status = 'sent', sent_at = CURRENT_TIMESTAMP
-        WHERE id = ?
-      `).run(email.id);
+        WHERE id = ${email.id}
+      `;
+      successCount++;
+      console.log(`  ✅ Sent to ${email.to_email}: ${email.subject}`);
     } else {
-      db.prepare(`
+      await db`
         UPDATE email_queue
-        SET retry_count = retry_count + 1, error_message = ?
-        WHERE id = ?
-      `).run(JSON.stringify(result.error), email.id);
+        SET retry_count = retry_count + 1,
+            error_message = ${JSON.stringify(result.error)},
+            status = CASE WHEN retry_count + 1 >= 3 THEN 'failed' ELSE 'pending' END
+        WHERE id = ${email.id}
+      `;
+      failCount++;
+      console.log(`  ❌ Failed to send to ${email.to_email}: ${email.subject}`);
     }
   }
 
-  return pendingEmails.length;
+  console.log(`\n📊 Results: ${successCount} sent, ${failCount} failed`);
+  return { total: pendingEmails.length, success: successCount, failed: failCount };
 }
