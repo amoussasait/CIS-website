@@ -68,7 +68,9 @@ export default function NewTaskPage() {
         router.push("/dashboard/tasks");
         router.refresh();
       } else {
-        alert("Error creating task");
+        const errorData = await response.json();
+        console.error("Error response:", errorData);
+        alert(`Error creating task: ${errorData.error || 'Unknown error'}`);
       }
     } catch (error) {
       console.error("Error:", error);

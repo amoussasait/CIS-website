@@ -58,8 +58,20 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
+    // Check if user ID exists in session
+    const userId = (session.user as any)?.id;
+    if (!userId) {
+      console.error("Session missing user ID:", session);
+      return NextResponse.json({ error: "User ID not found in session" }, { status: 401 });
+    }
+
     const data = await request.json();
     const { title, description, assigned_to, assigned_to_email, assigned_to_name, status, priority, due_date } = data;
+
+    // Validate required fields
+    if (!title) {
+      return NextResponse.json({ error: "Title is required" }, { status: 400 });
+    }
 
     const result = db.prepare(`
       INSERT INTO tasks (title, description, assigned_to, assigned_to_email, assigned_to_name, created_by, status, priority, due_date)
@@ -70,14 +82,14 @@ export async function POST(request: NextRequest) {
       assigned_to || null,
       assigned_to_email || null,
       assigned_to_name || null,
-      (session.user as any).id,
+      userId,
       status || 'pending',
       priority || 'medium',
       due_date || null
     );
 
     logActivity(
-      (session.user as any).id,
+      userId,
       "Created task",
       "tasks",
       result.lastInsertRowid as number,
@@ -100,6 +112,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ id: result.lastInsertRowid, success: true });
   } catch (error) {
     console.error("Error creating task:", error);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    const errorMessage = error instanceof Error ? error.message : "Internal server error";
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
   }
 }

@@ -67,10 +67,19 @@ export default function TasksPage() {
     }
 
     try {
-      await fetch(`/api/tasks/${id}`, { method: "DELETE" });
+      const response = await fetch(`/api/tasks/${id}`, { method: "DELETE" });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        alert(`Failed to delete task: ${errorData.error || 'Unknown error'}`);
+        return;
+      }
+
+      // Successfully deleted - refresh the list
       fetchTasks();
     } catch (error) {
       console.error("Error deleting task:", error);
+      alert("Failed to delete task. Please try again.");
     }
   };
 
