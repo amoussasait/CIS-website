@@ -17,6 +17,12 @@ const db = new Database(dbPath);
 // Enable foreign keys
 db.pragma('foreign_keys = ON');
 
+// Use DELETE journal mode instead of WAL to avoid OneDrive sync issues
+db.pragma('journal_mode = DELETE');
+
+// Set synchronous mode to NORMAL for better performance with OneDrive
+db.pragma('synchronous = NORMAL');
+
 // Initialize database schema
 export function initializeDatabase() {
   // Users table
