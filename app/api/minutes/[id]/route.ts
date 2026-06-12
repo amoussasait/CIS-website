@@ -17,20 +17,20 @@ export async function GET(
 
     const { id } = await params;
 
-    const minute = db.prepare(`
+    const minute = await db`
       SELECT
         m.*,
         u.name as created_by_name
       FROM meeting_minutes m
       LEFT JOIN users u ON m.created_by = u.id
-      WHERE m.id = ?
-    `).get(id);
+      WHERE m.id = ${parseInt(id)}
+    `;
 
-    if (!minute) {
+    if (!minute || minute.length === 0) {
       return NextResponse.json({ error: "Not found" }, { status: 404 });
     }
 
-    return NextResponse.json(minute);
+    return NextResponse.json(minute[0]);
   } catch (error) {
     console.error("Error fetching minute:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
@@ -52,13 +52,17 @@ export async function PUT(
     const data = await request.json();
     const { title, meeting_date, content, file_path } = data;
 
-    db.prepare(`
+    await db`
       UPDATE meeting_minutes
-      SET title = ?, meeting_date = ?, content = ?, file_path = ?, updated_at = CURRENT_TIMESTAMP
-      WHERE id = ?
-    `).run(title, meeting_date, content, file_path || null, id);
+      SET title = ${title},
+          meeting_date = ${meeting_date},
+          content = ${content},
+          file_path = ${file_path || null},
+          updated_at = CURRENT_TIMESTAMP
+      WHERE id = ${parseInt(id)}
+    `;
 
-    logActivity(
+    await logActivity(
       (session.user as any).id,
       "Updated meeting minutes",
       "meeting_minutes",
@@ -86,16 +90,16 @@ export async function DELETE(
 
     const { id } = await params;
 
-    const minute = db.prepare("SELECT title FROM meeting_minutes WHERE id = ?").get(id) as any;
+    const minute = await db`SELECT title FROM meeting_minutes WHERE id = ${parseInt(id)}`;
 
-    db.prepare("DELETE FROM meeting_minutes WHERE id = ?").run(id);
+    await db`DELETE FROM meeting_minutes WHERE id = ${parseInt(id)}`;
 
-    logActivity(
+    await logActivity(
       (session.user as any).id,
       "Deleted meeting minutes",
       "meeting_minutes",
       parseInt(id),
-      minute?.title
+      minute[0]?.title
     );
 
     return NextResponse.json({ success: true });

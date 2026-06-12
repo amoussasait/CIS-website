@@ -12,14 +12,14 @@ export async function GET() {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const agendas = db.prepare(`
+    const agendas = await db`
       SELECT
         a.*,
         u.name as created_by_name
       FROM agendas a
       LEFT JOIN users u ON a.created_by = u.id
       ORDER BY a.meeting_date DESC
-    `).all();
+    `;
 
     return NextResponse.json(agendas);
   } catch (error) {
@@ -39,35 +39,33 @@ export async function POST(request: NextRequest) {
     const data = await request.json();
     const { title, meeting_date, content, agenda_item_ids } = data;
 
-    const result = db.prepare(`
+    const result = await db`
       INSERT INTO agendas (title, meeting_date, content, created_by)
-      VALUES (?, ?, ?, ?)
-    `).run(title, meeting_date, content, (session.user as any).id);
+      VALUES (${title}, ${meeting_date}, ${content}, ${(session.user as any).id})
+      RETURNING id
+    `;
 
-    const agendaId = result.lastInsertRowid as number;
+    const agendaId = result[0].id;
 
     // Link agenda items to this agenda
     if (agenda_item_ids && agenda_item_ids.length > 0) {
-      const insertMapping = db.prepare(`
-        INSERT INTO agenda_item_mappings (agenda_id, agenda_item_id, order_index)
-        VALUES (?, ?, ?)
-      `);
-
-      agenda_item_ids.forEach((itemId: number, index: number) => {
-        insertMapping.run(agendaId, itemId, index);
-      });
+      for (let index = 0; index < agenda_item_ids.length; index++) {
+        const itemId = agenda_item_ids[index];
+        await db`
+          INSERT INTO agenda_item_mappings (agenda_id, agenda_item_id, order_index)
+          VALUES (${agendaId}, ${itemId}, ${index})
+        `;
+      }
 
       // Mark items as included
-      const updateStatus = db.prepare(`
-        UPDATE agenda_items SET status = 'included' WHERE id = ?
-      `);
-
-      agenda_item_ids.forEach((itemId: number) => {
-        updateStatus.run(itemId);
-      });
+      for (const itemId of agenda_item_ids) {
+        await db`
+          UPDATE agenda_items SET status = 'included' WHERE id = ${itemId}
+        `;
+      }
     }
 
-    logActivity(
+    await logActivity(
       (session.user as any).id,
       "Created agenda",
       "agendas",

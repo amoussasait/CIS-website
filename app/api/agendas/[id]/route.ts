@@ -17,29 +17,31 @@ export async function GET(
 
     const { id } = await params;
 
-    const agenda = db.prepare(`
+    const agendaResult = await db`
       SELECT
         a.*,
         u.name as created_by_name
       FROM agendas a
       LEFT JOIN users u ON a.created_by = u.id
-      WHERE a.id = ?
-    `).get(id);
+      WHERE a.id = ${parseInt(id)}
+    `;
 
-    if (!agenda) {
+    if (!agendaResult || agendaResult.length === 0) {
       return NextResponse.json({ error: "Not found" }, { status: 404 });
     }
 
+    const agenda = agendaResult[0];
+
     // Get linked agenda items
-    const items = db.prepare(`
+    const items = await db`
       SELECT
         ai.*,
         aim.order_index
       FROM agenda_item_mappings aim
       JOIN agenda_items ai ON aim.agenda_item_id = ai.id
-      WHERE aim.agenda_id = ?
+      WHERE aim.agenda_id = ${parseInt(id)}
       ORDER BY aim.order_index ASC
-    `).all(id);
+    `;
 
     return NextResponse.json({ ...agenda, items });
   } catch (error) {
@@ -61,37 +63,37 @@ export async function POST(
 
     const { id } = await params;
 
-    const agenda = db.prepare("SELECT * FROM agendas WHERE id = ?").get(id) as any;
+    const agendaResult = await db`SELECT * FROM agendas WHERE id = ${parseInt(id)}`;
 
-    if (!agenda) {
+    if (!agendaResult || agendaResult.length === 0) {
       return NextResponse.json({ error: "Not found" }, { status: 404 });
     }
 
+    const agenda = agendaResult[0];
+
     // Get all committee members
-    const users = db.prepare("SELECT email, name FROM users").all() as any[];
+    const users = await db`SELECT email, name FROM users`;
 
     // Queue emails to all members
-    const insertEmail = db.prepare(`
-      INSERT INTO email_queue (to_email, to_name, subject, body)
-      VALUES (?, ?, ?, ?)
-    `);
-
-    users.forEach((user) => {
-      insertEmail.run(
-        user.email,
-        user.name,
-        `Agenda: ${agenda.title}`,
-        `Meeting Date: ${new Date(agenda.meeting_date).toLocaleDateString()}\n\n${agenda.content}\n\nPlease review and prepare for the meeting.`
-      );
-    });
+    for (const user of users) {
+      await db`
+        INSERT INTO email_queue (to_email, to_name, subject, body)
+        VALUES (
+          ${user.email},
+          ${user.name},
+          ${`Agenda: ${agenda.title}`},
+          ${`Meeting Date: ${new Date(agenda.meeting_date).toLocaleDateString()}\n\n${agenda.content}\n\nPlease review and prepare for the meeting.`}
+        )
+      `;
+    }
 
     // Mark agenda as sent
-    db.prepare(`
+    await db`
       UPDATE agendas SET sent_at = CURRENT_TIMESTAMP, status = 'sent'
-      WHERE id = ?
-    `).run(id);
+      WHERE id = ${parseInt(id)}
+    `;
 
-    logActivity(
+    await logActivity(
       (session.user as any).id,
       "Sent agenda to all members",
       "agendas",

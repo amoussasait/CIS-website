@@ -19,13 +19,16 @@ export async function PUT(
     const data = await request.json();
     const { title, description, status, priority } = data;
 
-    db.prepare(`
+    await db`
       UPDATE agenda_items
-      SET title = ?, description = ?, status = ?, priority = ?
-      WHERE id = ?
-    `).run(title, description || null, status, priority || 0, id);
+      SET title = ${title},
+          description = ${description || null},
+          status = ${status},
+          priority = ${priority || 0}
+      WHERE id = ${parseInt(id)}
+    `;
 
-    logActivity(
+    await logActivity(
       (session.user as any).id,
       "Updated agenda item",
       "agenda_items",
@@ -53,16 +56,16 @@ export async function DELETE(
 
     const { id } = await params;
 
-    const item = db.prepare("SELECT title FROM agenda_items WHERE id = ?").get(id) as any;
+    const item = await db`SELECT title FROM agenda_items WHERE id = ${parseInt(id)}`;
 
-    db.prepare("DELETE FROM agenda_items WHERE id = ?").run(id);
+    await db`DELETE FROM agenda_items WHERE id = ${parseInt(id)}`;
 
-    logActivity(
+    await logActivity(
       (session.user as any).id,
       "Deleted agenda item",
       "agenda_items",
       parseInt(id),
-      item?.title
+      item[0]?.title
     );
 
     return NextResponse.json({ success: true });
