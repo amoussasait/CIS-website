@@ -10,29 +10,36 @@ export default async function DashboardPage() {
   const session = await auth();
 
   // Get statistics
+  const [totalMinutesResult, myTasksResult, pendingAgendaItemsResult, totalMembersResult] = await Promise.all([
+    db`SELECT COUNT(*) as count FROM meeting_minutes`,
+    db`SELECT COUNT(*) as count FROM tasks WHERE assigned_to = ${(session?.user as any)?.id} AND status != 'completed'`,
+    db`SELECT COUNT(*) as count FROM agenda_items WHERE status = 'proposed'`,
+    db`SELECT COUNT(*) as count FROM users`
+  ]);
+
   const stats = {
-    totalMinutes: db.prepare("SELECT COUNT(*) as count FROM meeting_minutes").get() as { count: number },
-    myTasks: db.prepare("SELECT COUNT(*) as count FROM tasks WHERE assigned_to = ? AND status != 'completed'").get(session?.user?.id) as { count: number },
-    pendingAgendaItems: db.prepare("SELECT COUNT(*) as count FROM agenda_items WHERE status = 'proposed'").get() as { count: number },
-    totalMembers: db.prepare("SELECT COUNT(*) as count FROM users").get() as { count: number },
+    totalMinutes: totalMinutesResult[0],
+    myTasks: myTasksResult[0],
+    pendingAgendaItems: pendingAgendaItemsResult[0],
+    totalMembers: totalMembersResult[0],
   };
 
   // Get recent tasks
-  const recentTasks = db.prepare(`
+  const recentTasks = await db`
     SELECT id, title, status, due_date, assigned_to_name
     FROM tasks
-    WHERE assigned_to = ?
+    WHERE assigned_to = ${(session?.user as any)?.id}
     ORDER BY created_at DESC
     LIMIT 5
-  `).all(session?.user?.id) as any[];
+  `;
 
   // Get recent meeting minutes
-  const recentMinutes = db.prepare(`
+  const recentMinutes = await db`
     SELECT id, title, meeting_date
     FROM meeting_minutes
     ORDER BY meeting_date DESC
     LIMIT 5
-  `).all() as any[];
+  `;
 
   return (
     <div className="space-y-8">

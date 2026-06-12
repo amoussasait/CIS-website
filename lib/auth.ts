@@ -19,11 +19,13 @@ export const authOptions: NextAuthOptions = {
 
         try {
           // Find user in database
-          const user = db.prepare(`
+          const users = await db`
             SELECT id, email, name, password_hash, role
             FROM users
-            WHERE email = ?
-          `).get(credentials.email as string) as any;
+            WHERE email = ${credentials.email as string}
+          `;
+
+          const user = users[0];
 
           if (!user) {
             return null;

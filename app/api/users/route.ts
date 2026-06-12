@@ -12,11 +12,11 @@ export async function GET() {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const users = db.prepare(`
+    const users = await db`
       SELECT id, email, name, role
       FROM users
       ORDER BY name ASC
-    `).all();
+    `;
 
     return NextResponse.json(users);
   } catch (error) {

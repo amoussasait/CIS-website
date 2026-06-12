@@ -17,31 +17,31 @@ export async function GET(
 
     const { id } = await params;
 
-    const task = db.prepare(`
+    const task = await db`
       SELECT
         t.*,
         creator.name as created_by_name
       FROM tasks t
       LEFT JOIN users creator ON t.created_by = creator.id
-      WHERE t.id = ?
-    `).get(id);
+      WHERE t.id = ${parseInt(id)}
+    `;
 
-    if (!task) {
+    if (!task || task.length === 0) {
       return NextResponse.json({ error: "Not found" }, { status: 404 });
     }
 
     // Get comments
-    const comments = db.prepare(`
+    const comments = await db`
       SELECT
         c.*,
         u.name as user_name
       FROM task_comments c
       LEFT JOIN users u ON c.user_id = u.id
-      WHERE c.task_id = ?
+      WHERE c.task_id = ${parseInt(id)}
       ORDER BY c.created_at ASC
-    `).all(id);
+    `;
 
-    return NextResponse.json({ ...task, comments });
+    return NextResponse.json({ ...task[0], comments });
   } catch (error) {
     console.error("Error fetching task:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
@@ -65,25 +65,22 @@ export async function PUT(
 
     const completedAt = status === 'completed' ? new Date().toISOString() : null;
 
-    db.prepare(`
+    await db`
       UPDATE tasks
-      SET title = ?, description = ?, assigned_to = ?, assigned_to_email = ?, assigned_to_name = ?,
-          status = ?, priority = ?, due_date = ?, completed_at = ?, updated_at = CURRENT_TIMESTAMP
-      WHERE id = ?
-    `).run(
-      title,
-      description || null,
-      assigned_to || null,
-      assigned_to_email || null,
-      assigned_to_name || null,
-      status,
-      priority,
-      due_date || null,
-      completedAt,
-      id
-    );
+      SET title = ${title},
+          description = ${description || null},
+          assigned_to = ${assigned_to || null},
+          assigned_to_email = ${assigned_to_email || null},
+          assigned_to_name = ${assigned_to_name || null},
+          status = ${status},
+          priority = ${priority},
+          due_date = ${due_date || null},
+          completed_at = ${completedAt},
+          updated_at = CURRENT_TIMESTAMP
+      WHERE id = ${parseInt(id)}
+    `;
 
-    logActivity(
+    await logActivity(
       (session.user as any).id,
       "Updated task",
       "tasks",
@@ -111,16 +108,16 @@ export async function DELETE(
 
     const { id } = await params;
 
-    const task = db.prepare("SELECT title FROM tasks WHERE id = ?").get(id) as any;
+    const task = await db`SELECT title FROM tasks WHERE id = ${parseInt(id)}`;
 
-    db.prepare("DELETE FROM tasks WHERE id = ?").run(id);
+    await db`DELETE FROM tasks WHERE id = ${parseInt(id)}`;
 
-    logActivity(
+    await logActivity(
       (session.user as any).id,
       "Deleted task",
       "tasks",
       parseInt(id),
-      task?.title
+      task[0]?.title
     );
 
     return NextResponse.json({ success: true });
