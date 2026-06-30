@@ -2,9 +2,15 @@
 
 import { X } from "lucide-react"
 import { useState } from "react"
+import { useParams } from "next/navigation"
+import { useTranslations } from "next-intl"
+import Link from "next/link"
 
 export function AnnouncementBar() {
   const [isVisible, setIsVisible] = useState(true)
+  const t = useTranslations('Announcement')
+  const params = useParams()
+  const locale = params?.locale || 'en'
 
   if (!isVisible) return null
 
@@ -13,10 +19,10 @@ export function AnnouncementBar() {
       <div className="max-w-7xl mx-auto px-6 py-3">
         <div className="flex items-center justify-between gap-4">
           <p className="text-sm font-medium text-center flex-1">
-            Important: School registration for 2026-2027 is now open.{" "}
-            <a href="/registration" className="underline hover:no-underline">
+            {t('important')}: {t('registrationOpen')}{" "}
+            <Link href={`/${locale}/registration`} className="underline hover:no-underline">
               Learn more
-            </a>
+            </Link>
           </p>
           <button
             onClick={() => setIsVisible(false)}

@@ -47,7 +47,7 @@ export const directors: Director[] = [
     name: "Mohamed Zohiri",
     position: "Director",
     representative: "Representative of Muslim Council of Calgary",
-    bio: "Board member. Bio coming soon.",
+    bio: "Mohamed Zohiri serves as a Board Member of the Calgary Islamic School Society (CISS). He is a lawyer and fintech adviser with extensive experience in securities regulation, governance, risk management, and public policy. In his professional role, he advises on matters relating to financial innovation, emerging technologies, and regulatory compliance within Canada's capital markets.\n\nPassionate about education, community service, and youth development, Mohamed is committed to supporting CISS's mission of providing high-quality academic education grounded in Islamic values. He brings a strategic perspective to the Board, drawing on his experience in legal, regulatory, and organizational governance matters to help strengthen the Society's long-term vision and sustainability.\n\nMohamed resides in Alberta with his family and is dedicated to fostering opportunities that enable students to achieve academic excellence, strong character, and meaningful engagement with their communities.",
   },
   {
     name: "Basir Saleh",

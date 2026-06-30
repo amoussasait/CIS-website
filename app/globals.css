@@ -129,6 +129,8 @@
 }
 
 @custom-variant dark (&:is(.dark *));
+@custom-variant rtl (:where([dir="rtl"], [dir="rtl"] *) &);
+@custom-variant ltr (:where([dir="ltr"], [dir="ltr"] *) &);
 
 :root {
   /* Updated color palette for CISS: deep navy/indigo primary, teal secondary, warm gold accent */
@@ -224,7 +226,8 @@
 }
 
 @theme inline {
-  --font-sans: "Geist", "Geist Fallback";
+  --font-sans: var(--font-geist, "Geist"), ui-sans-serif, system-ui, sans-serif;
+  --font-cairo: var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback";
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -270,5 +273,25 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Better spacing for Arabic/Urdu text */
+  .font-cairo {
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+  }
+
+  .font-cairo p,
+  .font-cairo h1,
+  .font-cairo h2,
+  .font-cairo h3,
+  .font-cairo h4,
+  .font-cairo h5,
+  .font-cairo h6 {
+    line-height: 1.8;
+  }
+
+  .font-cairo p {
+    margin-bottom: 1rem;
   }
 }

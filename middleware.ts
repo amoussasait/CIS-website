@@ -1,11 +1,20 @@
-import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
+import createMiddleware from 'next-intl/middleware';
+import { locales, defaultLocale } from './i18n/request';
 
-export function middleware(request: NextRequest) {
-  // Middleware is simplified - actual auth check happens in dashboard layout
-  return NextResponse.next();
-}
+export default createMiddleware({
+  // A list of all locales that are supported
+  locales,
+
+  // Used when no locale matches
+  defaultLocale,
+
+  // Always use prefix for locale (e.g., /en/dashboard, /ar/contact)
+  localePrefix: 'always'
+});
 
 export const config = {
-  matcher: ["/dashboard/:path*"],
+  // Match all pathnames except for
+  // - … if they start with `/api`, `/_next` or `/_vercel`
+  // - … the ones containing a dot (e.g. `favicon.ico`)
+  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
 };

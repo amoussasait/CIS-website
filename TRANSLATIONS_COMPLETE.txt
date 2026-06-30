@@ -1,0 +1,1611 @@
+================================================================================
+CISS WEBSITE - TRANSLATIONS COMPLETE (Arabic & Urdu)
+================================================================================
+
+---
+SECTION 1: HOMEPAGE HERO
+---
+
+[English] Serving Calgary's Muslim community through excellent Islamic education
+[Arabic] خدمة الجالية المسلمة في كالغاري من خلال تعليم إسلامي متميز
+[Urdu] کیلگری کی مسلم کمیونٹی کی بہترین اسلامی تعلیم کے ذریعے خدمت
+
+[English] Calgary Islamic School Society (CISS) oversees two campuses and is planning future growth.
+[Arabic] تشرف جمعية مدارس كالغاري الإسلامية (CISS) على حرمين دراسيين وتخطط للنمو المستقبلي.
+[Urdu] کیلگری اسلامک اسکول سوسائٹی (CISS) دو کیمپسز کی نگرانی کرتی ہے اور مستقبل کی ترقی کی منصوبہ بندی کر رہی ہے۔
+
+[English] For Parents
+[Arabic] لأولياء الأمور
+[Urdu] والدین کے لیے
+
+[English] Contact Us
+[Arabic] تواصل معنا
+[Urdu] ہم سے رابطہ کریں
+
+---
+SECTION 2: HOMEPAGE STATS
+---
+
+[English] Years of Service
+[Arabic] سنوات من الخدمة
+[Urdu] خدمت کے سال
+
+[English] Serving Calgary families
+[Arabic] خدمة عائلات كالغاري
+[Urdu] کیلگری کے خاندانوں کی خدمت
+
+[English] Students
+[Arabic] طلاب
+[Urdu] طلباء
+
+[English] Across both campuses
+[Arabic] في كلا الحرمين
+[Urdu] دونوں کیمپسز میں
+
+[English] Campuses
+[Arabic] الحرمين الدراسيين
+[Urdu] کیمپسز
+
+[English] Elementary & Secondary
+[Arabic] الابتدائية والثانوية
+[Urdu] پرائمری اور سیکنڈری
+
+[English] Full Curriculum
+[Arabic] منهج دراسي كامل
+[Urdu] مکمل نصاب
+
+[English] Complete education pathway
+[Arabic] مسار تعليمي متكامل
+[Urdu] مکمل تعلیمی راہ
+
+---
+SECTION 3: HOMEPAGE COMMUNICATION
+---
+
+[English] PRIORITY
+[Arabic] أولوية
+[Urdu] ترجیح
+
+[English] Clear, consistent communication with parents is a priority
+[Arabic] التواصل الواضح والمستمر مع أولياء الأمور يمثل أولوية لدينا
+[Urdu] والدین کے ساتھ واضح اور مسلسل رابطہ ہماری ترجیح ہے
+
+[English] Stay informed, connected, and engaged with everything happening at CISS
+[Arabic] ابقَ على اطلاع وتواصل ومشاركة في كل ما يجري في CISS
+[Urdu] CISS میں ہونے والی ہر سرگرمی سے باخبر، جڑے اور شامل رہیں
+
+[English] Announcements & Updates
+[Arabic] الإعلانات والمستجدات
+[Urdu] اعلانات اور تازہ کاری
+
+[English] View All Announcements
+[Arabic] عرض جميع الإعلانات
+[Urdu] تمام اعلانات دیکھیں
+
+[English] Ask CISS
+[Arabic] اسأل CISS
+[Urdu] CISS سے پوچھیں
+
+[English] Quick contact for questions and concerns
+[Arabic] تواصل سريع للأسئلة والاستفسارات
+[Urdu] سوالات اور خدشات کے لیے فوری رابطہ
+
+[English] Parent Portal
+[Arabic] بوابة أولياء الأمور
+[Urdu] والدین کا پورٹل
+
+[English] Access resources, forms, and calendars
+[Arabic] الوصول إلى الموارد والنماذج والتقاويم
+[Urdu] وسائل، فارمز اور کیلنڈرز تک رسائی
+
+[English] Visit Portal
+[Arabic] زيارة البوابة
+[Urdu] پورٹل ملاحظہ کریں
+
+[English] FAQ
+[Arabic] الأسئلة الشائعة
+[Urdu] اکثر پوچھے گئے سوالات
+
+[English] Find answers to common questions
+[Arabic] العثور على إجابات للأسئلة الشائعة
+[Urdu] عام سوالات کے جوابات تلاش کریں
+
+[English] View FAQ
+[Arabic] عرض الأسئلة الشائعة
+[Urdu] سوالات دیکھیں
+
+---
+SECTION 4: WHY CHOOSE CISS
+---
+
+[English] Why Choose CISS
+[Arabic] لماذا تختار CISS
+[Urdu] CISS کا انتخاب کیوں کریں
+
+[English] Excellence in Islamic education for over two decades
+[Arabic] التميز في التعليم الإسلامي لأكثر من عقدين
+[Urdu] دو دہائیوں سے زائد عرصے سے اسلامی تعلیم میں عمدگی
+
+[English] Two Campuses Serving Calgary
+[Arabic] حرمان دراسيان يخدمان كالغاري
+[Urdu] کیلگری کی خدمت میں دو کیمپسز
+
+[English] Comprehensive K-12 education across two well-established schools
+[Arabic] تعليم شامل من الروضة حتى الصف الثاني عشر في مدرستين راسختين
+[Urdu] دو معروف اسکولوں میں کنڈرگارٹن سے بارہویں جماعت تک جامع تعلیم
+
+[English] Academic Excellence & Islamic Values
+[Arabic] التميز الأكاديمي والقيم الإسلامية
+[Urdu] تعلیمی عمدگی اور اسلامی اقدار
+
+[English] Rigorous curriculum integrated with Islamic principles and character development
+[Arabic] منهج دراسي صارم يدمج المبادئ الإسلامية وبناء الشخصية
+[Urdu] سخت نصاب جو اسلامی اصولوں اور کردار سازی کے ساتھ مربوط ہے
+
+[English] Strong Partnership with Parents
+[Arabic] شراكة قوية مع أولياء الأمور
+[Urdu] والدین کے ساتھ مضبوط شراکت داری
+
+[English] Open communication and collaboration between school, home, and community
+[Arabic] تواصل وتعاون مفتوح بين المدرسة والمنزل والمجتمع
+[Urdu] اسکول، گھر اور کمیونٹی کے درمیان کھلا رابطہ اور تعاون
+
+[English] Planning for Future Growth
+[Arabic] التخطيط للنمو المستقبلي
+[Urdu] مستقبل کی ترقی کی منصوبہ بندی
+
+[English] Strategic expansion including unified campus and online education
+[Arabic] توسع استراتيجي يشمل حرماً موحداً وتعليماً عبر الإنترنت
+[Urdu] حکمت عملی کے تحت توسیع جس میں متحدہ کیمپس اور آن لائن تعلیم شامل ہے
+
+---
+SECTION 5: OUR SCHOOLS
+---
+
+[English] Our Schools
+[Arabic] مدارسنا
+[Urdu] ہمارے اسکول
+
+[English] Two established campuses providing quality Islamic education in Calgary
+[Arabic] حرمان دراسيان راسخان يقدمان تعليماً إسلامياً عالي الجودة في كالغاري
+[Urdu] کیلگری میں معیاری اسلامی تعلیم فراہم کرنے والے دو مستحکم کیمپسز
+
+[English] Kindergarten through Grade 12 education with a nurturing environment that builds strong academic and Islamic foundations
+[Arabic] تعليم من الروضة حتى الصف الثاني عشر ضمن بيئة حاضنة تبني أسساً أكاديمية وإسلامية متينة
+[Urdu] کنڈرگارٹن سے بارہویں جماعت تک تعلیم، ایک پرورش بخش ماحول میں جو مضبوط تعلیمی اور اسلامی بنیادیں استوار کرتا ہے
+
+[English] Learn More
+[Arabic] اعرف المزيد
+[Urdu] مزید جانیں
+
+[English] Kindergarten through Grade 9 education focused on building strong academic foundations and Islamic character
+[Arabic] تعليم من الروضة حتى الصف التاسع يركز على بناء أسس أكاديمية متينة وشخصية إسلامية
+[Urdu] کنڈرگارٹن سے نویں جماعت تک تعلیم جو مضبوط تعلیمی بنیادوں اور اسلامی کردار کی تشکیل پر مرکوز ہے
+
+---
+SECTION 6: OUR FOUNDATION
+---
+
+[English] Our Foundation
+[Arabic] أسسنا
+[Urdu] ہماری بنیاد
+
+[English] The principles that guide everything we do
+[Arabic] المبادئ التي توجه كل ما نقوم به
+[Urdu] وہ اصول جو ہمارے ہر کام کی رہنمائی کرتے ہیں
+
+[English] Mission
+[Arabic] الرسالة
+[Urdu] مشن
+
+[English] Calgary Islamic School strives to develop an enriched learning community that promotes academic achievement, leadership, and Islamic values.
+[Arabic] تسعى مدرسة كالغاري الإسلامية إلى تطوير مجتمع تعليمي ثري يعزز التحصيل الأكاديمي والقيادة والقيم الإسلامية.
+[Urdu] کیلگری اسلامک اسکول ایک بھرپور تعلیمی کمیونٹی کی تشکیل کے لیے کوشاں ہے جو تعلیمی کامیابی، قیادت اور اسلامی اقدار کو فروغ دیتی ہے۔
+
+[English] Vision
+[Arabic] الرؤية
+[Urdu] وژن
+
+[English] To build and maintain a learning community that produces leaders through faith, knowledge, and ingenuity.
+[Arabic] بناء والحفاظ على مجتمع تعليمي يُخرّج قادة من خلال الإيمان والمعرفة والإبداع.
+[Urdu] ایک ایسی تعلیمی کمیونٹی کی تعمیر اور برقراری جو ایمان، علم اور تخلیقی صلاحیت کے ذریعے قائدین پیدا کرے۔
+
+[English] Beliefs
+[Arabic] المعتقدات
+[Urdu] عقائد
+
+[English] We believe that education is a shared responsibility between the school, parents, and the community, and that Islamic principles guide moral character, personal development, and lifelong learning.
+[Arabic] نؤمن بأن التعليم مسؤولية مشتركة بين المدرسة وأولياء الأمور والمجتمع، وأن المبادئ الإسلامية توجه الأخلاق والتطور الشخصي والتعلم مدى الحياة.
+[Urdu] ہمارا یقین ہے کہ تعلیم اسکول، والدین اور کمیونٹی کے درمیان مشترکہ ذمہ داری ہے، اور اسلامی اصول اخلاقی کردار، ذاتی نشوونما اور تاحیات سیکھنے کی رہنمائی کرتے ہیں۔
+
+[English] Values
+[Arabic] القيم
+[Urdu] اقدار
+
+[English] Sincerity
+[Arabic] الإخلاص
+[Urdu] اخلاص
+
+[English] Courage
+[Arabic] الشجاعة
+[Urdu] ہمت
+
+[English] Trustworthiness
+[Arabic] الأمانة
+[Urdu] دیانتداری
+
+[English] Patience
+[Arabic] الصبر
+[Urdu] صبر
+
+[English] Compassion
+[Arabic] الرحمة
+[Urdu] رحمدلی
+
+[English] Gratitude
+[Arabic] الشكر
+[Urdu] شکرگزاری
+
+[English] Humility
+[Arabic] التواضع
+[Urdu] عاجزی
+
+---
+SECTION 7: ABOUT PAGE - OVERVIEW
+---
+
+[English] Serving Calgary's Muslim Community with Excellence
+[Arabic] خدمة الجالية المسلمة في كالغاري بتميز
+[Urdu] کیلگری کی مسلم کمیونٹی کی عمدگی کے ساتھ خدمت
+
+[English] Calgary Islamic School Society
+[Arabic] جمعية مدارس كالغاري الإسلامية
+[Urdu] کیلگری اسلامک اسکول سوسائٹی
+
+[English] CISS is the governing society overseeing Islamic School of Calgary operations. We provide strategic leadership, governance, and oversight for our schools, ensuring they deliver excellent Islamic education that prepares students for success in this life and the hereafter.
+[Arabic] CISS هي الجمعية الإدارية المشرفة على عمليات مدرسة كالغاري الإسلامية. نوفر القيادة الاستراتيجية والحوكمة والإشراف على مدارسنا، لضمان تقديم تعليم إسلامي متميز يُعِدّ الطلاب للنجاح في الدنيا والآخرة.
+[Urdu] CISS وہ نگران سوسائٹی ہے جو اسلامک اسکول آف کیلگری کے امور کی نگرانی کرتی ہے۔ ہم اپنے اسکولوں کے لیے حکمت عملی، قیادت اور نگرانی فراہم کرتے ہیں، تاکہ یہ یقینی بنایا جا سکے کہ وہ ایسی بہترین اسلامی تعلیم فراہم کریں جو طلباء کو دنیا اور آخرت میں کامیابی کے لیے تیار کرے۔
+
+[English] Governance & Oversight
+[Arabic] الحوكمة والإشراف
+[Urdu] نگرانی اور انتظام
+
+[English] Strategic direction and accountability
+[Arabic] التوجه الاستراتيجي والمساءلة
+[Urdu] حکمت عملی کی سمت اور جوابدہی
+
+[English] Strategic Planning
+[Arabic] التخطيط الاستراتيجي
+[Urdu] حکمت عملی کی منصوبہ بندی
+
+[English] Long-term growth and expansion
+[Arabic] النمو والتوسع على المدى الطويل
+[Urdu] طویل مدتی ترقی اور توسیع
+
+[English] Community Trust
+[Arabic] ثقة المجتمع
+[Urdu] کمیونٹی کا اعتماد
+
+[English] Transparency and parent partnership
+[Arabic] الشفافية والشراكة مع أولياء الأمور
+[Urdu] شفافیت اور والدین کے ساتھ شراکت داری
+
+---
+SECTION 8: ABOUT PAGE - MOTTO
+---
+
+[English] Our Motto
+[Arabic] شعارنا
+[Urdu] ہمارا نعرہ
+
+[English] This motto encapsulates our commitment to nurturing well-rounded individuals who are grounded in Islamic faith, equipped with knowledge, and prepared to innovate and lead in an ever-changing world.
+[Arabic] يجسد هذا الشعار التزامنا بتنشئة أفراد متكاملين راسخين في الإيمان الإسلامي، مزودين بالمعرفة، ومستعدين للابتكار والقيادة في عالم دائم التغير.
+[Urdu] یہ نعرہ ایسے ہمہ جہت افراد کی پرورش کے لیے ہمارے عزم کو ظاہر کرتا ہے جو اسلامی ایمان میں راسخ، علم سے آراستہ، اور ایک مسلسل تبدیل ہوتی دنیا میں جدت اور قیادت کے لیے تیار ہوں۔
+
+---
+SECTION 9: ABOUT PAGE - DISTINCTIVE FEATURES
+---
+
+[English] What Makes CISS Schools Distinctive
+[Arabic] ما الذي يميز مدارس CISS
+[Urdu] CISS کے اسکولوں کو منفرد کیا بناتا ہے
+
+[English] Our unique approach integrates Islamic values with academic excellence, preparing students for success in both worlds
+[Arabic] نهجنا الفريد يدمج القيم الإسلامية مع التميز الأكاديمي، ويُعِدّ الطلاب للنجاح في الدارين
+[Urdu] ہمارا منفرد طریقہ کار اسلامی اقدار کو تعلیمی عمدگی کے ساتھ مربوط کرتا ہے، جو طلباء کو دونوں جہانوں میں کامیابی کے لیے تیار کرتا ہے
+
+[English] Sunni Islamic Studies
+[Arabic] الدراسات الإسلامية وفق المذهب السني
+[Urdu] سنی اسلامی علوم
+
+[English] Comprehensive Islamic education grounded in the Qur'an and Sunnah, teaching the tradition and values of Sunni Islam with qualified Islamic studies teachers
+[Arabic] تعليم إسلامي شامل قائم على القرآن والسنة، يُدرَّس على يد معلمين مؤهلين في الدراسات الإسلامية وفق تقاليد وقيم الإسلام السني
+[Urdu] قرآن و سنت پر مبنی جامع اسلامی تعلیم، جو اہل اساتذہ کے ذریعے سنی اسلام کی روایات اور اقدار سکھاتی ہے
+
+[English] Arabic Language Excellence
+[Arabic] التميز في اللغة العربية
+[Urdu] عربی زبان میں مہارت
+
+[English] Strong Arabic language program from Kindergarten through Grade 12, developing proficiency in reading, writing, and understanding Arabic as a living language
+[Arabic] برنامج قوي لتعليم اللغة العربية من الروضة حتى الصف الثاني عشر، يُنمّي مهارات القراءة والكتابة وفهم العربية كلغة حية
+[Urdu] کنڈرگارٹن سے بارہویں جماعت تک عربی زبان کا مضبوط پروگرام، جو عربی کو ایک زندہ زبان کے طور پر پڑھنے، لکھنے اور سمجھنے کی صلاحیت پیدا کرتا ہے
+
+[English] Qur'an Memorization (Tahfeeth)
+[Arabic] حفظ القرآن (التحفيظ)
+[Urdu] قرآن حفظ (تحفیظ)
+
+[English] Structured Tahfeeth program promoting Qur'an memorization and understanding, helping students develop a deep connection with the sacred text
+[Arabic] برنامج تحفيظ منظم يعزز حفظ القرآن وفهمه، ويساعد الطلاب على بناء صلة عميقة بالنص المقدس
+[Urdu] منظم تحفیظ پروگرام جو قرآن کے حفظ اور فہم کو فروغ دیتا ہے اور طلباء کو مقدس متن کے ساتھ گہرا تعلق پیدا کرنے میں مدد کرتا ہے
+
+[English] Character & Communication
+[Arabic] الشخصية والتواصل
+[Urdu] کردار اور ابلاغ
+
+[English] Focus on Islamic character building, respect for others, and effective communication skills that prepare students to be confident, articulate leaders
+[Arabic] التركيز على بناء الشخصية الإسلامية، واحترام الآخرين، ومهارات التواصل الفعّال التي تُعِدّ الطلاب ليكونوا قادة واثقين وبلغاء
+[Urdu] اسلامی کردار سازی، دوسروں کے احترام اور مؤثر ابلاغی مہارتوں پر توجہ جو طلباء کو پراعتماد اور فصیح قائدین بننے کے لیے تیار کرتی ہے
+
+[English] Active Canadian Citizenship
+[Arabic] المواطنة الكندية الفاعلة
+[Urdu] فعال کینیڈین شہریت
+
+[English] Empowering Muslim students to become active and responsible participants in building a diverse, respectful, and harmonious Canadian society while maintaining strong Islamic identity
+[Arabic] تمكين الطلاب المسلمين ليكونوا مشاركين فاعلين ومسؤولين في بناء مجتمع كندي متنوع ومتسامح ومنسجم، مع الحفاظ على هوية إسلامية راسخة
+[Urdu] مسلم طلباء کو ایک متنوع، باعزت اور ہم آہنگ کینیڈین معاشرے کی تعمیر میں فعال اور ذمہ دار شراکت دار بننے کے لیے بااختیار بنانا، جبکہ مضبوط اسلامی شناخت برقرار رکھنا
+
+---
+SECTION 10: ABOUT PAGE - PRIORITIES
+---
+
+[English] Our Priorities
+[Arabic] أولوياتنا
+[Urdu] ہماری ترجیحات
+
+[English] Strategic priorities that drive our commitment to student success and educational excellence
+[Arabic] أولويات استراتيجية تدفع التزامنا بنجاح الطلاب والتميز التعليمي
+[Urdu] حکمت عملی کی ترجیحات جو طلباء کی کامیابی اور تعلیمی عمدگی کے لیے ہمارے عزم کو آگے بڑھاتی ہیں
+
+[English] 1. ABC Model - Achievement, Behaviour, Celebrating
+[Arabic] 1. نموذج ABC - الإنجاز، السلوك، الاحتفاء
+[Urdu] 1. اے بی سی ماڈل - کامیابی، طرز عمل، جشن
+
+[English] Achievement
+[Arabic] الإنجاز
+[Urdu] کامیابی
+
+[English] Fostering a high-performance culture with high expectations for all students
+[Arabic] تعزيز ثقافة الأداء العالي مع توقعات عالية لجميع الطلاب
+[Urdu] تمام طلباء کے لیے اعلیٰ توقعات کے ساتھ اعلیٰ کارکردگی کی ثقافت کو فروغ دینا
+
+[English] Behaviour
+[Arabic] السلوك
+[Urdu] طرز عمل
+
+[English] Students demonstrate respectful, responsible, and safe behaviors rooted in Islamic values
+[Arabic] يُظهر الطلاب سلوكاً محترماً ومسؤولاً وآمناً متجذراً في القيم الإسلامية
+[Urdu] طلباء اسلامی اقدار میں جڑے ہوئے باعزت، ذمہ دارانہ اور محفوظ طرز عمل کا مظاہرہ کرتے ہیں
+
+[English] Celebrating
+[Arabic] الاحتفاء
+[Urdu] جشن منانا
+
+[English] Recognizing and celebrating excellence, achievement, and growth at all levels
+[Arabic] الاعتراف بالتميز والإنجاز والنمو والاحتفاء بها على جميع المستويات
+[Urdu] تمام سطحوں پر عمدگی، کامیابی اور ترقی کو تسلیم کرنا اور ان کا جشن منانا
+
+[English] 2. Strengthen Early Learning and Develop Literacy and Numeracy Foundation
+[Arabic] 2. تعزيز التعلم المبكر وتطوير أساسيات القراءة والكتابة والحساب
+[Urdu] 2. ابتدائی تعلیم کو مضبوط بنانا اور خواندگی و حساب کی بنیاد کی ترقی
+
+[English] Building strong foundational skills in literacy and numeracy from Kindergarten through Grade 3, ensuring every student has the tools for lifelong learning success.
+[Arabic] بناء مهارات أساسية قوية في القراءة والكتابة والحساب من الروضة حتى الصف الثالث، لضمان امتلاك كل طالب الأدوات اللازمة للنجاح في التعلم مدى الحياة.
+[Urdu] کنڈرگارٹن سے تیسری جماعت تک خواندگی اور حساب میں مضبوط بنیادی مہارتوں کی تعمیر، تاکہ ہر طالب علم کو تاحیات سیکھنے کی کامیابی کے لیے ضروری اوزار میسر ہوں۔
+
+[English] 3. Continually Improve Student Wellness, Connection and Cultural Identity
+[Arabic] 3. التحسين المستمر لرفاهية الطلاب وارتباطهم وهويتهم الثقافية
+[Urdu] 3. طلباء کی فلاح، تعلق اور ثقافتی شناخت میں مسلسل بہتری
+
+[English] Prioritizing mental health, wellness, and cultural connection while building strong Islamic identity and character development in all students.
+[Arabic] إعطاء الأولوية للصحة النفسية والرفاهية والارتباط الثقافي، مع بناء هوية إسلامية راسخة وتطوير الشخصية لدى جميع الطلاب.
+[Urdu] ذہنی صحت، فلاح اور ثقافتی تعلق کو ترجیح دینا، جبکہ تمام طلباء میں مضبوط اسلامی شناخت اور کردار سازی کی تعمیر کرنا۔
+
+[English] 4. Continually Improve Quality of Programs and Services
+[Arabic] 4. التحسين المستمر لجودة البرامج والخدمات
+[Urdu] 4. پروگراموں اور خدمات کے معیار میں مسلسل بہتری
+
+[English] Embracing a continuous improvement approach through regular assessment and enhancement of all educational programs and services.
+[Arabic] تبني نهج التحسين المستمر من خلال التقييم والتطوير المنتظم لجميع البرامج والخدمات التعليمية.
+[Urdu] تمام تعلیمی پروگراموں اور خدمات کی باقاعدہ تشخیص اور بہتری کے ذریعے مسلسل بہتری کے طریقہ کار کو اپنانا۔
+
+[English] 5. Champion Innovation and Continue to Strengthen Career Education and Apprenticeships
+[Arabic] 5. ريادة الابتكار ومواصلة تعزيز التعليم المهني والتدريب
+[Urdu] 5. جدت کو فروغ دینا اور پیشہ ورانہ تعلیم و تربیت کو مزید مضبوط بنانا
+
+[English] Preparing students for future careers through innovation, 21st century skills development, and strong career education pathways.
+[Arabic] إعداد الطلاب للمستقبل المهني من خلال الابتكار وتطوير مهارات القرن الحادي والعشرين ومسارات تعليم مهني قوية.
+[Urdu] جدت، اکیسویں صدی کی مہارتوں کی نشوونما اور مضبوط کیریئر تعلیمی راستوں کے ذریعے طلباء کو مستقبل کے کیریئر کے لیے تیار کرنا۔
+
+---
+SECTION 11: ABOUT PAGE - CISS RESPONSIBILITIES
+---
+
+[English] CISS Responsibilities
+[Arabic] مسؤوليات CISS
+[Urdu] CISS کی ذمہ داریاں
+
+[English] As the governing society, CISS ensures accountability, transparency, and excellence across all schools
+[Arabic] بصفتها الجمعية الإدارية، تضمن CISS المساءلة والشفافية والتميز في جميع المدارس
+[Urdu] نگران سوسائٹی کے طور پر، CISS تمام اسکولوں میں جوابدہی، شفافیت اور عمدگی کو یقینی بناتی ہے
+
+[English] Governance and Oversight
+[Arabic] الحوكمة والإشراف
+[Urdu] نگرانی اور انتظام
+
+[English] Providing strategic direction, policy development, and ensuring schools operate according to Islamic principles and educational best practices
+[Arabic] توفير التوجه الاستراتيجي وتطوير السياسات وضمان عمل المدارس وفق المبادئ الإسلامية وأفضل الممارسات التعليمية
+[Urdu] حکمت عملی کی سمت متعین کرنا، پالیسی سازی، اور یہ یقینی بنانا کہ اسکول اسلامی اصولوں اور بہترین تعلیمی طریقوں کے مطابق کام کریں
+
+[English] Strategic Planning and Growth
+[Arabic] التخطيط الاستراتيجي والنمو
+[Urdu] حکمت عملی کی منصوبہ بندی اور ترقی
+
+[English] Planning future expansion, including unified campus development and exploring online education opportunities for the community
+[Arabic] التخطيط للتوسع المستقبلي، بما في ذلك تطوير حرم موحد واستكشاف فرص التعليم عبر الإنترنت للمجتمع
+[Urdu] مستقبل کی توسیع کی منصوبہ بندی، بشمول متحدہ کیمپس کی تعمیر اور کمیونٹی کے لیے آن لائن تعلیم کے مواقع کی تلاش
+
+[English] Community Trust and Transparency
+[Arabic] ثقة المجتمع والشفافية
+[Urdu] کمیونٹی کا اعتماد اور شفافیت
+
+[English] Building strong partnerships with parents, maintaining open communication, and upholding the trust placed in us by the Calgary Muslim community
+[Arabic] بناء شراكات قوية مع أولياء الأمور، والحفاظ على تواصل مفتوح، وصون الثقة التي وضعها فينا مجتمع كالغاري المسلم
+[Urdu] والدین کے ساتھ مضبوط شراکت داری قائم کرنا، کھلا رابطہ برقرار رکھنا، اور کیلگری کی مسلم کمیونٹی کے اعتماد کو نبھانا
+
+[English] Supporting Existing Campuses
+[Arabic] دعم الحرمين القائمين
+[Urdu] موجودہ کیمپسز کی معاونت
+
+[English] Ensuring Akram Jomaa Islamic School and Omar Ibn Al-Khattab School have the resources, support, and leadership needed for excellence
+[Arabic] ضمان توفر الموارد والدعم والقيادة اللازمة للتميز لدى مدرسة أكرم جمعة الإسلامية ومدرسة عمر بن الخطاب
+[Urdu] یہ یقینی بنانا کہ Akram Jomaa Islamic School اور Omar Ibn Al-Khattab School کو عمدگی کے لیے درکار وسائل، تعاون اور قیادت میسر ہو
+
+---
+SECTION 12: ABOUT PAGE - GOVERNANCE DOCUMENTS
+---
+
+[English] Governance Documents
+[Arabic] وثائق الحوكمة
+[Urdu] نگرانی کی دستاویزات
+
+[English] Access official CISS governance documents and bylaws
+[Arabic] الوصول إلى وثائق الحوكمة واللوائح الرسمية لـ CISS
+[Urdu] CISS کی سرکاری نگرانی دستاویزات اور ضابطوں تک رسائی
+
+[English] CISS Bylaws
+[Arabic] لوائح CISS
+[Urdu] CISS کے ضابطے
+
+[English] Amended November 2025
+[Arabic] عُدّلت في نوفمبر 2025
+[Urdu] نومبر 2025 میں ترمیم شدہ
+
+[English] Official bylaws governing the conduct and operations of Calgary Islamic School Society, including membership, board structure, and governance procedures.
+[Arabic] اللوائح الرسمية التي تنظم سير عمل جمعية مدارس كالغاري الإسلامية، بما في ذلك العضوية وهيكل مجلس الإدارة وإجراءات الحوكمة.
+[Urdu] سرکاری ضابطے جو کیلگری اسلامک اسکول سوسائٹی کے طرز عمل اور کارکردگی کو منظم کرتے ہیں، بشمول رکنیت، بورڈ کا ڈھانچہ اور نگرانی کے طریقہ کار۔
+
+[English] Download Bylaws (PDF)
+[Arabic] تحميل اللوائح (PDF)
+[Urdu] ضابطے ڈاؤن لوڈ کریں (PDF)
+
+[English] Special Resolutions
+[Arabic] القرارات الخاصة
+[Urdu] خصوصی قراردادیں
+
+[English] October 27, 2025
+[Arabic] 27 أكتوبر 2025
+[Urdu] 27 اکتوبر 2025
+
+[English] Special resolutions of members regarding bylaw and objectives amendments, approved by the membership on October 27, 2025.
+[Arabic] قرارات خاصة من الأعضاء بشأن تعديلات اللوائح والأهداف، تمت الموافقة عليها من قبل الأعضاء بتاريخ 27 أكتوبر 2025.
+[Urdu] ارکان کی خصوصی قراردادیں جو ضابطوں اور مقاصد میں ترمیم سے متعلق ہیں، جنہیں 27 اکتوبر 2025 کو ارکان کی منظوری حاصل ہوئی۔
+
+[English] Coming Soon
+[Arabic] قريباً
+[Urdu] جلد آرہا ہے
+
+---
+SECTION 13: ABOUT PAGE - COMMITMENT
+---
+
+[English] Commitment to Parents and Community
+[Arabic] الالتزام تجاه أولياء الأمور والمجتمع
+[Urdu] والدین اور کمیونٹی سے عزم
+
+[English] CISS believes that education is a shared responsibility. We are committed to transparent governance, regular communication, and genuine partnership with parents. Your trust drives our commitment to accountability and excellence.
+[Arabic] تؤمن CISS بأن التعليم مسؤولية مشتركة. نحن ملتزمون بالحوكمة الشفافة والتواصل المنتظم والشراكة الحقيقية مع أولياء الأمور. ثقتكم هي ما يدفع التزامنا بالمساءلة والتميز.
+[Urdu] CISS کا یقین ہے کہ تعلیم ایک مشترکہ ذمہ داری ہے۔ ہم شفاف نگرانی، باقاعدہ رابطے اور والدین کے ساتھ حقیقی شراکت داری کے لیے پرعزم ہیں۔ آپ کا اعتماد جوابدہی اور عمدگی کے لیے ہمارے عزم کو آگے بڑھاتا ہے۔
+
+[English] We value your input and welcome your engagement. Together, we build a learning community that produces leaders through faith, knowledge, and ingenuity.
+[Arabic] نحن نقدّر آراءكم ونرحب بمشاركتكم. معاً، نبني مجتمعاً تعليمياً يُخرّج قادة من خلال الإيمان والمعرفة والإبداع.
+[Urdu] ہم آپ کی رائے کو اہمیت دیتے ہیں اور آپ کی شمولیت کا خیرمقدم کرتے ہیں۔ مل کر، ہم ایک ایسی تعلیمی کمیونٹی تعمیر کرتے ہیں جو ایمان، علم اور تخلیقی صلاحیت کے ذریعے قائدین پیدا کرے۔
+
+[English] Understanding Our Governance Structure
+[Arabic] فهم هيكل الحوكمة لدينا
+[Urdu] ہمارے نگرانی کے ڈھانچے کو سمجھنا
+
+[English] Learn about the roles and responsibilities of CISS, MCFC/MCC, parents, school parents councils, and school principals in our collaborative educational community.
+[Arabic] تعرف على أدوار ومسؤوليات CISS وMCFC/MCC وأولياء الأمور ومجالس أولياء أمور المدارس ومديري المدارس في مجتمعنا التعليمي التعاوني.
+[Urdu] ہماری باہمی تعلیمی کمیونٹی میں CISS، MCFC/MCC، والدین، اسکول والدین کونسلز اور اسکول پرنسپلز کے کردار اور ذمہ داریوں کے بارے میں جانیں۔
+
+[English] View Governance & Roles
+[Arabic] عرض الحوكمة والأدوار
+[Urdu] نگرانی اور کردار دیکھیں
+
+---
+SECTION 14: CONTACT PAGE
+---
+
+[English] We'd love to hear from you
+[Arabic] يسعدنا أن نسمع منكم
+[Urdu] ہمیں آپ سے سن کر خوشی ہوگی
+
+[English] Contact CISS
+[Arabic] تواصل مع CISS
+[Urdu] CISS سے رابطہ کریں
+
+[English] Get in touch with Calgary Islamic School Society for inquiries about enrollment, programs, or general questions
+[Arabic] تواصل مع جمعية مدارس كالغاري الإسلامية للاستفسار عن التسجيل أو البرامج أو أي أسئلة عامة
+[Urdu] داخلے، پروگراموں یا عمومی سوالات کے بارے میں کیلگری اسلامک اسکول سوسائٹی سے رابطہ کریں
+
+[English] Email
+[Arabic] البريد الإلكتروني
+[Urdu] ای میل
+
+[English] General inquiries and questions
+[Arabic] الاستفسارات والأسئلة العامة
+[Urdu] عمومی استفسارات اور سوالات
+
+[English] Response time: Within 1-2 business days
+[Arabic] وقت الاستجابة: خلال يوم إلى يومي عمل
+[Urdu] جوابی وقت: 1-2 کاروباری دنوں میں
+
+[English] Location
+[Arabic] الموقع
+[Urdu] مقام
+
+[English] Serving Calgary's Muslim community
+[Arabic] خدمة الجالية المسلمة في كالغاري
+[Urdu] کیلگری کی مسلم کمیونٹی کی خدمت
+
+[English] Calgary, Alberta, Canada
+[Arabic] كالغاري، ألبرتا، كندا
+[Urdu] کیلگری، البرٹا، کینیڈا
+
+[English] Monday - Friday
+[Arabic] الاثنين - الجمعة
+[Urdu] پیر - جمعہ
+
+[English] Until 4:15 PM
+[Arabic] حتى الساعة 4:15 مساءً
+[Urdu] شام 4:15 بجے تک
+
+[English] Until 3:30 PM
+[Arabic] حتى الساعة 3:30 مساءً
+[Urdu] دوپہر 3:30 بجے تک
+
+[English] Need More Information?
+[Arabic] هل تحتاج إلى مزيد من المعلومات؟
+[Urdu] مزید معلومات درکار ہیں؟
+
+[English] Visit our Parents & Communication Hub for FAQs, resources, and more ways to connect with CISS
+[Arabic] قم بزيارة مركز أولياء الأمور والتواصل للاطلاع على الأسئلة الشائعة والموارد ووسائل أخرى للتواصل مع CISS
+[Urdu] اکثر پوچھے گئے سوالات، وسائل اور CISS سے رابطے کے مزید طریقوں کے لیے ہمارے Parents & Communication Hub کا ملاحظہ کریں
+
+[English] Visit Parent Hub
+[Arabic] زيارة مركز أولياء الأمور
+[Urdu] Parent Hub ملاحظہ کریں
+
+[English] View FAQ
+[Arabic] عرض الأسئلة الشائعة
+[Urdu] سوالات دیکھیں
+
+---
+SECTION 15: BOARD PAGE - INTRO
+---
+
+[English] Governance, Trust, and Service to Our Community
+[Arabic] الحوكمة والثقة وخدمة مجتمعنا
+[Urdu] ہماری کمیونٹی کے لیے نگرانی، اعتماد اور خدمت
+
+[English] Leadership Committed to Excellence
+[Arabic] قيادة ملتزمة بالتميز
+[Urdu] عمدگی سے پرعزم قیادت
+
+[English] The CISS Board of Directors provides strategic oversight and governance for Calgary Islamic School Society. Our board members are dedicated community leaders who bring diverse expertise in education, business, healthcare, technology, and community service.
+[Arabic] يوفر مجلس إدارة CISS الإشراف الاستراتيجي والحوكمة لجمعية مدارس كالغاري الإسلامية. أعضاء مجلسنا هم قادة مجتمعيون متفانون يجلبون خبرات متنوعة في التعليم والأعمال والرعاية الصحية والتكنولوجيا والخدمة المجتمعية.
+[Urdu] CISS کا بورڈ آف ڈائریکٹرز کیلگری اسلامک اسکول سوسائٹی کے لیے حکمت عملی کی نگرانی اور انتظام فراہم کرتا ہے۔ ہمارے بورڈ ارکان وقف کمیونٹی رہنما ہیں جو تعلیم، کاروبار، صحت کی دیکھ بھال، ٹیکنالوجی اور کمیونٹی خدمت میں متنوع مہارت رکھتے ہیں۔
+
+[English] We are committed to transparency, accountability, and building trust with parents and the broader Calgary Muslim community. Our governance ensures that CISS schools maintain the highest standards of academic excellence integrated with Islamic values.
+[Arabic] نحن ملتزمون بالشفافية والمساءلة وبناء الثقة مع أولياء الأمور ومجتمع كالغاري المسلم الأوسع. تضمن حوكمتنا أن تحافظ مدارس CISS على أعلى معايير التميز الأكاديمي المتكامل مع القيم الإسلامية.
+[Urdu] ہم شفافیت، جوابدہی اور والدین اور کیلگری کی وسیع تر مسلم کمیونٹی کے ساتھ اعتماد کی تعمیر کے لیے پرعزم ہیں۔ ہماری نگرانی یہ یقینی بناتی ہے کہ CISS کے اسکول اسلامی اقدار کے ساتھ مربوط تعلیمی عمدگی کے اعلیٰ ترین معیارات برقرار رکھیں۔
+
+---
+SECTION 16: BOARD PAGE - RESPONSIBILITIES
+---
+
+[English] Board Responsibilities
+[Arabic] مسؤوليات مجلس الإدارة
+[Urdu] بورڈ کی ذمہ داریاں
+
+[English] Ensuring accountability, strategic planning, and community trust
+[Arabic] ضمان المساءلة والتخطيط الاستراتيجي وثقة المجتمع
+[Urdu] جوابدہی، حکمت عملی کی منصوبہ بندی اور کمیونٹی کے اعتماد کو یقینی بنانا
+
+[English] Our Governance Foundation
+[Arabic] أساس حوكمتنا
+[Urdu] ہماری نگرانی کی بنیاد
+
+[English] Ensuring community trust is the cornerstone of CISS Board governance. The Board governs by setting vision, policies, and goals, focusing on student achievement, and overseeing budgets, finances, and facilities.
+[Arabic] ضمان ثقة المجتمع هو حجر الزاوية في حوكمة مجلس إدارة CISS. يحكم المجلس من خلال وضع الرؤية والسياسات والأهداف، والتركيز على تحصيل الطلاب، والإشراف على الميزانيات والشؤون المالية والمرافق.
+[Urdu] کمیونٹی کے اعتماد کو یقینی بنانا CISS بورڈ کی نگرانی کا بنیادی ستون ہے۔ بورڈ وژن، پالیسیاں اور اہداف متعین کرکے، طلباء کی کامیابی پر توجہ دے کر، اور بجٹ، مالیات اور سہولیات کی نگرانی کرکے حکمرانی کرتا ہے۔
+
+[English] The Board prepares students for future success by ensuring bilingual (English and Arabic) quality education, representing Islamic community values, and prioritizing financial accountability.
+[Arabic] يُعِدّ المجلس الطلاب للنجاح المستقبلي من خلال ضمان تعليم ثنائي اللغة (الإنجليزية والعربية) عالي الجودة، وتمثيل قيم المجتمع الإسلامي، وإعطاء الأولوية للمساءلة المالية.
+[Urdu] بورڈ دو لسانی (انگریزی اور عربی) معیاری تعلیم کو یقینی بنا کر، اسلامی کمیونٹی کی اقدار کی نمائندگی کرکے اور مالی جوابدہی کو ترجیح دے کر طلباء کو مستقبل کی کامیابی کے لیے تیار کرتا ہے۔
+
+[English] Governance and Oversight
+[Arabic] الحوكمة والإشراف
+[Urdu] نگرانی اور انتظام
+
+[English] Providing strategic direction and ensuring the schools operate in accordance with Islamic principles, educational best practices, and legal requirements
+[Arabic] توفير التوجه الاستراتيجي وضمان عمل المدارس وفقاً للمبادئ الإسلامية وأفضل الممارسات التعليمية والمتطلبات القانونية
+[Urdu] حکمت عملی کی سمت متعین کرنا اور یہ یقینی بنانا کہ اسکول اسلامی اصولوں، بہترین تعلیمی طریقوں اور قانونی تقاضوں کے مطابق کام کریں
+
+[English] Financial Stewardship
+[Arabic] الإدارة المالية
+[Urdu] مالی نگہداشت
+
+[English] Ensuring responsible financial management, budget oversight, and long-term sustainability of CISS schools
+[Arabic] ضمان الإدارة المالية المسؤولة والإشراف على الميزانية والاستدامة طويلة الأمد لمدارس CISS
+[Urdu] CISS کے اسکولوں کے ذمہ دارانہ مالی انتظام، بجٹ کی نگرانی اور طویل مدتی استحکام کو یقینی بنانا
+
+[English] Student Achievement Focus
+[Arabic] التركيز على تحصيل الطلاب
+[Urdu] طلباء کی کامیابی پر توجہ
+
+[English] Setting goals and policies that prioritize student success through bilingual education (English and Arabic) and integrated Islamic values
+[Arabic] وضع أهداف وسياسات تعطي الأولوية لنجاح الطلاب من خلال التعليم ثنائي اللغة (الإنجليزية والعربية) والقيم الإسلامية المتكاملة
+[Urdu] ایسے اہداف اور پالیسیاں متعین کرنا جو دو لسانی تعلیم (انگریزی اور عربی) اور مربوط اسلامی اقدار کے ذریعے طلباء کی کامیابی کو ترجیح دیں
+
+[English] Community Representation
+[Arabic] تمثيل المجتمع
+[Urdu] کمیونٹی کی نمائندگی
+
+[English] Representing Islamic community values, building strong partnerships with parents, and maintaining open communication with the Calgary Muslim community
+[Arabic] تمثيل قيم المجتمع الإسلامي، وبناء شراكات قوية مع أولياء الأمور، والحفاظ على تواصل مفتوح مع مجتمع كالغاري المسلم
+[Urdu] اسلامی کمیونٹی کی اقدار کی نمائندگی کرنا، والدین کے ساتھ مضبوط شراکت داری قائم کرنا، اور کیلگری کی مسلم کمیونٹی کے ساتھ کھلا رابطہ برقرار رکھنا
+
+---
+SECTION 17: BOARD PAGE - MEETINGS & CONTACT
+---
+
+[English] Meet Our Board
+[Arabic] تعرف على مجلس إدارتنا
+[Urdu] ہمارے بورڈ سے ملیں
+
+[English] Experienced professionals united in their commitment to Islamic education and community service
+[Arabic] محترفون ذوو خبرة متحدون في التزامهم بالتعليم الإسلامي وخدمة المجتمع
+[Urdu] تجربہ کار پیشہ ور افراد جو اسلامی تعلیم اور کمیونٹی خدمت کے عزم میں متحد ہیں
+
+[English] Board Committees
+[Arabic] لجان مجلس الإدارة
+[Urdu] بورڈ کمیٹیاں
+
+[English] Finance Committee
+[Arabic] لجنة المالية
+[Urdu] مالیاتی کمیٹی
+
+[English] Governance Committee
+[Arabic] لجنة الحوكمة
+[Urdu] نگرانی کمیٹی
+
+[English] Parent Engagement Committee
+[Arabic] لجنة مشاركة أولياء الأمور
+[Urdu] والدین مشاورتی کمیٹی
+
+[English] Strategic Planning Committee
+[Arabic] لجنة التخطيط الاستراتيجي
+[Urdu] حکمت عملی منصوبہ بندی کمیٹی
+
+[English] Board Meetings
+[Arabic] اجتماعات مجلس الإدارة
+[Urdu] بورڈ اجلاس
+
+[English] The CISS Board of Directors meets monthly to discuss governance matters, review financial reports, and make strategic decisions. Board meetings follow proper procedures and maintain minutes for transparency.
+[Arabic] يجتمع مجلس إدارة CISS شهرياً لمناقشة الشؤون الإدارية ومراجعة التقارير المالية واتخاذ القرارات الاستراتيجية. تتبع اجتماعات المجلس الإجراءات الصحيحة وتحتفظ بمحاضر الاجتماعات لضمان الشفافية.
+[Urdu] CISS کا بورڈ آف ڈائریکٹرز ماہانہ ملاقات کرتا ہے تاکہ نگرانی کے امور پر گفتگو کرے، مالی رپورٹس کا جائزہ لے اور حکمت عملی کے فیصلے کرے۔ بورڈ اجلاس مناسب طریقہ کار کی پیروی کرتے ہیں اور شفافیت کے لیے کارروائی کے ریکارڈ رکھتے ہیں۔
+
+[English] Parents and community members may request to address the board by contacting the board secretary in advance. We value input from our community and maintain open channels of communication.
+[Arabic] يمكن لأولياء الأمور وأفراد المجتمع طلب التحدث أمام المجلس عن طريق التواصل مع سكرتير المجلس مسبقاً. نحن نقدّر آراء مجتمعنا ونحافظ على قنوات تواصل مفتوحة.
+[Urdu] والدین اور کمیونٹی کے ارکان پیشگی بورڈ سیکرٹری سے رابطہ کرکے بورڈ سے خطاب کرنے کی درخواست کر سکتے ہیں۔ ہم اپنی کمیونٹی کی رائے کو اہمیت دیتے ہیں اور رابطے کے کھلے ذرائع برقرار رکھتے ہیں۔
+
+[English] Contact the Board
+[Arabic] تواصل مع المجلس
+[Urdu] بورڈ سے رابطہ کریں
+
+[English] For governance questions, board meeting requests, or policy inquiries:
+[Arabic] للاستفسارات المتعلقة بالحوكمة، أو طلبات حضور اجتماعات المجلس، أو الاستفسارات حول السياسات:
+[Urdu] نگرانی سے متعلق سوالات، بورڈ اجلاس کی درخواستوں، یا پالیسی استفسارات کے لیے:
+
+[English] Response time: Within 1-2 business days
+[Arabic] وقت الاستجابة: خلال يوم إلى يومي عمل
+[Urdu] جوابی وقت: 1-2 کاروباری دنوں میں
+
+---
+SECTION 18: GOVERNANCE PAGE - INTRO
+---
+
+[English] Governance Structure & Roles
+[Arabic] الهيكل الإداري والأدوار
+[Urdu] نگرانی کا ڈھانچہ اور کردار
+
+[English] Understanding our collaborative educational community
+[Arabic] فهم مجتمعنا التعليمي التعاوني
+[Urdu] ہماری باہمی تعلیمی کمیونٹی کو سمجھنا
+
+[English] A Shared Responsibility
+[Arabic] مسؤولية مشتركة
+[Urdu] ایک مشترکہ ذمہ داری
+
+[English] The success of our Islamic education community depends on clear roles, strong partnerships, and shared commitment. Each organization and individual plays a vital role in supporting student achievement and Islamic character development.
+[Arabic] يعتمد نجاح مجتمعنا التعليمي الإسلامي على وضوح الأدوار والشراكات القوية والالتزام المشترك. تلعب كل مؤسسة وكل فرد دوراً حيوياً في دعم تحصيل الطلاب وبناء الشخصية الإسلامية.
+[Urdu] ہماری اسلامی تعلیمی کمیونٹی کی کامیابی واضح کرداروں، مضبوط شراکت داریوں اور مشترکہ عزم پر منحصر ہے۔ ہر ادارہ اور فرد طلباء کی کامیابی اور اسلامی کردار سازی میں معاونت کرنے میں اہم کردار ادا کرتا ہے۔
+
+---
+SECTION 19: GOVERNANCE PAGE - BOARD LEADERSHIP
+---
+
+[English] Board Leadership
+[Arabic] قيادة مجلس الإدارة
+[Urdu] بورڈ کی قیادت
+
+[English] Executive positions guiding CISS strategic direction
+[Arabic] المناصب التنفيذية التي توجه المسار الاستراتيجي لـ CISS
+[Urdu] انتظامی عہدے جو CISS کی حکمت عملی کی سمت کی رہنمائی کرتے ہیں
+
+[English] Chairman
+[Arabic] الرئيس
+[Urdu] چیئرمین
+
+[English] Vice Chairman
+[Arabic] نائب الرئيس
+[Urdu] نائب چیئرمین
+
+[English] Secretary
+[Arabic] الأمين العام
+[Urdu] سیکرٹری
+
+[English] Treasurer
+[Arabic] أمين الصندوق
+[Urdu] خازن
+
+---
+SECTION 20: GOVERNANCE PAGE - COMMITTEES
+---
+
+[English] Board Committees
+[Arabic] لجان مجلس الإدارة
+[Urdu] بورڈ کمیٹیاں
+
+[English] Specialized teams driving key initiatives
+[Arabic] فرق متخصصة تقود المبادرات الرئيسية
+[Urdu] اہم اقدامات کو آگے بڑھانے والی خصوصی ٹیمیں
+
+[English] Buildings Committee
+[Arabic] لجنة المباني
+[Urdu] عمارات کمیٹی
+
+[English] Lead: Abdulrahman Abbas
+[Arabic] القائد: عبدالرحمن عباس
+[Urdu] قائد: عبدالرحمن عباس
+
+[English] Supervision on the school maintenance and project renovations
+[Arabic] الإشراف على صيانة المدرسة ومشاريع التجديد
+[Urdu] اسکول کی دیکھ بھال اور تزئین و آرائش کے منصوبوں کی نگرانی
+
+[English] Education PRSD Liaison
+[Arabic] الاتصال التعليمي مع PRSD
+[Urdu] تعلیمی PRSD رابطہ
+
+[English] Lead: Hoda Kilani
+[Arabic] القائدة: هدى كيلاني
+[Urdu] قائد: ہدیٰ کیلانی
+
+[English] Arabic, Islamic, and Tahfeeth Programs
+[Arabic] برامج اللغة العربية والدراسات الإسلامية والتحفيظ
+[Urdu] عربی، اسلامی اور تحفیظ پروگرامز
+
+[English] Align both schools and support both principals
+[Arabic] مواءمة المدرستين ودعم كلا المديرين
+[Urdu] دونوں اسکولوں میں ہم آہنگی پیدا کرنا اور دونوں پرنسپلز کی معاونت کرنا
+
+[English] Meet with instructors, identify needs, and recommend action steps
+[Arabic] الاجتماع بالمعلمين، وتحديد الاحتياجات، والتوصية بخطوات العمل
+[Urdu] اساتذہ سے ملاقات کرنا، ضروریات کی نشاندہی کرنا اور عملی اقدامات تجویز کرنا
+
+[English] HR Committee
+[Arabic] لجنة الموارد البشرية
+[Urdu] ایچ آر کمیٹی
+
+[English] Lead: Dr. Mohammed Abdel-Hafez
+[Arabic] القائد: د. محمد عبد الحافظ
+[Urdu] قائد: ڈاکٹر محمد عبدالحافظ
+
+[English] Review contracts of current employees and contractors and prospective recruitments
+[Arabic] مراجعة عقود الموظفين الحاليين والمقاولين والتوظيفات المحتملة
+[Urdu] موجودہ ملازمین، ٹھیکیداروں اور متوقع بھرتیوں کے معاہدوں کا جائزہ لینا
+
+[English] Bring final recommendations to the Board for approval
+[Arabic] تقديم التوصيات النهائية إلى المجلس للموافقة عليها
+[Urdu] حتمی سفارشات منظوری کے لیے بورڈ کے سامنے پیش کرنا
+
+[English] Finance & Fundraising
+[Arabic] المالية وجمع التبرعات
+[Urdu] مالیات اور فنڈ ریزنگ
+
+[English] Co-Lead: Marwa Ajram
+[Arabic] القائدة المشاركة: مروة عجرم
+[Urdu] شریک قائد: مروہ عجرم
+
+[English] Add a fundraising specialist to the committee
+[Arabic] إضافة أخصائي جمع تبرعات إلى اللجنة
+[Urdu] کمیٹی میں فنڈ ریزنگ ماہر کا اضافہ کرنا
+
+[English] First fundraising event to be coordinated with Principals
+[Arabic] تنسيق أول فعالية لجمع التبرعات مع المديرين
+[Urdu] پرنسپلز کے ساتھ مل کر پہلی فنڈ ریزنگ تقریب کی ہم آہنگی
+
+[English] Communications & Website
+[Arabic] التواصل والموقع الإلكتروني
+[Urdu] رابطہ اور ویب سائٹ
+
+[English] Lead: Ali Moussa
+[Arabic] القائد: علي موسى
+[Urdu] قائد: علی موسیٰ
+
+[English] Website development and maintenance
+[Arabic] تطوير وصيانة الموقع الإلكتروني
+[Urdu] ویب سائٹ کی تشکیل اور دیکھ بھال
+
+[English] Parent communications
+[Arabic] التواصل مع أولياء الأمور
+[Urdu] والدین سے رابطہ
+
+[English] General outreach and updates
+[Arabic] التواصل العام والمستجدات
+[Urdu] عمومی رسائی اور تازہ کاری
+
+[English] Governance
+[Arabic] الحوكمة
+[Urdu] نگرانی
+
+[English] Lead: Mohamad Zohiri
+[Arabic] القائد: محمد زهيري
+[Urdu] قائد: محمد زہیری
+
+[English] Review and update bylaws
+[Arabic] مراجعة وتحديث اللوائح
+[Urdu] ضابطوں کا جائزہ لینا اور تازہ کاری کرنا
+
+[English] Define roles, responsibilities, and authorities
+[Arabic] تحديد الأدوار والمسؤوليات والصلاحيات
+[Urdu] کردار، ذمہ داریاں اور اختیارات متعین کرنا
+
+[English] Establish clear processes and procedures
+[Arabic] وضع عمليات وإجراءات واضحة
+[Urdu] واضح عمل اور طریقہ کار قائم کرنا
+
+[English] Strategy
+[Arabic] الاستراتيجية
+[Urdu] حکمت عملی
+
+[English] Lead: Basir Saleh
+[Arabic] القائد: بصير صالح
+[Urdu] قائد: بصیر صالح
+
+[English] Next strategy meeting: Sunday, March 29
+[Arabic] اجتماع الاستراتيجية القادم: الأحد، 29 مارس
+[Urdu] اگلی حکمت عملی اجلاس: اتوار، 29 مارچ
+
+[English] Long-term planning and vision alignment
+[Arabic] التخطيط طويل الأمد ومواءمة الرؤية
+[Urdu] طویل مدتی منصوبہ بندی اور وژن کی ہم آہنگی
+
+---
+SECTION 21: GOVERNANCE PAGE - CISS ROLE
+---
+
+[English] Calgary Islamic School Society (CISS)
+[Arabic] جمعية مدارس كالغاري الإسلامية (CISS)
+[Urdu] کیلگری اسلامک اسکول سوسائٹی (CISS)
+
+[English] Governing Society & Strategic Leadership
+[Arabic] الجمعية الإدارية والقيادة الاستراتيجية
+[Urdu] نگران سوسائٹی اور حکمت عملی کی قیادت
+
+[English] CISS is the registered non-profit society that provides governance, oversight, and strategic direction for all Islamic School of Calgary operations.
+[Arabic] CISS هي الجمعية غير الربحية المسجلة التي توفر الحوكمة والإشراف والتوجه الاستراتيجي لجميع عمليات مدرسة كالغاري الإسلامية.
+[Urdu] CISS وہ رجسٹرڈ غیر منافع بخش سوسائٹی ہے جو اسلامک اسکول آف کیلگری کے تمام امور کے لیے نگرانی، انتظام اور حکمت عملی کی سمت فراہم کرتی ہے۔
+
+[English] Key Responsibilities:
+[Arabic] المسؤوليات الرئيسية:
+[Urdu] اہم ذمہ داریاں:
+
+[English] Governance & Oversight: Setting policies, bylaws, and strategic direction for all schools under CISS
+[Arabic] الحوكمة والإشراف: وضع السياسات واللوائح والتوجه الاستراتيجي لجميع المدارس التابعة لـ CISS
+[Urdu] نگرانی اور انتظام: CISS کے تحت تمام اسکولوں کے لیے پالیسیاں، ضابطے اور حکمت عملی کی سمت متعین کرنا
+
+[English] Financial Stewardship: Budget approval, financial oversight, fee structures, and ensuring long-term sustainability
+[Arabic] الإدارة المالية: الموافقة على الميزانية، والإشراف المالي، وهيكلة الرسوم، وضمان الاستدامة طويلة الأمد
+[Urdu] مالی نگہداشت: بجٹ کی منظوری، مالی نگرانی، فیس کا ڈھانچہ، اور طویل مدتی استحکام کو یقینی بنانا
+
+[English] Hiring & Leadership: Appointing school principals and senior administration
+[Arabic] التوظيف والقيادة: تعيين مديري المدارس والإدارة العليا
+[Urdu] تقرری اور قیادت: اسکول پرنسپلز اور اعلیٰ انتظامیہ کا تقرر
+
+[English] Strategic Planning: Long-term expansion planning, including future campus development and new educational initiatives
+[Arabic] التخطيط الاستراتيجي: التخطيط للتوسع طويل الأمد، بما في ذلك تطوير الحرم المستقبلي والمبادرات التعليمية الجديدة
+[Urdu] حکمت عملی کی منصوبہ بندی: طویل مدتی توسیع کی منصوبہ بندی، بشمول مستقبل کے کیمپس کی تعمیر اور نئے تعلیمی اقدامات
+
+[English] Accountability & Transparency: Reporting to the community, maintaining open communication with parents, and ensuring schools meet their mission
+[Arabic] المساءلة والشفافية: تقديم التقارير للمجتمع، والحفاظ على تواصل مفتوح مع أولياء الأمور، وضمان تحقيق المدارس لرسالتها
+[Urdu] جوابدہی اور شفافیت: کمیونٹی کو رپورٹ کرنا، والدین کے ساتھ کھلا رابطہ برقرار رکھنا، اور یہ یقینی بنانا کہ اسکول اپنا مشن پورا کریں
+
+[English] Compliance: Ensuring adherence to Alberta Education requirements, legal obligations, and Islamic principles
+[Arabic] الامتثال: ضمان الالتزام بمتطلبات وزارة التعليم في ألبرتا والالتزامات القانونية والمبادئ الإسلامية
+[Urdu] تعمیل: البرٹا ایجوکیشن کے تقاضوں، قانونی ذمہ داریوں اور اسلامی اصولوں کی پابندی کو یقینی بنانا
+
+---
+SECTION 22: GOVERNANCE PAGE - MCFC/MCC ROLE
+---
+
+[English] Muslim Community Foundation of Calgary (MCFC) / Muslim Community Council (MCC)
+[Arabic] مؤسسة المجتمع المسلم في كالغاري (MCFC) / مجلس المجتمع المسلم (MCC)
+[Urdu] مسلم کمیونٹی فاؤنڈیشن آف کیلگری (MCFC) / مسلم کمیونٹی کونسل (MCC)
+
+[English] Community Ownership & Facility Management
+[Arabic] ملكية المجتمع وإدارة المرافق
+[Urdu] کمیونٹی کی ملکیت اور سہولیات کا انتظام
+
+[English] MCFC/MCC owns and manages the physical facilities and properties used by CISS schools, serving the broader Calgary Muslim community.
+[Arabic] تمتلك وتدير MCFC/MCC المرافق والممتلكات المادية التي تستخدمها مدارس CISS، لخدمة مجتمع كالغاري المسلم الأوسع.
+[Urdu] MCFC/MCC ان طبیعی سہولیات اور جائیداد کی مالک اور منتظم ہے جو CISS کے اسکول استعمال کرتے ہیں، جو کیلگری کی وسیع تر مسلم کمیونٹی کی خدمت کرتی ہے۔
+
+[English] Key Responsibilities:
+[Arabic] المسؤوليات الرئيسية:
+[Urdu] اہم ذمہ داریاں:
+
+[English] Property Ownership: Owning and maintaining school buildings and facilities on behalf of the community
+[Arabic] ملكية العقارات: امتلاك وصيانة مباني ومرافق المدارس نيابة عن المجتمع
+[Urdu] جائیداد کی ملکیت: کمیونٹی کی جانب سے اسکول کی عمارتوں اور سہولیات کی ملکیت اور دیکھ بھال
+
+[English] Facility Management: Building maintenance, repairs, capital improvements, and safety compliance
+[Arabic] إدارة المرافق: صيانة المباني والإصلاحات والتحسينات الرأسمالية والامتثال للسلامة
+[Urdu] سہولیات کا انتظام: عمارت کی دیکھ بھال، مرمت، سرمایہ کاری بہتری اور حفاظتی تعمیل
+
+[English] Rental Agreements: Establishing lease terms and facility use agreements with CISS
+[Arabic] اتفاقيات الإيجار: وضع شروط الإيجار واتفاقيات استخدام المرافق مع CISS
+[Urdu] کرایہ کے معاہدے: CISS کے ساتھ لیز کی شرائط اور سہولیات کے استعمال کے معاہدے طے کرنا
+
+[English] Community Asset Management: Ensuring facilities serve the broader Muslim community needs beyond school hours
+[Arabic] إدارة الأصول المجتمعية: ضمان خدمة المرافق لاحتياجات المجتمع المسلم الأوسع خارج أوقات الدوام المدرسي
+[Urdu] کمیونٹی اثاثوں کا انتظام: یہ یقینی بنانا کہ سہولیات اسکول کے اوقات سے باہر بھی وسیع تر مسلم کمیونٹی کی ضروریات پوری کریں
+
+[English] Strategic Partnership: Collaborating with CISS on facility planning and expansion projects
+[Arabic] الشراكة الاستراتيجية: التعاون مع CISS في تخطيط المرافق ومشاريع التوسع
+[Urdu] حکمت عملی کی شراکت داری: سہولیات کی منصوبہ بندی اور توسیعی منصوبوں میں CISS کے ساتھ تعاون
+
+---
+SECTION 23: GOVERNANCE PAGE - PARENTS ROLE
+---
+
+[English] Parents
+[Arabic] أولياء الأمور
+[Urdu] والدین
+
+[English] First Educators & Essential Partners
+[Arabic] المربون الأوائل والشركاء الأساسيون
+[Urdu] پہلے معلم اور لازمی شراکت دار
+
+[English] Parents are the primary educators of their children and essential partners in the Islamic education process. The school supports and extends the Islamic values taught at home.
+[Arabic] أولياء الأمور هم المربون الأساسيون لأبنائهم وشركاء أساسيون في عملية التعليم الإسلامي. تدعم المدرسة وتعزز القيم الإسلامية التي تُغرس في المنزل.
+[Urdu] والدین اپنے بچوں کے بنیادی معلم اور اسلامی تعلیم کے عمل میں لازمی شراکت دار ہیں۔ اسکول گھر میں سکھائی جانے والی اسلامی اقدار کی معاونت اور توسیع کرتا ہے۔
+
+[English] Key Responsibilities:
+[Arabic] المسؤوليات الرئيسية:
+[Urdu] اہم ذمہ داریاں:
+
+[English] Home-School Partnership: Reinforcing Islamic values, academic expectations, and behavioral standards at home
+[Arabic] الشراكة بين المنزل والمدرسة: ترسيخ القيم الإسلامية والتوقعات الأكاديمية ومعايير السلوك في المنزل
+[Urdu] گھر اور اسکول کی شراکت داری: گھر میں اسلامی اقدار، تعلیمی توقعات اور طرز عمل کے معیارات کو مستحکم کرنا
+
+[English] Supporting Learning: Ensuring students complete homework, attend school regularly, and are prepared for learning
+[Arabic] دعم التعلم: ضمان إكمال الطلاب لواجباتهم المنزلية وحضورهم المدرسة بانتظام واستعدادهم للتعلم
+[Urdu] تعلیم کی معاونت: یہ یقینی بنانا کہ طلباء ہوم ورک مکمل کریں، باقاعدگی سے اسکول آئیں اور سیکھنے کے لیے تیار ہوں
+
+[English] Communication: Maintaining open dialogue with teachers and school administration, attending parent-teacher meetings
+[Arabic] التواصل: الحفاظ على حوار مفتوح مع المعلمين وإدارة المدرسة، وحضور اجتماعات أولياء الأمور والمعلمين
+[Urdu] رابطہ: اساتذہ اور اسکول انتظامیہ کے ساتھ کھلا مکالمہ برقرار رکھنا، والدین اساتذہ ملاقاتوں میں شرکت کرنا
+
+[English] Volunteer & Engagement: Participating in school events, volunteering when possible, and contributing to school community
+[Arabic] التطوع والمشاركة: المشاركة في الفعاليات المدرسية، والتطوع عند الإمكان، والمساهمة في مجتمع المدرسة
+[Urdu] رضاکارانہ خدمات اور شمولیت: اسکول کی تقریبات میں شرکت، ممکنہ صورت میں رضاکارانہ کام، اور اسکول کمیونٹی میں تعاون
+
+[English] Feedback & Input: Providing constructive feedback, raising concerns through proper channels, and participating in surveys
+[Arabic] الملاحظات والآراء: تقديم ملاحظات بناءة، وطرح المخاوف عبر القنوات المناسبة، والمشاركة في الاستطلاعات
+[Urdu] رائے اور تجاویز: تعمیری رائے دینا، مناسب ذرائع سے خدشات اٹھانا، اور سروے میں شرکت کرنا
+
+[English] Financial Commitment: Paying tuition fees on time and supporting fundraising efforts when possible
+[Arabic] الالتزام المالي: دفع الرسوم الدراسية في الوقت المحدد ودعم جهود جمع التبرعات عند الإمكان
+[Urdu] مالی عزم: وقت پر تعلیمی فیس ادا کرنا اور ممکنہ صورت میں فنڈ ریزنگ کی کوششوں کی معاونت کرنا
+
+---
+SECTION 24: GOVERNANCE PAGE - SCHOOL COUNCILS
+---
+
+[English] School Parents Council
+[Arabic] مجلس أولياء أمور المدرسة
+[Urdu] اسکول والدین کونسل
+
+[English] Parent Voice & Community Building
+[Arabic] صوت أولياء الأمور وبناء المجتمع
+[Urdu] والدین کی آواز اور کمیونٹی کی تعمیر
+
+[English] The School Parents Council represents parent interests, facilitates communication between families and school administration, and organizes community-building activities.
+[Arabic] يمثل مجلس أولياء أمور المدرسة مصالح أولياء الأمور، وييسر التواصل بين العائلات وإدارة المدرسة، وينظم أنشطة بناء المجتمع.
+[Urdu] اسکول والدین کونسل والدین کے مفادات کی نمائندگی کرتی ہے، خاندانوں اور اسکول انتظامیہ کے درمیان رابطے کو آسان بناتی ہے، اور کمیونٹی کی تعمیر کی سرگرمیاں منظم کرتی ہے۔
+
+[English] Key Responsibilities:
+[Arabic] المسؤوليات الرئيسية:
+[Urdu] اہم ذمہ داریاں:
+
+[English] Parent Representation: Serving as a collective voice for parents in discussions with school administration
+[Arabic] تمثيل أولياء الأمور: العمل كصوت جماعي لأولياء الأمور في المناقشات مع إدارة المدرسة
+[Urdu] والدین کی نمائندگی: اسکول انتظامیہ کے ساتھ گفتگو میں والدین کی اجتماعی آواز بننا
+
+[English] Communication Bridge: Facilitating two-way communication between parents and school leadership
+[Arabic] جسر التواصل: تيسير التواصل الثنائي بين أولياء الأمور وقيادة المدرسة
+[Urdu] رابطے کا پل: والدین اور اسکول قیادت کے درمیان دو طرفہ رابطے کو آسان بنانا
+
+[English] Event Organization: Planning and executing school events, fundraisers, and community activities
+[Arabic] تنظيم الفعاليات: التخطيط لفعاليات المدرسة وحملات جمع التبرعات والأنشطة المجتمعية وتنفيذها
+[Urdu] تقریبات کا انتظام: اسکول کی تقریبات، فنڈ ریزرز اور کمیونٹی سرگرمیوں کی منصوبہ بندی اور انعقاد
+
+[English] Volunteer Coordination: Recruiting and organizing parent volunteers for school activities and needs
+[Arabic] تنسيق التطوع: تجنيد وتنظيم متطوعين من أولياء الأمور للأنشطة والاحتياجات المدرسية
+[Urdu] رضاکاروں کی ہم آہنگی: اسکول کی سرگرمیوں اور ضروریات کے لیے والدین رضاکاروں کو بھرتی اور منظم کرنا
+
+[English] Advisory Role: Providing input on school policies, programs, and improvements from a parent perspective
+[Arabic] الدور الاستشاري: تقديم آراء حول سياسات المدرسة وبرامجها وتحسيناتها من منظور أولياء الأمور
+[Urdu] مشاورتی کردار: والدین کے نقطہ نظر سے اسکول کی پالیسیوں، پروگراموں اور بہتری کے بارے میں رائے دینا
+
+[English] Community Building: Fostering a strong, connected parent community that supports all families
+[Arabic] بناء المجتمع: تعزيز مجتمع متماسك ومترابط من أولياء الأمور يدعم جميع العائلات
+[Urdu] کمیونٹی کی تعمیر: ایک مضبوط، جڑی ہوئی والدین کمیونٹی کو فروغ دینا جو تمام خاندانوں کی معاونت کرے
+
+---
+SECTION 25: GOVERNANCE PAGE - PROGRAM ADVISORY
+---
+
+[English] Program Advisory Group (PAG)
+[Arabic] مجموعة استشارية للبرنامج (PAG)
+[Urdu] پروگرام ایڈوائزری گروپ (PAG)
+
+[English] Alternative Program Guidance & Community Input
+[Arabic] التوجيه للبرنامج البديل وآراء المجتمع
+[Urdu] متبادل پروگرام کی رہنمائی اور کمیونٹی کی رائے
+
+[English] The Program Advisory Group provides advice and feedback to the CISS Board and administration on matters related to the Alternative Program, ensuring parent and community voices are heard in program decisions.
+[Arabic] تقدم المجموعة الاستشارية للبرنامج المشورة والملاحظات لمجلس إدارة CISS والإدارة بشأن الأمور المتعلقة بالبرنامج البديل، لضمان سماع أصوات أولياء الأمور والمجتمع في قرارات البرنامج.
+[Urdu] پروگرام ایڈوائزری گروپ CISS بورڈ اور انتظامیہ کو متبادل پروگرام سے متعلق امور پر مشورہ اور رائے فراہم کرتا ہے، یہ یقینی بناتے ہوئے کہ پروگرام کے فیصلوں میں والدین اور کمیونٹی کی آواز سنی جائے۔
+
+[English] Composition & Key Responsibilities:
+[Arabic] التشكيل والمسؤوليات الرئيسية:
+[Urdu] ساخت اور اہم ذمہ داریاں:
+
+[English] Diverse Membership: Composed of parents, community members, CISS board members, and school administration
+[Arabic] عضوية متنوعة: تتألف من أولياء الأمور وأفراد المجتمع وأعضاء مجلس إدارة CISS وإدارة المدرسة
+[Urdu] متنوع رکنیت: والدین، کمیونٹی ارکان، CISS بورڈ ارکان اور اسکول انتظامیہ پر مشتمل
+
+[English] Program Effectiveness: Regular meetings to discuss and assess the effectiveness of the Alternative Program
+[Arabic] فعالية البرنامج: اجتماعات منتظمة لمناقشة وتقييم فعالية البرنامج البديل
+[Urdu] پروگرام کی افادیت: متبادل پروگرام کی افادیت پر گفتگو اور تشخیص کے لیے باقاعدہ اجلاس
+
+[English] Community Needs Assessment: Identifying and addressing community educational needs and expectations
+[Arabic] تقييم احتياجات المجتمع: تحديد ومعالجة الاحتياجات والتوقعات التعليمية للمجتمع
+[Urdu] کمیونٹی کی ضروریات کا تجزیہ: کمیونٹی کی تعلیمی ضروریات اور توقعات کی نشاندہی اور ان کا حل
+
+[English] Strategic Input: Providing input on program direction, policies, and innovative initiatives
+[Arabic] الإسهام الاستراتيجي: تقديم آراء حول توجه البرنامج وسياساته ومبادراته الابتكارية
+[Urdu] حکمت عملی کی رائے: پروگرام کی سمت، پالیسیوں اور جدید اقدامات پر رائے فراہم کرنا
+
+[English] Continuous Improvement: Recommending enhancements and improvements to ensure the Alternative Program meets its objectives
+[Arabic] التحسين المستمر: التوصية بالتحسينات والتطويرات لضمان تحقيق البرنامج البديل لأهدافه
+[Urdu] مسلسل بہتری: یہ یقینی بنانے کے لیے بہتری کی سفارش کرنا کہ متبادل پروگرام اپنے مقاصد پورے کرے
+
+[English] Stakeholder Voice: Ensuring parent and community perspectives are integrated into program planning and decision-making
+[Arabic] صوت أصحاب المصلحة: ضمان دمج آراء أولياء الأمور والمجتمع في تخطيط البرنامج واتخاذ القرارات
+[Urdu] اسٹیک ہولڈرز کی آواز: یہ یقینی بنانا کہ والدین اور کمیونٹی کے نقطہ نظر پروگرام کی منصوبہ بندی اور فیصلہ سازی میں شامل کیے جائیں
+
+---
+SECTION 26: GOVERNANCE PAGE - PRINCIPALS
+---
+
+[English] School Principals
+[Arabic] مديرو المدارس
+[Urdu] اسکول پرنسپلز
+
+[English] Educational Leadership & Day-to-Day Operations
+[Arabic] القيادة التعليمية والعمليات اليومية
+[Urdu] تعلیمی قیادت اور روزمرہ کے امور
+
+[English] School principals are appointed by CISS to provide educational leadership, manage daily operations, and ensure high-quality Islamic education is delivered at their campus.
+[Arabic] يُعيَّن مديرو المدارس من قبل CISS لتقديم القيادة التعليمية وإدارة العمليات اليومية وضمان تقديم تعليم إسلامي عالي الجودة في حرمهم.
+[Urdu] اسکول پرنسپلز کو CISS کی جانب سے تعینات کیا جاتا ہے تاکہ تعلیمی قیادت فراہم کریں، روزمرہ کے امور کا انتظام کریں اور یہ یقینی بنائیں کہ ان کے کیمپس میں اعلیٰ معیار کی اسلامی تعلیم فراہم کی جائے۔
+
+[English] Key Responsibilities:
+[Arabic] المسؤوليات الرئيسية:
+[Urdu] اہم ذمہ داریاں:
+
+[English] Educational Leadership: Setting academic standards, curriculum implementation, and ensuring educational excellence
+[Arabic] القيادة التعليمية: وضع المعايير الأكاديمية وتنفيذ المناهج وضمان التميز التعليمي
+[Urdu] تعلیمی قیادت: تعلیمی معیارات متعین کرنا، نصاب کا نفاذ، اور تعلیمی عمدگی کو یقینی بنانا
+
+[English] Staff Management: Hiring, supervising, and evaluating teachers and school staff; providing professional development
+[Arabic] إدارة الموظفين: توظيف المعلمين وموظفي المدرسة والإشراف عليهم وتقييمهم؛ وتوفير التطوير المهني
+[Urdu] عملے کا انتظام: اساتذہ اور اسکول کے عملے کی بھرتی، نگرانی اور تشخیص؛ پیشہ ورانہ ترقی کی فراہمی
+
+[English] Student Well-being: Ensuring safe, nurturing learning environment; addressing student discipline and support needs
+[Arabic] رفاهية الطلاب: ضمان بيئة تعليمية آمنة وحاضنة؛ معالجة احتياجات الانضباط والدعم لدى الطلاب
+[Urdu] طلباء کی فلاح: محفوظ اور پرورش بخش تعلیمی ماحول کو یقینی بنانا؛ طلباء کے نظم و ضبط اور معاونت کی ضروریات کا خیال رکھنا
+
+[English] Parent Communication: Maintaining regular communication with families, addressing concerns, and building strong partnerships
+[Arabic] التواصل مع أولياء الأمور: الحفاظ على تواصل منتظم مع العائلات، ومعالجة المخاوف، وبناء شراكات قوية
+[Urdu] والدین سے رابطہ: خاندانوں کے ساتھ باقاعدہ رابطہ برقرار رکھنا، خدشات کا ازالہ کرنا، اور مضبوط شراکت داری قائم کرنا
+
+[English] Budget Management: Managing school budget within CISS financial guidelines, resource allocation, and operational efficiency
+[Arabic] إدارة الميزانية: إدارة ميزانية المدرسة ضمن الإرشادات المالية لـ CISS، وتخصيص الموارد، والكفاءة التشغيلية
+[Urdu] بجٹ کا انتظام: CISS کے مالی رہنما اصولوں کے اندر اسکول کے بجٹ کا انتظام، وسائل کی تقسیم، اور آپریشنل کارکردگی
+
+[English] Compliance & Reporting: Ensuring Alberta Education compliance, maintaining student records, and reporting to CISS Board
+[Arabic] الامتثال والتقارير: ضمان الامتثال لمتطلبات وزارة التعليم في ألبرتا، والحفاظ على سجلات الطلاب، وتقديم التقارير لمجلس إدارة CISS
+[Urdu] تعمیل اور رپورٹنگ: البرٹا ایجوکیشن کی تعمیل کو یقینی بنانا، طلباء کے ریکارڈ کی نگہداشت، اور CISS بورڈ کو رپورٹ کرنا
+
+[English] Islamic Environment: Fostering Islamic character development, maintaining Islamic values in all school operations
+[Arabic] البيئة الإسلامية: تعزيز بناء الشخصية الإسلامية، والحفاظ على القيم الإسلامية في جميع عمليات المدرسة
+[Urdu] اسلامی ماحول: اسلامی کردار سازی کو فروغ دینا، اسکول کے تمام امور میں اسلامی اقدار کو برقرار رکھنا
+
+[English] Community Engagement: Building relationships with parents, engaging with School Parents Council, and representing the school in the community
+[Arabic] المشاركة المجتمعية: بناء علاقات مع أولياء الأمور، والتفاعل مع مجلس أولياء أمور المدرسة، وتمثيل المدرسة في المجتمع
+[Urdu] کمیونٹی شمولیت: والدین کے ساتھ تعلقات استوار کرنا، اسکول والدین کونسل کے ساتھ شمولیت، اور کمیونٹی میں اسکول کی نمائندگی کرنا
+
+---
+SECTION 27: GOVERNANCE PAGE - COLLABORATION
+---
+
+[English] Working Together for Student Success
+[Arabic] العمل معاً من أجل نجاح الطلاب
+[Urdu] طلباء کی کامیابی کے لیے مل کر کام کرنا
+
+[English] Our governance structure is built on collaboration, clear accountability, and shared commitment to Islamic education excellence. Each role supports and strengthens the others, creating a comprehensive educational community that serves our students and families.
+[Arabic] بُني هيكلنا الإداري على التعاون والمساءلة الواضحة والالتزام المشترك بالتميز في التعليم الإسلامي. يدعم كل دور الأدوار الأخرى ويعززها، مما يخلق مجتمعاً تعليمياً شاملاً يخدم طلابنا وعائلاتنا.
+[Urdu] ہمارا نگرانی کا ڈھانچہ تعاون، واضح جوابدہی اور اسلامی تعلیمی عمدگی کے مشترکہ عزم پر استوار ہے۔ ہر کردار دوسرے کرداروں کی معاونت اور مضبوطی کرتا ہے، جو ہمارے طلباء اور خاندانوں کی خدمت کرنے والی ایک جامع تعلیمی کمیونٹی تشکیل دیتا ہے۔
+
+[English] Lines of Communication
+[Arabic] قنوات التواصل
+[Urdu] رابطے کی راہیں
+
+[English] For Day-to-Day School Matters:
+[Arabic] للأمور المدرسية اليومية:
+[Urdu] روزمرہ کے اسکول کے امور کے لیے:
+
+[English] Teacher → Principal → CISS Administration
+[Arabic] المعلم ← المدير ← إدارة CISS
+[Urdu] استاد ← پرنسپل ← CISS انتظامیہ
+
+[English] For Governance & Policy:
+[Arabic] للحوكمة والسياسات:
+[Urdu] نگرانی اور پالیسی کے لیے:
+
+[English] Parents → School Parents Council → CISS Board
+[Arabic] أولياء الأمور ← مجلس أولياء أمور المدرسة ← مجلس إدارة CISS
+[Urdu] والدین ← اسکول والدین کونسل ← CISS بورڈ
+
+[English] For Facility Issues:
+[Arabic] لمسائل المرافق:
+[Urdu] سہولیات کے مسائل کے لیے:
+
+[English] Principal → CISS → MCFC/MCC
+[Arabic] المدير ← CISS ← MCFC/MCC
+[Urdu] پرنسپل ← CISS ← MCFC/MCC
+
+[English] For General Inquiries:
+[Arabic] للاستفسارات العامة:
+[Urdu] عمومی استفسارات کے لیے:
+
+[English] Contact info@cissociety.ca
+[Arabic] تواصل عبر info@cissociety.ca
+[Urdu] رابطہ کریں info@cissociety.ca
+
+---
+SECTION 28: FUTURE CAMPUS PAGE
+---
+
+[English] Building Tomorrow, Together
+[Arabic] نبني الغد معاً
+[Urdu] مل کر کل کی تعمیر
+
+[English] Join us in creating a state-of-the-art unified campus that will serve generations of students
+[Arabic] انضموا إلينا في إنشاء حرم موحد متطور سيخدم أجيالاً من الطلاب
+[Urdu] ہمارے ساتھ ایک جدید ترین متحدہ کیمپس کی تعمیر میں شامل ہوں جو نسلوں تک طلباء کی خدمت کرے گا
+
+[English] Our Vision for the Future
+[Arabic] رؤيتنا للمستقبل
+[Urdu] مستقبل کے لیے ہمارا وژن
+
+[English] The CISS Future Campus will unite our community under one roof, providing world-class facilities, cutting-edge technology, and expanded opportunities for students from kindergarten through grade 12.
+[Arabic] سيوحّد حرم CISS المستقبلي مجتمعنا تحت سقف واحد، موفراً مرافق عالمية المستوى وتقنية متطورة وفرصاً موسعة للطلاب من الروضة حتى الصف الثاني عشر.
+[Urdu] CISS کا مستقبل کا کیمپس ہماری کمیونٹی کو ایک چھت تلے یکجا کرے گا، جو کنڈرگارٹن سے بارہویں جماعت تک کے طلباء کے لیے عالمی معیار کی سہولیات، جدید ترین ٹیکنالوجی اور وسیع تر مواقع فراہم کرے گا۔
+
+[English] Campus Features
+[Arabic] مرافق الحرم
+[Urdu] کیمپس کی خصوصیات
+
+[English] Modern Facilities
+[Arabic] مرافق حديثة
+[Urdu] جدید سہولیات
+
+[English] State-of-the-art classrooms with smart technology
+[Arabic] فصول دراسية متطورة مزودة بتقنية ذكية
+[Urdu] سمارٹ ٹیکنالوجی کے ساتھ جدید ترین کلاس رومز
+
+[English] Advanced science and computer laboratories
+[Arabic] مختبرات علوم وحاسوب متقدمة
+[Urdu] جدید سائنس اور کمپیوٹر لیبارٹریز
+
+[English] Comprehensive library and media center
+[Arabic] مكتبة شاملة ومركز إعلامي
+[Urdu] جامع لائبریری اور میڈیا سینٹر
+
+[English] Multi-purpose auditorium for performances and events
+[Arabic] قاعة متعددة الأغراض للعروض والفعاليات
+[Urdu] پرفارمنس اور تقریبات کے لیے کثیر المقاصد آڈیٹوریم
+
+[English] Student Life Spaces
+[Arabic] مساحات الحياة الطلابية
+[Urdu] طلباء کی زندگی کے لیے جگہیں
+
+[English] Athletic fields and indoor gymnasium
+[Arabic] ملاعب رياضية وصالة ألعاب رياضية داخلية
+[Urdu] کھیلوں کے میدان اور انڈور جمنازیم
+
+[English] Cafeteria and student common areas
+[Arabic] كافيتيريا ومناطق مشتركة للطلاب
+[Urdu] کیفے ٹیریا اور طلباء کے مشترکہ مقامات
+
+[English] Music and arts studios
+[Arabic] استوديوهات الموسيقى والفنون
+[Urdu] موسیقی اور فنون کے اسٹوڈیوز
+
+[English] Outdoor learning and recreational spaces
+[Arabic] مساحات تعليمية وترفيهية خارجية
+[Urdu] بیرونی تعلیمی اور تفریحی جگہیں
+
+[English] Sustainable Design
+[Arabic] تصميم مستدام
+[Urdu] پائیدار ڈیزائن
+
+[English] Solar panels and energy-efficient systems
+[Arabic] ألواح شمسية وأنظمة موفرة للطاقة
+[Urdu] شمسی پینل اور توانائی بچانے والے نظام
+
+[English] Rainwater harvesting and conservation
+[Arabic] تجميع مياه الأمطار والحفاظ عليها
+[Urdu] بارش کے پانی کا ذخیرہ اور تحفظ
+
+[English] Natural ventilation and lighting
+[Arabic] تهوية وإضاءة طبيعية
+[Urdu] قدرتی ہوا کا گزر اور روشنی
+
+[English] Native landscaping and green spaces
+[Arabic] تنسيق طبيعي محلي ومساحات خضراء
+[Urdu] مقامی زمین کی تزئین اور سبز جگہیں
+
+[English] Educational Innovation
+[Arabic] الابتكار التعليمي
+[Urdu] تعلیمی جدت
+
+[English] Flexible learning spaces for collaboration
+[Arabic] مساحات تعليمية مرنة للتعاون
+[Urdu] باہمی تعاون کے لیے لچکدار تعلیمی جگہیں
+
+[English] Maker spaces and innovation labs
+[Arabic] مساحات إبداعية ومختبرات ابتكار
+[Urdu] میکر اسپیسز اور جدت لیبز
+
+[English] Distance learning capabilities
+[Arabic] إمكانيات التعلم عن بُعد
+[Urdu] فاصلاتی تعلیم کی صلاحیتیں
+
+[English] Accessibility features throughout
+[Arabic] مزايا إمكانية الوصول في جميع أنحاء الحرم
+[Urdu] ہر جگہ رسائی کی سہولیات
+
+[English] Get Involved
+[Arabic] شارك معنا
+[Urdu] شامل ہوں
+
+[English] Express your interest in supporting or learning more about the Future Campus project
+[Arabic] أعرب عن اهتمامك بدعم مشروع الحرم المستقبلي أو معرفة المزيد عنه
+[Urdu] مستقبل کے کیمپس منصوبے کی معاونت یا مزید معلومات حاصل کرنے میں اپنی دلچسپی ظاہر کریں
+
+[English] Full Name *
+[Arabic] الاسم الكامل *
+[Urdu] مکمل نام *
+
+[English] John Doe
+[Arabic] محمد أحمد
+[Urdu] جان ڈو
+
+[English] Email Address *
+[Arabic] البريد الإلكتروني *
+[Urdu] ای میل ایڈریس *
+
+[English] john@example.com
+[Arabic] john@example.com
+[Urdu] john@example.com
+
+[English] Phone Number
+[Arabic] رقم الهاتف
+[Urdu] فون نمبر
+
+[English] (345) 123-4567
+[Arabic] (345) 123-4567
+[Urdu] (345) 123-4567
+
+[English] Interest Area *
+[Arabic] مجال الاهتمام *
+[Urdu] دلچسپی کا شعبہ *
+
+[English] Select an option
+[Arabic] اختر خياراً
+[Urdu] ایک آپشن منتخب کریں
+
+[English] Making a Donation
+[Arabic] تقديم تبرع
+[Urdu] عطیہ دینا
+
+[English] Fundraising Support
+[Arabic] دعم جمع التبرعات
+[Urdu] فنڈ ریزنگ معاونت
+
+[English] Volunteering
+[Arabic] التطوع
+[Urdu] رضاکارانہ خدمات
+
+[English] Learning More
+[Arabic] معرفة المزيد
+[Urdu] مزید جاننا
+
+[English] Other
+[Arabic] أخرى
+[Urdu] دیگر
+
+[English] Message
+[Arabic] الرسالة
+[Urdu] پیغام
+
+[English] Tell us about your interest in the Future Campus project...
+[Arabic] أخبرنا عن اهتمامك بمشروع الحرم المستقبلي...
+[Urdu] ہمیں مستقبل کے کیمپس منصوبے میں اپنی دلچسپی کے بارے میں بتائیں...
+
+[English] Submit Interest Form
+[Arabic] إرسال نموذج الاهتمام
+[Urdu] دلچسپی فارم جمع کروائیں
+
+[English] Thank you for your interest!
+[Arabic] شكراً لاهتمامك!
+[Urdu] آپ کی دلچسپی کا شکریہ!
+
+[English] We'll be in touch soon!
+[Arabic] سنتواصل معك قريباً!
+[Urdu] ہم جلد آپ سے رابطہ کریں گے!
+
+[English] Project Timeline
+[Arabic] الجدول الزمني للمشروع
+[Urdu] منصوبے کا ٹائم لائن
+
+[English] Planning & Design
+[Arabic] التخطيط والتصميم
+[Urdu] منصوبہ بندی اور ڈیزائن
+
+[English] Architectural planning and community consultation
+[Arabic] التخطيط المعماري والتشاور المجتمعي
+[Urdu] تعمیراتی منصوبہ بندی اور کمیونٹی مشاورت
+
+[English] Fundraising Campaign
+[Arabic] حملة جمع التبرعات
+[Urdu] فنڈ ریزنگ مہم
+
+[English] Securing funding through donations and partnerships
+[Arabic] تأمين التمويل من خلال التبرعات والشراكات
+[Urdu] عطیات اور شراکت داریوں کے ذریعے فنڈنگ کو یقینی بنانا
+
+[English] Construction Phase
+[Arabic] مرحلة البناء
+[Urdu] تعمیراتی مرحلہ
+
+[English] Building our dream campus with quality and care
+[Arabic] بناء حرمنا الحلم بجودة وعناية
+[Urdu] معیار اور توجہ کے ساتھ ہمارے خوابوں کے کیمپس کی تعمیر
+
+[English] Grand Opening
+[Arabic] الافتتاح الكبير
+[Urdu] شاندار افتتاح
+
+[English] Welcoming our students to their new home
+[Arabic] الترحيب بطلابنا في منزلهم الجديد
+[Urdu] اپنے طلباء کو ان کے نئے گھر میں خوش آمدید کہنا
+
+---
+SECTION 29: NEWS PAGE ARTICLES
+---
+
+[English] Stay informed about CISS happenings
+[Arabic] ابقَ على اطلاع بأحداث CISS
+[Urdu] CISS کی سرگرمیوں سے باخبر رہیں
+
+[English] OBK Science Fair Success!
+[Arabic] نجاح معرض OBK للعلوم!
+[Urdu] او بی کے سائنس فیئر کی کامیابی!
+
+[English] On a super positive note, today in the citywide science fair at University of Calgary, Alhamdulillah, ALL OBK nine participating projects came back with prizes:
+[Arabic] على نغمة إيجابية للغاية، واليوم في معرض العلوم على مستوى المدينة في جامعة كالغاري، الحمد لله، عادت جميع مشاريع OBK التسعة المشاركة بجوائز:
+[Urdu] ایک نہایت مثبت خبر کے طور پر، آج جامعہ کیلگری میں منعقدہ شہر گیر سائنس فیئر میں، الحمدللہ، OBK کے تمام نو شریک منصوبے انعامات لے کر واپس آئے:
+
+[English] 2 Gold Medals
+[Arabic] ميداليتان ذهبيتان
+[Urdu] 2 گولڈ میڈلز
+
+[English] 1 Silver Medal
+[Arabic] ميدالية فضية واحدة
+[Urdu] 1 سلور میڈل
+
+[English] 3 Bronze Medals
+[Arabic] 3 ميداليات برونزية
+[Urdu] 3 برونز میڈلز
+
+[English] 3 Honorary Mentions
+[Arabic] 3 إشادات تقديرية
+[Urdu] 3 اعزازی ذکر
+
+[English] 2 Special Awards
+[Arabic] جائزتان خاصتان
+[Urdu] 2 خصوصی ایوارڈز
+
+[English] View All Projects
+[Arabic] عرض جميع المشاريع
+[Urdu] تمام منصوبے دیکھیں
+
+[English] Akram Jomaa Science Fair Excellence!
+[Arabic] تميز مدرسة أكرم جمعة في معرض العلوم!
+[Urdu] اکرم جمعہ سائنس فیئر کی عمدگی!
+
+[English] Outstanding participation and achievements at this year's Calgary Youth Science Fair (CYSF). Our students represented the school with excellence, demonstrating exceptional hard work, creativity, and dedication.
+[Arabic] مشاركة وإنجازات متميزة في معرض كالغاري للعلوم للشباب (CYSF) لهذا العام. مثّل طلابنا المدرسة بتميز، مظهرين عملاً جاداً وإبداعاً وتفانياً استثنائياً.
+[Urdu] اس سال کے کیلگری یوتھ سائنس فیئر (CYSF) میں شاندار شرکت اور کامیابیاں۔ ہمارے طلباء نے غیر معمولی محنت، تخلیقی صلاحیت اور لگن کا مظاہرہ کرتے ہوئے اسکول کی عمدگی سے نمائندگی کی۔
+
+[English] Highlights:
+[Arabic] أبرز النقاط:
+[Urdu] نمایاں جھلکیاں:
+
+[English] Gold Medal & Director's Choice: Muhammad Usman (Grade 9) - NeuroWeave-60
+[Arabic] الميدالية الذهبية واختيار المدير: محمد عثمان (الصف التاسع) - NeuroWeave-60
+[Urdu] گولڈ میڈل اور ڈائریکٹرز چوائس: محمد عثمان (نویں جماعت) - NeuroWeave-60
+
+[English] 3 Bronze Medals
+[Arabic] 3 ميداليات برونزية
+[Urdu] 3 برونز میڈلز
+
+[English] 15 Honourable Mentions
+[Arabic] 15 إشادة تقديرية
+[Urdu] 15 اعزازی ذکر
+
+[English] Fee Payment Schedule Adjustment
+[Arabic] تعديل جدول دفع الرسوم
+[Urdu] فیس ادائیگی شیڈول میں تبدیلی
+
+[English] Updated fee payment schedule for 2026-2027. While the fee structure remains unchanged, the Board has adjusted the payment schedule to provide greater flexibility by extending the payment period from six to eight months.
+[Arabic] جدول دفع رسوم محدث للعام الدراسي 2026-2027. بينما يبقى هيكل الرسوم دون تغيير، قام المجلس بتعديل جدول الدفع لتوفير مرونة أكبر من خلال تمديد فترة الدفع من ستة إلى ثمانية أشهر.
+[Urdu] 2026-2027 کے لیے فیس ادائیگی کا تازہ شیڈول۔ اگرچہ فیس کا ڈھانچہ تبدیل نہیں ہوا، بورڈ نے ادائیگی کی مدت چھ سے بڑھا کر آٹھ ماہ کرتے ہوئے زیادہ لچک فراہم کرنے کے لیے ادائیگی کے شیڈول میں تبدیلی کی ہے۔
+
+[English] Families may choose to pay in full or follow the new payment schedule, depending on what best suits their financial needs. Includes detailed monthly payment breakdown for all grade levels.
+[Arabic] يمكن للعائلات اختيار الدفع بالكامل أو اتباع جدول الدفع الجديد، حسب ما يناسب احتياجاتهم المالية. يتضمن تفصيلاً شهرياً للدفعات لجميع المستويات الدراسية.
+[Urdu] خاندان مکمل ادائیگی یا نئے ادائیگی شیڈول کی پیروی کا انتخاب کر سکتے ہیں، جو ان کی مالی ضروریات کے مطابق ہو۔ اس میں تمام جماعتوں کے لیے ماہانہ ادائیگی کی تفصیلی تقسیم شامل ہے۔
+
+[English] View Payment Schedule (PDF)
+[Arabic] عرض جدول الدفع (PDF)
+[Urdu] ادائیگی شیڈول دیکھیں (PDF)
+
+[English] Budget Clarity & Governance Transparency
+[Arabic] وضوح الميزانية وشفافية الحوكمة
+[Urdu] بجٹ کی وضاحت اور نگرانی کی شفافیت
+
+[English] Official letter from the CISS Board of Directors addressing parent concerns regarding the 2026-2027 fee adjustment, budget transparency, and governance processes.
+[Arabic] رسالة رسمية من مجلس إدارة CISS تتناول مخاوف أولياء الأمور بشأن تعديل رسوم 2026-2027 وشفافية الميزانية وإجراءات الحوكمة.
+[Urdu] CISS بورڈ آف ڈائریکٹرز کا سرکاری خط جو 2026-2027 کی فیس تبدیلی، بجٹ کی شفافیت اور نگرانی کے عمل سے متعلق والدین کے خدشات کا ازالہ کرتا ہے۔
+
+[English] Includes detailed budget breakdown ($4.7M total cost), fee structure, Board authority under CISS Bylaws, and commitment to transparency through the new CISS website.
+[Arabic] يتضمن تفصيلاً للميزانية (تكلفة إجمالية 4.7 مليون دولار)، وهيكل الرسوم، وصلاحيات المجلس بموجب لوائح CISS، والالتزام بالشفافية من خلال موقع CISS الجديد.
+[Urdu] اس میں تفصیلی بجٹ کی تقسیم (4.7 ملین ڈالر کل لاگت)، فیس کا ڈھانچہ، CISS کے ضابطوں کے تحت بورڈ کا اختیار، اور نئی CISS ویب سائٹ کے ذریعے شفافیت کا عزم شامل ہے۔
+
+[English] Read Full Letter (PDF)
+[Arabic] قراءة الرسالة كاملة (PDF)
+[Urdu] مکمل خط پڑھیں (PDF)
+
+[English] Message from the CISS Board of Directors regarding the 2026-2027 budget, fee adjustments, and our commitment to transparency.
+[Arabic] رسالة من مجلس إدارة CISS بشأن ميزانية 2026-2027 وتعديلات الرسوم والتزامنا بالشفافية.
+[Urdu] CISS بورڈ آف ڈائریکٹرز کی جانب سے 2026-2027 کے بجٹ، فیس کی تبدیلیوں اور شفافیت کے ہمارے عزم سے متعلق پیغام۔
+
+[English] Read Full Update
+[Arabic] قراءة التحديث كاملاً
+[Urdu] مکمل اپڈیٹ پڑھیں
+
+[English] Parent Town Hall - March 2026
+[Arabic] لقاء أولياء الأمور المفتوح - مارس 2026
+[Urdu] والدین ٹاؤن ہال - مارچ 2026
+
+[English] Comprehensive update on CISS achievements, Prairie Rose Public Schools partnership, 2026-2027 budget breakdown, fee structure, and planned facility improvements.
+[Arabic] تحديث شامل حول إنجازات CISS، والشراكة مع مدارس Prairie Rose العامة، وتفصيل ميزانية 2026-2027، وهيكل الرسوم، وتحسينات المرافق المخطط لها.
+[Urdu] CISS کی کامیابیوں، Prairie Rose Public Schools کے ساتھ شراکت داری، 2026-2027 بجٹ کی تقسیم، فیس کے ڈھانچے، اور سہولیات کی منصوبہ بند بہتری پر جامع اپڈیٹ۔
+
+[English] View Full Update
+[Arabic] عرض التحديث كاملاً
+[Urdu] مکمل اپڈیٹ دیکھیں
+
+[English] 2026-2027 Registration Now Open
+[Arabic] التسجيل لعام 2026-2027 مفتوح الآن
+[Urdu] 2026-2027 کا اندراج اب کھلا ہے
+
+[English] School registration for the 2026-2027 academic year is now open. View fee structures, important dates, and application requirements.
+[Arabic] التسجيل المدرسي للعام الدراسي 2026-2027 مفتوح الآن. اطّلع على هياكل الرسوم والتواريخ المهمة ومتطلبات التقديم.
+[Urdu] 2026-2027 تعلیمی سال کے لیے اسکول کا اندراج اب کھلا ہے۔ فیس کے ڈھانچے، اہم تاریخیں اور درخواست کے تقاضے دیکھیں۔
+
+[English] View Registration Details
+[Arabic] عرض تفاصيل التسجيل
+[Urdu] اندراج کی تفصیلات دیکھیں
+
+[English] Historic Fundraiser Dinner
+[Arabic] عشاء تاريخي لجمع التبرعات
+[Urdu] تاریخی فنڈ ریزر ڈنر
+
+[English] We are just hours away from our HISTORIC Dinner! We are not just raising money; we are building a legacy of health (Halal Kitchen) and faith (Modern Washrooms) for every student at Akram Jomaa.
+[Arabic] لم يتبقَّ سوى ساعات قليلة على عشائنا التاريخي! نحن لا نجمع المال فحسب، بل نبني إرثاً من الصحة (مطبخ حلال) والإيمان (دورات مياه حديثة) لكل طالب في أكرم جمعة.
+[Urdu] ہمارے تاریخی ڈنر میں اب صرف چند گھنٹے باقی ہیں! ہم صرف رقم جمع نہیں کر رہے؛ ہم اکرم جمعہ کے ہر طالب علم کے لیے صحت (حلال کچن) اور ایمان (جدید واش رومز) کا ایک ورثہ تعمیر کر رہے ہیں۔
+
+[English] Seats are filling up fast! Please book your tickets today to help us finalize catering and logistics.
+[Arabic] المقاعد تمتلئ بسرعة! يرجى حجز تذاكركم اليوم لمساعدتنا في إنهاء ترتيبات التموين واللوجستيات.
+[Urdu] نشستیں تیزی سے بھر رہی ہیں! براہ کرم آج ہی اپنے ٹکٹ بک کروائیں تاکہ ہمیں کیٹرنگ اور لاجسٹکس کو حتمی شکل دینے میں مدد ملے۔
+
+[English] May Allah reward you for being the backbone of this school.
+[Arabic] جزاكم الله خيراً لكونكم عماد هذه المدرسة.
+[Urdu] اللہ تعالیٰ آپ کو اس اسکول کی ریڑھ کی ہڈی بننے پر اجر عطا فرمائے۔
+
+[English] Get Your Tickets
+[Arabic] احصل على تذاكرك
+[Urdu] اپنے ٹکٹ حاصل کریں
+
+---
+END OF TRANSLATIONS
+---

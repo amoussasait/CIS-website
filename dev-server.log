@@ -1,0 +1,25 @@
+
+> my-v0-project@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by an unknown process, using available port 3002 instead.
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\amoussa\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\amoussa\OneDrive - Southern Alberta Institute of Technology\Desktop\MapleDigiTech\ciss-website\pnpm-lock.yaml
+
+   ▲ Next.js 16.0.10 (Turbopack)
+   - Local:         http://localhost:3002
+   - Network:       http://10.98.24.54:3002
+   - Environments: .env.local
+
+ ✓ Starting...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 6.4s
+ ○ Compiling /[locale] ...
+ GET /en 404 in 5.9s (compile: 4.9s, proxy.ts: 173ms, render: 900ms)
+ GET /en 404 in 510ms (compile: 372ms, proxy.ts: 10ms, render: 129ms)
+[?25h

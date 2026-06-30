@@ -1,0 +1,895 @@
+================================================================================
+CISS WEBSITE - CONTENT FOR TRANSLATION
+================================================================================
+
+INSTRUCTIONS FOR CHATGPT/CLAUDE:
+Please translate all the text below from English to:
+1. Arabic (Modern Standard Arabic)
+2. Urdu
+
+IMPORTANT RULES:
+- Keep school names as-is: "Akram Jomaa Islamic School" and "Omar Ibn Al-Khattab School"
+- Keep grade levels as-is: "KG-12", "Grade 9", etc.
+- Keep proper names as-is (people names, Calgary, Alberta, etc.)
+- Keep email addresses and phone numbers as-is
+- Translate descriptions, instructions, and content text
+- Maintain formality appropriate for an educational institution
+- Use proper Islamic terminology and honorifics
+
+OUTPUT FORMAT:
+For each section, provide:
+SECTION_NAME
+[English] Original text
+[Arabic] Arabic translation
+[Urdu] Urdu translation
+
+================================================================================
+
+---
+SECTION 1: HOMEPAGE HERO
+---
+
+[English] Serving Calgary's Muslim community through excellent Islamic education
+
+[English] Calgary Islamic School Society (CISS) oversees two campuses and is planning future growth.
+
+[English] For Parents
+
+[English] Contact Us
+
+---
+SECTION 2: HOMEPAGE STATS
+---
+
+[English] Years of Service
+
+[English] Serving Calgary families
+
+[English] Students
+
+[English] Across both campuses
+
+[English] Campuses
+
+[English] Elementary & Secondary
+
+[English] Full Curriculum
+
+[English] Complete education pathway
+
+---
+SECTION 3: HOMEPAGE COMMUNICATION
+---
+
+[English] PRIORITY
+
+[English] Clear, consistent communication with parents is a priority
+
+[English] Stay informed, connected, and engaged with everything happening at CISS
+
+[English] Announcements & Updates
+
+[English] View All Announcements
+
+[English] Ask CISS
+
+[English] Quick contact for questions and concerns
+
+[English] Parent Portal
+
+[English] Access resources, forms, and calendars
+
+[English] Visit Portal
+
+[English] FAQ
+
+[English] Find answers to common questions
+
+[English] View FAQ
+
+---
+SECTION 4: WHY CHOOSE CISS
+---
+
+[English] Why Choose CISS
+
+[English] Excellence in Islamic education for over two decades
+
+[English] Two Campuses Serving Calgary
+
+[English] Comprehensive K-12 education across two well-established schools
+
+[English] Academic Excellence & Islamic Values
+
+[English] Rigorous curriculum integrated with Islamic principles and character development
+
+[English] Strong Partnership with Parents
+
+[English] Open communication and collaboration between school, home, and community
+
+[English] Planning for Future Growth
+
+[English] Strategic expansion including unified campus and online education
+
+---
+SECTION 5: OUR SCHOOLS
+---
+
+[English] Our Schools
+
+[English] Two established campuses providing quality Islamic education in Calgary
+
+[English] Kindergarten through Grade 12 education with a nurturing environment that builds strong academic and Islamic foundations
+
+[English] Learn More
+
+[English] Kindergarten through Grade 9 education focused on building strong academic foundations and Islamic character
+
+---
+SECTION 6: OUR FOUNDATION
+---
+
+[English] Our Foundation
+
+[English] The principles that guide everything we do
+
+[English] Mission
+
+[English] Calgary Islamic School strives to develop an enriched learning community that promotes academic achievement, leadership, and Islamic values.
+
+[English] Vision
+
+[English] To build and maintain a learning community that produces leaders through faith, knowledge, and ingenuity.
+
+[English] Beliefs
+
+[English] We believe that education is a shared responsibility between the school, parents, and the community, and that Islamic principles guide moral character, personal development, and lifelong learning.
+
+[English] Values
+
+[English] Sincerity
+
+[English] Courage
+
+[English] Trustworthiness
+
+[English] Patience
+
+[English] Compassion
+
+[English] Gratitude
+
+[English] Humility
+
+---
+SECTION 7: ABOUT PAGE - OVERVIEW
+---
+
+[English] Serving Calgary's Muslim Community with Excellence
+
+[English] Calgary Islamic School Society
+
+[English] CISS is the governing society overseeing Islamic School of Calgary operations. We provide strategic leadership, governance, and oversight for our schools, ensuring they deliver excellent Islamic education that prepares students for success in this life and the hereafter.
+
+[English] Governance & Oversight
+
+[English] Strategic direction and accountability
+
+[English] Strategic Planning
+
+[English] Long-term growth and expansion
+
+[English] Community Trust
+
+[English] Transparency and parent partnership
+
+---
+SECTION 8: ABOUT PAGE - MOTTO
+---
+
+[English] Our Motto
+
+[English] This motto encapsulates our commitment to nurturing well-rounded individuals who are grounded in Islamic faith, equipped with knowledge, and prepared to innovate and lead in an ever-changing world.
+
+---
+SECTION 9: ABOUT PAGE - DISTINCTIVE FEATURES
+---
+
+[English] What Makes CISS Schools Distinctive
+
+[English] Our unique approach integrates Islamic values with academic excellence, preparing students for success in both worlds
+
+[English] Sunni Islamic Studies
+
+[English] Comprehensive Islamic education grounded in the Qur'an and Sunnah, teaching the tradition and values of Sunni Islam with qualified Islamic studies teachers
+
+[English] Arabic Language Excellence
+
+[English] Strong Arabic language program from Kindergarten through Grade 12, developing proficiency in reading, writing, and understanding Arabic as a living language
+
+[English] Qur'an Memorization (Tahfeeth)
+
+[English] Structured Tahfeeth program promoting Qur'an memorization and understanding, helping students develop a deep connection with the sacred text
+
+[English] Character & Communication
+
+[English] Focus on Islamic character building, respect for others, and effective communication skills that prepare students to be confident, articulate leaders
+
+[English] Active Canadian Citizenship
+
+[English] Empowering Muslim students to become active and responsible participants in building a diverse, respectful, and harmonious Canadian society while maintaining strong Islamic identity
+
+---
+SECTION 10: ABOUT PAGE - PRIORITIES
+---
+
+[English] Our Priorities
+
+[English] Strategic priorities that drive our commitment to student success and educational excellence
+
+[English] 1. ABC Model - Achievement, Behaviour, Celebrating
+
+[English] Achievement
+
+[English] Fostering a high-performance culture with high expectations for all students
+
+[English] Behaviour
+
+[English] Students demonstrate respectful, responsible, and safe behaviors rooted in Islamic values
+
+[English] Celebrating
+
+[English] Recognizing and celebrating excellence, achievement, and growth at all levels
+
+[English] 2. Strengthen Early Learning and Develop Literacy and Numeracy Foundation
+
+[English] Building strong foundational skills in literacy and numeracy from Kindergarten through Grade 3, ensuring every student has the tools for lifelong learning success.
+
+[English] 3. Continually Improve Student Wellness, Connection and Cultural Identity
+
+[English] Prioritizing mental health, wellness, and cultural connection while building strong Islamic identity and character development in all students.
+
+[English] 4. Continually Improve Quality of Programs and Services
+
+[English] Embracing a continuous improvement approach through regular assessment and enhancement of all educational programs and services.
+
+[English] 5. Champion Innovation and Continue to Strengthen Career Education and Apprenticeships
+
+[English] Preparing students for future careers through innovation, 21st century skills development, and strong career education pathways.
+
+---
+SECTION 11: ABOUT PAGE - CISS RESPONSIBILITIES
+---
+
+[English] CISS Responsibilities
+
+[English] As the governing society, CISS ensures accountability, transparency, and excellence across all schools
+
+[English] Governance and Oversight
+
+[English] Providing strategic direction, policy development, and ensuring schools operate according to Islamic principles and educational best practices
+
+[English] Strategic Planning and Growth
+
+[English] Planning future expansion, including unified campus development and exploring online education opportunities for the community
+
+[English] Community Trust and Transparency
+
+[English] Building strong partnerships with parents, maintaining open communication, and upholding the trust placed in us by the Calgary Muslim community
+
+[English] Supporting Existing Campuses
+
+[English] Ensuring Akram Jomaa Islamic School and Omar Ibn Al-Khattab School have the resources, support, and leadership needed for excellence
+
+---
+SECTION 12: ABOUT PAGE - GOVERNANCE DOCUMENTS
+---
+
+[English] Governance Documents
+
+[English] Access official CISS governance documents and bylaws
+
+[English] CISS Bylaws
+
+[English] Amended November 2025
+
+[English] Official bylaws governing the conduct and operations of Calgary Islamic School Society, including membership, board structure, and governance procedures.
+
+[English] Download Bylaws (PDF)
+
+[English] Special Resolutions
+
+[English] October 27, 2025
+
+[English] Special resolutions of members regarding bylaw and objectives amendments, approved by the membership on October 27, 2025.
+
+[English] Coming Soon
+
+---
+SECTION 13: ABOUT PAGE - COMMITMENT
+---
+
+[English] Commitment to Parents and Community
+
+[English] CISS believes that education is a shared responsibility. We are committed to transparent governance, regular communication, and genuine partnership with parents. Your trust drives our commitment to accountability and excellence.
+
+[English] We value your input and welcome your engagement. Together, we build a learning community that produces leaders through faith, knowledge, and ingenuity.
+
+[English] Understanding Our Governance Structure
+
+[English] Learn about the roles and responsibilities of CISS, MCFC/MCC, parents, school parents councils, and school principals in our collaborative educational community.
+
+[English] View Governance & Roles
+
+---
+SECTION 14: CONTACT PAGE
+---
+
+[English] We'd love to hear from you
+
+[English] Contact CISS
+
+[English] Get in touch with Calgary Islamic School Society for inquiries about enrollment, programs, or general questions
+
+[English] Email
+
+[English] General inquiries and questions
+
+[English] Response time: Within 1-2 business days
+
+[English] Location
+
+[English] Serving Calgary's Muslim community
+
+[English] Calgary, Alberta, Canada
+
+[English] Monday - Friday
+
+[English] Until 4:15 PM
+
+[English] Until 3:30 PM
+
+[English] Need More Information?
+
+[English] Visit our Parents & Communication Hub for FAQs, resources, and more ways to connect with CISS
+
+[English] Visit Parent Hub
+
+[English] View FAQ
+
+---
+SECTION 15: BOARD PAGE - INTRO
+---
+
+[English] Governance, Trust, and Service to Our Community
+
+[English] Leadership Committed to Excellence
+
+[English] The CISS Board of Directors provides strategic oversight and governance for Calgary Islamic School Society. Our board members are dedicated community leaders who bring diverse expertise in education, business, healthcare, technology, and community service.
+
+[English] We are committed to transparency, accountability, and building trust with parents and the broader Calgary Muslim community. Our governance ensures that CISS schools maintain the highest standards of academic excellence integrated with Islamic values.
+
+---
+SECTION 16: BOARD PAGE - RESPONSIBILITIES
+---
+
+[English] Board Responsibilities
+
+[English] Ensuring accountability, strategic planning, and community trust
+
+[English] Our Governance Foundation
+
+[English] Ensuring community trust is the cornerstone of CISS Board governance. The Board governs by setting vision, policies, and goals, focusing on student achievement, and overseeing budgets, finances, and facilities.
+
+[English] The Board prepares students for future success by ensuring bilingual (English and Arabic) quality education, representing Islamic community values, and prioritizing financial accountability.
+
+[English] Governance and Oversight
+
+[English] Providing strategic direction and ensuring the schools operate in accordance with Islamic principles, educational best practices, and legal requirements
+
+[English] Financial Stewardship
+
+[English] Ensuring responsible financial management, budget oversight, and long-term sustainability of CISS schools
+
+[English] Student Achievement Focus
+
+[English] Setting goals and policies that prioritize student success through bilingual education (English and Arabic) and integrated Islamic values
+
+[English] Community Representation
+
+[English] Representing Islamic community values, building strong partnerships with parents, and maintaining open communication with the Calgary Muslim community
+
+---
+SECTION 17: BOARD PAGE - MEETINGS & CONTACT
+---
+
+[English] Meet Our Board
+
+[English] Experienced professionals united in their commitment to Islamic education and community service
+
+[English] Board Committees
+
+[English] Finance Committee
+
+[English] Governance Committee
+
+[English] Parent Engagement Committee
+
+[English] Strategic Planning Committee
+
+[English] Board Meetings
+
+[English] The CISS Board of Directors meets monthly to discuss governance matters, review financial reports, and make strategic decisions. Board meetings follow proper procedures and maintain minutes for transparency.
+
+[English] Parents and community members may request to address the board by contacting the board secretary in advance. We value input from our community and maintain open channels of communication.
+
+[English] Contact the Board
+
+[English] For governance questions, board meeting requests, or policy inquiries:
+
+[English] Response time: Within 1-2 business days
+
+---
+SECTION 18: GOVERNANCE PAGE - INTRO
+---
+
+[English] Governance Structure & Roles
+
+[English] Understanding our collaborative educational community
+
+[English] A Shared Responsibility
+
+[English] The success of our Islamic education community depends on clear roles, strong partnerships, and shared commitment. Each organization and individual plays a vital role in supporting student achievement and Islamic character development.
+
+---
+SECTION 19: GOVERNANCE PAGE - BOARD LEADERSHIP
+---
+
+[English] Board Leadership
+
+[English] Executive positions guiding CISS strategic direction
+
+[English] Chairman
+
+[English] Vice Chairman
+
+[English] Secretary
+
+[English] Treasurer
+
+---
+SECTION 20: GOVERNANCE PAGE - COMMITTEES
+---
+
+[English] Board Committees
+
+[English] Specialized teams driving key initiatives
+
+[English] Buildings Committee
+
+[English] Lead: Abdulrahman Abbas
+
+[English] Supervision on the school maintenance and project renovations
+
+[English] Education PRSD Liaison
+
+[English] Lead: Hoda Kilani
+
+[English] Arabic, Islamic, and Tahfeeth Programs
+
+[English] Align both schools and support both principals
+
+[English] Meet with instructors, identify needs, and recommend action steps
+
+[English] HR Committee
+
+[English] Lead: Dr. Mohammed Abdel-Hafez
+
+[English] Review contracts of current employees and contractors and prospective recruitments
+
+[English] Bring final recommendations to the Board for approval
+
+[English] Finance & Fundraising
+
+[English] Co-Lead: Marwa Ajram
+
+[English] Add a fundraising specialist to the committee
+
+[English] First fundraising event to be coordinated with Principals
+
+[English] Communications & Website
+
+[English] Lead: Ali Moussa
+
+[English] Website development and maintenance
+
+[English] Parent communications
+
+[English] General outreach and updates
+
+[English] Governance
+
+[English] Lead: Mohamad Zohiri
+
+[English] Review and update bylaws
+
+[English] Define roles, responsibilities, and authorities
+
+[English] Establish clear processes and procedures
+
+[English] Strategy
+
+[English] Lead: Basir Saleh
+
+[English] Next strategy meeting: Sunday, March 29
+
+[English] Long-term planning and vision alignment
+
+---
+SECTION 21: GOVERNANCE PAGE - CISS ROLE
+---
+
+[English] Calgary Islamic School Society (CISS)
+
+[English] Governing Society & Strategic Leadership
+
+[English] CISS is the registered non-profit society that provides governance, oversight, and strategic direction for all Islamic School of Calgary operations.
+
+[English] Key Responsibilities:
+
+[English] Governance & Oversight: Setting policies, bylaws, and strategic direction for all schools under CISS
+
+[English] Financial Stewardship: Budget approval, financial oversight, fee structures, and ensuring long-term sustainability
+
+[English] Hiring & Leadership: Appointing school principals and senior administration
+
+[English] Strategic Planning: Long-term expansion planning, including future campus development and new educational initiatives
+
+[English] Accountability & Transparency: Reporting to the community, maintaining open communication with parents, and ensuring schools meet their mission
+
+[English] Compliance: Ensuring adherence to Alberta Education requirements, legal obligations, and Islamic principles
+
+---
+SECTION 22: GOVERNANCE PAGE - MCFC/MCC ROLE
+---
+
+[English] Muslim Community Foundation of Calgary (MCFC) / Muslim Community Council (MCC)
+
+[English] Community Ownership & Facility Management
+
+[English] MCFC/MCC owns and manages the physical facilities and properties used by CISS schools, serving the broader Calgary Muslim community.
+
+[English] Key Responsibilities:
+
+[English] Property Ownership: Owning and maintaining school buildings and facilities on behalf of the community
+
+[English] Facility Management: Building maintenance, repairs, capital improvements, and safety compliance
+
+[English] Rental Agreements: Establishing lease terms and facility use agreements with CISS
+
+[English] Community Asset Management: Ensuring facilities serve the broader Muslim community needs beyond school hours
+
+[English] Strategic Partnership: Collaborating with CISS on facility planning and expansion projects
+
+---
+SECTION 23: GOVERNANCE PAGE - PARENTS ROLE
+---
+
+[English] Parents
+
+[English] First Educators & Essential Partners
+
+[English] Parents are the primary educators of their children and essential partners in the Islamic education process. The school supports and extends the Islamic values taught at home.
+
+[English] Key Responsibilities:
+
+[English] Home-School Partnership: Reinforcing Islamic values, academic expectations, and behavioral standards at home
+
+[English] Supporting Learning: Ensuring students complete homework, attend school regularly, and are prepared for learning
+
+[English] Communication: Maintaining open dialogue with teachers and school administration, attending parent-teacher meetings
+
+[English] Volunteer & Engagement: Participating in school events, volunteering when possible, and contributing to school community
+
+[English] Feedback & Input: Providing constructive feedback, raising concerns through proper channels, and participating in surveys
+
+[English] Financial Commitment: Paying tuition fees on time and supporting fundraising efforts when possible
+
+---
+SECTION 24: GOVERNANCE PAGE - SCHOOL COUNCILS
+---
+
+[English] School Parents Council
+
+[English] Parent Voice & Community Building
+
+[English] The School Parents Council represents parent interests, facilitates communication between families and school administration, and organizes community-building activities.
+
+[English] Key Responsibilities:
+
+[English] Parent Representation: Serving as a collective voice for parents in discussions with school administration
+
+[English] Communication Bridge: Facilitating two-way communication between parents and school leadership
+
+[English] Event Organization: Planning and executing school events, fundraisers, and community activities
+
+[English] Volunteer Coordination: Recruiting and organizing parent volunteers for school activities and needs
+
+[English] Advisory Role: Providing input on school policies, programs, and improvements from a parent perspective
+
+[English] Community Building: Fostering a strong, connected parent community that supports all families
+
+---
+SECTION 25: GOVERNANCE PAGE - PROGRAM ADVISORY
+---
+
+[English] Program Advisory Group (PAG)
+
+[English] Alternative Program Guidance & Community Input
+
+[English] The Program Advisory Group provides advice and feedback to the CISS Board and administration on matters related to the Alternative Program, ensuring parent and community voices are heard in program decisions.
+
+[English] Composition & Key Responsibilities:
+
+[English] Diverse Membership: Composed of parents, community members, CISS board members, and school administration
+
+[English] Program Effectiveness: Regular meetings to discuss and assess the effectiveness of the Alternative Program
+
+[English] Community Needs Assessment: Identifying and addressing community educational needs and expectations
+
+[English] Strategic Input: Providing input on program direction, policies, and innovative initiatives
+
+[English] Continuous Improvement: Recommending enhancements and improvements to ensure the Alternative Program meets its objectives
+
+[English] Stakeholder Voice: Ensuring parent and community perspectives are integrated into program planning and decision-making
+
+---
+SECTION 26: GOVERNANCE PAGE - PRINCIPALS
+---
+
+[English] School Principals
+
+[English] Educational Leadership & Day-to-Day Operations
+
+[English] School principals are appointed by CISS to provide educational leadership, manage daily operations, and ensure high-quality Islamic education is delivered at their campus.
+
+[English] Key Responsibilities:
+
+[English] Educational Leadership: Setting academic standards, curriculum implementation, and ensuring educational excellence
+
+[English] Staff Management: Hiring, supervising, and evaluating teachers and school staff; providing professional development
+
+[English] Student Well-being: Ensuring safe, nurturing learning environment; addressing student discipline and support needs
+
+[English] Parent Communication: Maintaining regular communication with families, addressing concerns, and building strong partnerships
+
+[English] Budget Management: Managing school budget within CISS financial guidelines, resource allocation, and operational efficiency
+
+[English] Compliance & Reporting: Ensuring Alberta Education compliance, maintaining student records, and reporting to CISS Board
+
+[English] Islamic Environment: Fostering Islamic character development, maintaining Islamic values in all school operations
+
+[English] Community Engagement: Building relationships with parents, engaging with School Parents Council, and representing the school in the community
+
+---
+SECTION 27: GOVERNANCE PAGE - COLLABORATION
+---
+
+[English] Working Together for Student Success
+
+[English] Our governance structure is built on collaboration, clear accountability, and shared commitment to Islamic education excellence. Each role supports and strengthens the others, creating a comprehensive educational community that serves our students and families.
+
+[English] Lines of Communication
+
+[English] For Day-to-Day School Matters:
+
+[English] Teacher → Principal → CISS Administration
+
+[English] For Governance & Policy:
+
+[English] Parents → School Parents Council → CISS Board
+
+[English] For Facility Issues:
+
+[English] Principal → CISS → MCFC/MCC
+
+[English] For General Inquiries:
+
+[English] Contact info@cissociety.ca
+
+---
+SECTION 28: FUTURE CAMPUS PAGE
+---
+
+[English] Building Tomorrow, Together
+
+[English] Join us in creating a state-of-the-art unified campus that will serve generations of students
+
+[English] Our Vision for the Future
+
+[English] The CISS Future Campus will unite our community under one roof, providing world-class facilities, cutting-edge technology, and expanded opportunities for students from kindergarten through grade 12.
+
+[English] Campus Features
+
+[English] Modern Facilities
+
+[English] State-of-the-art classrooms with smart technology
+
+[English] Advanced science and computer laboratories
+
+[English] Comprehensive library and media center
+
+[English] Multi-purpose auditorium for performances and events
+
+[English] Student Life Spaces
+
+[English] Athletic fields and indoor gymnasium
+
+[English] Cafeteria and student common areas
+
+[English] Music and arts studios
+
+[English] Outdoor learning and recreational spaces
+
+[English] Sustainable Design
+
+[English] Solar panels and energy-efficient systems
+
+[English] Rainwater harvesting and conservation
+
+[English] Natural ventilation and lighting
+
+[English] Native landscaping and green spaces
+
+[English] Educational Innovation
+
+[English] Flexible learning spaces for collaboration
+
+[English] Maker spaces and innovation labs
+
+[English] Distance learning capabilities
+
+[English] Accessibility features throughout
+
+[English] Get Involved
+
+[English] Express your interest in supporting or learning more about the Future Campus project
+
+[English] Full Name *
+
+[English] John Doe
+
+[English] Email Address *
+
+[English] john@example.com
+
+[English] Phone Number
+
+[English] (345) 123-4567
+
+[English] Interest Area *
+
+[English] Select an option
+
+[English] Making a Donation
+
+[English] Fundraising Support
+
+[English] Volunteering
+
+[English] Learning More
+
+[English] Other
+
+[English] Message
+
+[English] Tell us about your interest in the Future Campus project...
+
+[English] Submit Interest Form
+
+[English] Thank you for your interest!
+
+[English] We'll be in touch soon!
+
+[English] Project Timeline
+
+[English] Planning & Design
+
+[English] Architectural planning and community consultation
+
+[English] Fundraising Campaign
+
+[English] Securing funding through donations and partnerships
+
+[English] Construction Phase
+
+[English] Building our dream campus with quality and care
+
+[English] Grand Opening
+
+[English] Welcoming our students to their new home
+
+---
+SECTION 29: NEWS PAGE ARTICLES
+---
+
+[English] Stay informed about CISS happenings
+
+[English] OBK Science Fair Success!
+
+[English] On a super positive note, today in the citywide science fair at University of Calgary, Alhamdulillah, ALL OBK nine participating projects came back with prizes:
+
+[English] 2 Gold Medals
+
+[English] 1 Silver Medal
+
+[English] 3 Bronze Medals
+
+[English] 3 Honorary Mentions
+
+[English] 2 Special Awards
+
+[English] View All Projects
+
+[English] Akram Jomaa Science Fair Excellence!
+
+[English] Outstanding participation and achievements at this year's Calgary Youth Science Fair (CYSF). Our students represented the school with excellence, demonstrating exceptional hard work, creativity, and dedication.
+
+[English] Highlights:
+
+[English] Gold Medal & Director's Choice: Muhammad Usman (Grade 9) - NeuroWeave-60
+
+[English] 3 Bronze Medals
+
+[English] 15 Honourable Mentions
+
+[English] Fee Payment Schedule Adjustment
+
+[English] Updated fee payment schedule for 2026-2027. While the fee structure remains unchanged, the Board has adjusted the payment schedule to provide greater flexibility by extending the payment period from six to eight months.
+
+[English] Families may choose to pay in full or follow the new payment schedule, depending on what best suits their financial needs. Includes detailed monthly payment breakdown for all grade levels.
+
+[English] View Payment Schedule (PDF)
+
+[English] Budget Clarity & Governance Transparency
+
+[English] Official letter from the CISS Board of Directors addressing parent concerns regarding the 2026-2027 fee adjustment, budget transparency, and governance processes.
+
+[English] Includes detailed budget breakdown ($4.7M total cost), fee structure, Board authority under CISS Bylaws, and commitment to transparency through the new CISS website.
+
+[English] Read Full Letter (PDF)
+
+[English] Message from the CISS Board of Directors regarding the 2026-2027 budget, fee adjustments, and our commitment to transparency.
+
+[English] Read Full Update
+
+[English] Parent Town Hall - March 2026
+
+[English] Comprehensive update on CISS achievements, Prairie Rose Public Schools partnership, 2026-2027 budget breakdown, fee structure, and planned facility improvements.
+
+[English] View Full Update
+
+[English] 2026-2027 Registration Now Open
+
+[English] School registration for the 2026-2027 academic year is now open. View fee structures, important dates, and application requirements.
+
+[English] View Registration Details
+
+[English] Historic Fundraiser Dinner
+
+[English] We are just hours away from our HISTORIC Dinner! We are not just raising money; we are building a legacy of health (Halal Kitchen) and faith (Modern Washrooms) for every student at Akram Jomaa.
+
+[English] Seats are filling up fast! Please book your tickets today to help us finalize catering and logistics.
+
+[English] May Allah reward you for being the backbone of this school.
+
+[English] Get Your Tickets
+
+---
+END OF CONTENT TO TRANSLATE
+---
+
+Total items: ~300+ text strings
+Pages covered: Homepage, About, Contact, Board, Governance, Future Campus, News
+
+================================================================================
