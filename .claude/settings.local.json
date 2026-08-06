@@ -37,7 +37,13 @@
       "Bash(curl:*)",
       "Bash(node scripts/translate-content.js:*)",
       "Bash(copy \"C:\\Users\\amoussa\\Downloads\\TRANSLATIONS_COMPLETE.txt\" \"C:\\Users\\amoussa\\OneDrive - Southern Alberta Institute of Technology\\Desktop\\MapleDigiTech\\ciss-website\\TRANSLATIONS_COMPLETE.txt\")",
-      "Bash(node scripts/parse-translations.js:*)"
+      "Bash(node scripts/parse-translations.js:*)",
+      "Bash(dir \"c:\\Users\\amoussa\\Downloads\\New folder (89)\")",
+      "Bash(copy:*)",
+      "Bash(copy \"c:\\Users\\amoussa\\Downloads\\New folder (89)\\WhatsApp Image 2026-08-01 at 9.21.13 AMd.jpeg\" \"public\\images\\robotics-2026\\image-2.jpeg\")",
+      "Bash(copy \"c:\\Users\\amoussa\\Downloads\\New folder (89)\\WhatsApp Video 2026-08-01 at 1.43.26 PM.mp4\" \"public\\images\\robotics-2026\\video-1.mp4\")",
+      "Bash(node -e:*)",
+      "Bash(node validate-robotics.js:*)"
     ],
     "deny": [],
     "ask": []

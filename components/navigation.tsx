@@ -106,6 +106,9 @@ export function Navigation() {
             <Link href={`/${locale}/news`} className="text-sm font-medium hover:text-accent transition-colors">
               {t('news')}
             </Link>
+            <Link href={`/${locale}/careers`} className="text-sm font-medium hover:text-accent transition-colors">
+              {t('careers')}
+            </Link>
             <Button asChild size="sm">
               <Link href={`/${locale}/contact`}>{t('contact')}</Link>
             </Button>
@@ -188,6 +191,9 @@ export function Navigation() {
               </Link>
               <Link href={`/${locale}/news`} className="px-4 py-3 hover:bg-accent/10 rounded-lg transition-colors">
                 {t('news')}
+              </Link>
+              <Link href={`/${locale}/careers`} className="px-4 py-3 hover:bg-accent/10 rounded-lg transition-colors">
+                {t('careers')}
               </Link>
               <div className="px-4 pt-2 flex gap-2">
                 <Button asChild className="flex-1">

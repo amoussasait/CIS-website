@@ -20,12 +20,27 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   // Map announcement IDs to translation keys
   const announcementMap: Record<string, number> = {
+    'akram-jomaa-robotics-championship-2026': 7,
     'akram-jomaa-science-fair-2026': 1,
     'fee-payment-schedule-2026': 2,
     'obk-science-fair-2026': 3,
     'budget-transparency-2026': 4,
     'registration-2026': 5,
     'fundraiser-dinner': 6,
+  }
+
+  // Map announcement IDs to their destination URLs
+  const getAnnouncementUrl = (id: string): string => {
+    const urlMap: Record<string, string> = {
+      'akram-jomaa-robotics-championship-2026': `/${locale}/updates/robotics-championship-2026`,
+      'akram-jomaa-science-fair-2026': 'https://platform.cysf.org/project/browse/?search=&fair=2026&grade=&school_name=Akram+Jomaa+Islamic+School&award_type=&award_sponsor=',
+      'fee-payment-schedule-2026': '/documents/Fee-Payment-Schedule-2026-2027.pdf',
+      'obk-science-fair-2026': 'https://platform.cysf.org/project/browse/?search=&fair=2026&grade=&school_name=Calgary+Islamic+School%2C+Omar+Bin+Al-Khattab+Campus&award_type=&award_sponsor=',
+      'budget-transparency-2026': `/${locale}/updates/budget-transparency`,
+      'registration-2026': `/${locale}/registration`,
+      'fundraiser-dinner': 'https://buytickets.at/calgaryislamicschoolakramjomaacampus/2114371',
+    }
+    return urlMap[id] || `/${locale}/news`
   }
   return (
     <div className="min-h-screen bg-background">
@@ -116,8 +131,16 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 <div className="space-y-4 mb-6">
                   {announcements.slice(0, 3).map((announcement, index) => {
                     const announcementNum = announcementMap[announcement.id]
+                    const url = getAnnouncementUrl(announcement.id)
+                    const isExternal = url.startsWith('http')
                     return (
-                      <Link key={announcement.id} href="/news" className="block">
+                      <Link
+                        key={announcement.id}
+                        href={url}
+                        className="block"
+                        target={isExternal ? "_blank" : undefined}
+                        rel={isExternal ? "noopener noreferrer" : undefined}
+                      >
                         <div className={`p-4 rounded-lg transition-colors cursor-pointer ${
                           index === 0
                             ? "bg-accent/10 border-2 border-accent/30 hover:border-accent/50"

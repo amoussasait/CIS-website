@@ -2,6 +2,15 @@ import type { Announcement } from "@/lib/types"
 
 export const announcements: Announcement[] = [
   {
+    id: "akram-jomaa-robotics-championship-2026",
+    title: "Akram Jomaa Students Win 1st Place at International Robotics Competition!",
+    excerpt: "Akram Jomaa Campus students won 1ST PLACE among all international teams, representing Canada against USA, Japan, and Greece in the final race competition.",
+    content:
+      "Alhamdulillah! Our students from Akram Jomaa Campus have won 1st place among all international teams in a robotics competition, representing Canada against USA, Japan, and Greece. This remarkable achievement showcases the excellence of our STEM education program led by Mrs. Jennet Atabayeva.",
+    date: "2026-08-01",
+    category: "achievement",
+  },
+  {
     id: "akram-jomaa-science-fair-2026",
     title: "Akram Jomaa Science Fair Excellence!",
     excerpt: "Outstanding participation and achievements at this year's Calgary Youth Science Fair (CYSF). Our students represented the school with excellence.",

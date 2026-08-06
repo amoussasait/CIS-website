@@ -47,6 +47,14 @@ export default async function ParentsPage({ params }: { params: Promise<{ locale
   // Build announcements from translations
   const announcements = [
     {
+      id: "akram-jomaa-robotics-championship-2026",
+      title: tAnnouncements('announcement7_title'),
+      excerpt: tAnnouncements('announcement7_excerpt'),
+      content: tAnnouncements('announcement7_content'),
+      date: "2026-08-01",
+      category: tAnnouncements('announcement7_category'),
+    },
+    {
       id: "akram-jomaa-science-fair-2026",
       title: tAnnouncements('announcement1_title'),
       excerpt: tAnnouncements('announcement1_excerpt'),
@@ -95,6 +103,20 @@ export default async function ParentsPage({ params }: { params: Promise<{ locale
       category: tAnnouncements('announcement6_category'),
     },
   ]
+
+  // Map announcement IDs to their destination URLs
+  const getAnnouncementLink = (id: string): string => {
+    const urlMap: Record<string, string> = {
+      'akram-jomaa-robotics-championship-2026': `/${locale}/updates/robotics-championship-2026`,
+      'akram-jomaa-science-fair-2026': 'https://platform.cysf.org/project/browse/?search=&fair=2026&grade=&school_name=Akram+Jomaa+Islamic+School&award_type=&award_sponsor=',
+      'fee-payment-schedule-2026': '/documents/Fee-Payment-Schedule-2026-2027.pdf',
+      'obk-science-fair-2026': 'https://platform.cysf.org/project/browse/?search=&fair=2026&grade=&school_name=Calgary+Islamic+School%2C+Omar+Bin+Al-Khattab+Campus&award_type=&award_sponsor=',
+      'budget-transparency-2026': `/${locale}/updates/budget-transparency`,
+      'registration-2026': `/${locale}/registration`,
+      'fundraiser-dinner': 'https://buytickets.at/calgaryislamicschoolakramjomaacampus/2114371',
+    }
+    return urlMap[id] || `/${locale}/news`
+  }
 
   // Build FAQs from translations
   const faqs = [
@@ -268,18 +290,17 @@ export default async function ParentsPage({ params }: { params: Promise<{ locale
 
           <div className="space-y-4 mb-8">
             {announcements.slice(0, 5).map((announcement) => {
-              const getAnnouncementLink = (id: string) => {
-                if (id === "budget-transparency-2026") return `/${locale}/updates/budget-transparency`
-                if (id === "registration-2026") return `/${locale}/registration`
-                if (id === "fee-payment-schedule-2026") return `/${locale}/news`
-                if (id === "akram-jomaa-science-fair-2026") return `/${locale}/news`
-                if (id === "obk-science-fair-2026") return `/${locale}/news`
-                if (id === "fundraiser-dinner") return `/${locale}/news`
-                return `/${locale}/news`
-              }
+              const url = getAnnouncementLink(announcement.id)
+              const isExternal = url.startsWith('http')
 
               return (
-                <Link key={announcement.id} href={getAnnouncementLink(announcement.id)} className="block">
+                <Link
+                  key={announcement.id}
+                  href={url}
+                  className="block"
+                  target={isExternal ? "_blank" : undefined}
+                  rel={isExternal ? "noopener noreferrer" : undefined}
+                >
                   <Card className="hover:shadow-lg transition-shadow cursor-pointer">
                     <CardContent className="p-6">
                       <div className="flex items-start justify-between gap-4 flex-wrap">

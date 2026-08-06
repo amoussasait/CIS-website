@@ -38,6 +38,36 @@ export default async function NewsPage({ params }: { params: Promise<{ locale: s
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Robotics Championship Card */}
+            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow border-l-4 border-l-accent flex flex-col">
+              <CardContent className="p-8 flex flex-col h-full">
+                <div>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
+                      <Award className="w-6 h-6 text-accent" />
+                    </div>
+                    <span className="text-xs font-semibold px-3 py-1 bg-accent/10 text-accent rounded-full">
+                      {t('category_achievement')}
+                    </span>
+                  </div>
+                  <h3 className="text-2xl font-bold mb-4">{t('robotics_title')}</h3>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    {t('robotics_description')}
+                  </p>
+                  <div className="text-muted-foreground mb-6">
+                    <p className="font-semibold text-foreground mb-2">{t('robotics_achievement')}</p>
+                    <p className="text-sm italic">{t('robotics_competition')}</p>
+                  </div>
+                </div>
+                <Button asChild className="w-full mt-auto">
+                  <Link href={`/${locale}/updates/robotics-championship-2026`} className="flex items-center justify-center gap-2">
+                    {t('text25')}
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
+
             {/* OBK Science Fair Success Card */}
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow border-l-4 border-l-accent flex flex-col">
               <CardContent className="p-8 flex flex-col h-full">
